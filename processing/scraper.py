@@ -71,7 +71,7 @@ def scraper():
     current_date = date.today()
     scroll_down(driver, current_date)
 
-    collect_posts
+    post_links = collect_posts(driver)
     
 
 
