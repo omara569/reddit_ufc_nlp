@@ -1,0 +1,246 @@
+1695354418356	geckodriver	INFO	Listening on 127.0.0.1:56653
+1695354421409	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56654" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileSSqlVj"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354421834	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354421927	Marionette	INFO	Listening on port 56662
+WebDriver BiDi listening on ws://127.0.0.1:56654
+Read port: 56662
+1695354422233	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56654/devtools/browser/666cd0c8-dfc2-4d45-8602-adcf7104a576
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+1695354608628	Marionette	INFO	Stopped listening on port 56662
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/new/?feedViewType=classicView, line 54: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+0.0.1:56732
+1695354455658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56732/devtools/browser/23f1602d-cba8-466b-b341-aa8a614533c5
+1695354460282	Marionette	INFO	Stopped listening on port 56752
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: Script terminated by timeout at:
+tt/<@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:29623
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16oxmvs/finally_a_fight_for_shavkat_rakhmonov/?rdt=33879, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1695354463874	geckodriver	INFO	Listening on 127.0.0.1:56827
+1695354466917	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56828" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileuwcTOp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354467497	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354467610	Marionette	INFO	Listening on port 56835
+WebDriver BiDi listening on ws://127.0.0.1:56828
+Read port: 56835
+1695354467977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56828/devtools/browser/c6bbf203-f42e-4660-b42c-f3278db6757a
+1695354474159	Marionette	INFO	Stopped listening on port 56835
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16orhhv/and_light_heavyweight_is_half_of_em/?rdt=65215, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+1695354477668	geckodriver	INFO	Listening on 127.0.0.1:56898
+1695354480710	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56899" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileNoGioL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354481157	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354481256	Marionette	INFO	Listening on port 56910
+Read port: 56910
+WebDriver BiDi listening on ws://127.0.0.1:56899
+1695354481358	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56899/devtools/browser/bda88d9e-4ca9-4849-8e36-a947e28c77c7
+1695354488111	Marionette	INFO	Stopped listening on port 56910
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/accountmanager-iframe-94d13250.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16ok6lv/what_do_you_guys_think_of_this_parlay/?rdt=34807, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+1695354490961	geckodriver	INFO	Listening on 127.0.0.1:56967
+1695354493997	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56968" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilemXmKOG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354494456	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354494554	Marionette	INFO	Listening on port 56975
+WebDriver BiDi listening on ws://127.0.0.1:56968
+Read port: 56975
+1695354494648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:56968/devtools/browser/d902ea77-bc79-4050-a0f3-5280cd356484
+1695354501384	Marionette	INFO	Stopped listening on port 56975
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16oaqd0/2_apex_predators_going_at_it_samurai_warlord_vs/?rdt=53793, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+1695354504855	geckodriver	INFO	Listening on 127.0.0.1:57039
+1695354507873	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57040" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileanhEk3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354508322	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354508426	Marionette	INFO	Listening on port 57047
+WebDriver BiDi listening on ws://127.0.0.1:57040
+Read port: 57047
+1695354508727	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57040/devtools/browser/d5505151-2269-4b7e-9591-26f15ee7708e
+1695354514342	Marionette	INFO	Stopped listening on port 57047
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16o4fie/ufc_295_confirmed_comain/?rdt=54893, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+1695354517271	geckodriver	INFO	Listening on 127.0.0.1:57113
+1695354520305	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57114" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilezfGwII"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354520742	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354520848	Marionette	INFO	Listening on port 57123
+Read port: 57123
+WebDriver BiDi listening on ws://127.0.0.1:57114
+1695354520946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57114/devtools/browser/bd062fe3-d680-41a3-a8fc-a9ee5c24d064
+1695354527039	Marionette	INFO	Stopped listening on port 57123
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: Script terminated by timeout at:
+connectedCallback@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:20373
+k@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:16594
+$@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:16668
+g@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:17045
+_$AI@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:16501
+we@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:19909
+update@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:20315
+update@https://www.redditstatic.com/shreddit/en-US/accountmanager-iframe-94d13250.js:1:8089
+performUpdate@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:11142
+scheduleUpdate@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:10789
+_$Ej@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:10697
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16nyot5/gamebred_bareknuckle_5_live_event/?rdt=35193, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+1695354529868	geckodriver	INFO	Listening on 127.0.0.1:57187
+1695354532951	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57188" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileKeW8KU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354533409	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354533515	Marionette	INFO	Listening on port 57195
+WebDriver BiDi listening on ws://127.0.0.1:57188
+Read port: 57195
+1695354533852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57188/devtools/browser/ccc98bc5-a182-49dc-acf2-7009b706ca72
+1695354539887	Marionette	INFO	Stopped listening on port 57195
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16nn1fp/will_he_be_the_youngest_champion_in_ufc/?rdt=43393, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
+1695354543673	geckodriver	INFO	Listening on 127.0.0.1:57258
+1695354546673	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57259" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileoDE5ui"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354547160	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354547268	Marionette	INFO	Listening on port 57266
+WebDriver BiDi listening on ws://127.0.0.1:57259
+Read port: 57266
+1695354547615	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57259/devtools/browser/8a7bb086-a141-478e-b265-1b111545aa97
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+1695354554801	Marionette	INFO	Stopped listening on port 57266
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6774e47a.js, line 1: Script terminated by timeout at:
+_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6774e47a.js:1:413502
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16nalme/dana_white_says_the_power_slap_video_game_did/?rdt=52319, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+1695354559529	geckodriver	INFO	Listening on 127.0.0.1:57331
+1695354562528	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57332" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile0PxXrN"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354563011	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354563121	Marionette	INFO	Listening on port 57339
+WebDriver BiDi listening on ws://127.0.0.1:57332
+Read port: 57339
+1695354563840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57332/devtools/browser/349f3eb1-65c8-4c70-aec7-3d932d60c138
+1695354570133	Marionette	INFO	Stopped listening on port 57339
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/16mydr1/how_do_you_think_the_merger_will_effect_ufc_going/?rdt=48421, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+1695354616970	geckodriver	INFO	Listening on 127.0.0.1:57415
+1695354620005	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57416" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilezcxWNg"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695354620450	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1695354620562	Marionette	INFO	Listening on port 57423
+WebDriver BiDi listening on ws://127.0.0.1:57416
+Read port: 57423
+1695354620863	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:57416/devtools/browser/6a78f10a-def5-4099-8700-631bbe9b4cf7
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+JavaScript warning: https://www.redditstatic.com/accountmanager/ssoOneTap.c29e1df213f970a80172.js, line 1: unreachable code after return statement
+1695354646817	Marionette	INFO	Stopped listening on port 57423
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: Script terminated by timeout at:
+tt/<@https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js:1:29623
+
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.reddit.com/r/ufc/comments/16othxh/colby_covington_wants_islam_makhachev_as_his/, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-19dde4e9.js, line 4: TypeError: can't access dead object

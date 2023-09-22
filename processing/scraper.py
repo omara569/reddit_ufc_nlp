@@ -9,7 +9,16 @@ from datetime import datetime, timedelta
 from structures.config import get_params
 
 
-def driver_instance() -> webdriver.firefox.webdriver.WebDriver:
+def make_dir(current_directory: str) -> None:
+    doesExist = os.path.exists(current_directory)
+    if not doesExist:
+        os.makedirs(current_directory)
+
+
+def driver_instance(driver_file_name=None) -> webdriver.firefox.webdriver.WebDriver:
+    if driver_file_name is not None: # We only perform this at the start
+        if driver_file_name in os.listdir(os.getcwd()):
+            os.remove(os.getcwd()+'/'+driver_file_name)
     return webdriver.Firefox()
 
 
@@ -36,10 +45,9 @@ def change_format(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     element.click()
 
 
-def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, current_date: date, days_prior: int) -> None:
+def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, date_in_past: datetime.date) -> None:
     # We want to scroll down until we reach posts that are more than 6 months ago
     last_post_date = False  # Indicates whether or not the last post is the distance required from the current date
-    six_months_ago = current_date - timedelta(days=183)
     while not last_post_date:
         for i in range(10):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") # Execute this line 10 times
@@ -50,33 +58,47 @@ def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, current_date: dat
         open_url(post_elements[-1].get_attribute('href'), driver2)
         latest_post_date = driver2.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')[0]
         latest_post_date = datetime.strptime(latest_post_date, '%Y-%m-%d').date()
-        if latest_post_date < six_months_ago:
+        driver2.close()
+        if latest_post_date < date_in_past:
             last_post_date = True
 
 
 def collect_posts(driver: webdriver.firefox.webdriver.WebDriver) -> List[str]:
-    post_elements = driver.find_elements(By.CSSSELECTOR, 'a.absolute.inset-0')
+    post_elements = driver.find_elements(By.CSS_SELECTOR, 'a.absolute.inset-0')
     post_urls = [element.get_attribute('href') for element in post_elements]
     return post_urls
 
 
-def collect_data(urls: List[str]) -> None:
+def collect_data(urls: List[str], local_path: str) -> None:
     driver = driver_instance()
     counter = 0
-    
+    reddit_posts = local_path + '/' + 'reddit_posts/'
+    make_dir(reddit_posts)
+
     for url in urls:
+        splitted = url.split('.com')[-1]
+        splitted = splitted.split('/')
+        save_name = ''.join(splitted)+'.html'
         open_url(url, driver)
+
+        date_post = driver.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')[0]
+        sub_dir = reddit_posts + date_post+'/'
+        make_dir(sub_dir)
+
+        with open(sub_dir+save_name, mode='w', encoding='utf-8') as f:
+            f.write(driver.page_source)
+
         counter += 1
         if counter == 20:
             driver.close()
-            driver, counter = driver_instance, 0
+            driver, counter = driver_instance(), 0
 
 
-def scraper():
-    params = get_params()
+def scraper(params=get_params()):
+    local_path = os.path.dirname(__file__) # Returns the working directory of this script
 
     print('Opening Reddit')
-    driver = driver_instance()
+    driver = driver_instance(params.gecko_driver_file_name)
     driver.get(params.reddit_page)
 
     print('Formatting Elements')
@@ -85,14 +107,21 @@ def scraper():
     
     print('Loading Elements')
     current_date = date.today()
-    scroll_down(driver, current_date, params.days_prior)
+    load_to_date = None
+    if not params.initial_run:
+        last_date = local_path + '/reddit_posts/'
+        load_to_date = os.listdir(last_date)[-2].date()
+    else:
+        load_to_date = current_date - timedelta(days=params.days_prior)
+    scroll_down(driver, load_to_date)
     
     print('Collecting Post URLs')
     post_urls = collect_posts(driver)
     driver.close()
     
     print('Opening Posts and Saving to Local Machine')
-    collect_data(post_urls)
+    collect_data(post_urls, local_path)
+        
 
 
 scraper()
