@@ -1,9 +1,8 @@
 import os
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from typing import Any, List, Tuple
-from time import sleep
+from selenium.webdriver.firefox.options import Options
+from typing import List
 from datetime import date
 from datetime import datetime, timedelta
 from structures.config import get_params
@@ -16,10 +15,12 @@ def make_dir(current_directory: str) -> None:
 
 
 def driver_instance(driver_file_name=None) -> webdriver.firefox.webdriver.WebDriver:
+    firefox_options = Options()
+    firefox_options.add_argument('-headless')
     if driver_file_name is not None: # We only perform this at the start
         if driver_file_name in os.listdir(os.getcwd()):
             os.remove(os.getcwd()+'/'+driver_file_name)
-    return webdriver.Firefox()
+    return webdriver.Firefox(options=firefox_options)
 
 
 def open_url(url: str, driver: webdriver.firefox.webdriver.WebDriver) -> None:
