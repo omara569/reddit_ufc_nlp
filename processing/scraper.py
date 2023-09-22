@@ -121,6 +121,8 @@ def scraper(params=get_params()):
     
     print('Opening Posts and Saving to Local Machine')
     collect_data(post_urls, local_path)
+
+    print('Completed Scrape')
         
 
 
