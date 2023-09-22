@@ -36,7 +36,7 @@ def change_format(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     element.click()
 
 
-def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, current_date: date) -> None:
+def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, current_date: date, days_prior: int) -> None:
     # We want to scroll down until we reach posts that are more than 6 months ago
     last_post_date = False  # Indicates whether or not the last post is the distance required from the current date
     six_months_ago = current_date - timedelta(days=183)
@@ -56,23 +56,43 @@ def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, current_date: dat
 
 def collect_posts(driver: webdriver.firefox.webdriver.WebDriver) -> List[str]:
     post_elements = driver.find_elements(By.CSSSELECTOR, 'a.absolute.inset-0')
-    post_links = [element.get_attribute('href') for element in post_elements]
-    return post_links
+    post_urls = [element.get_attribute('href') for element in post_elements]
+    return post_urls
+
+
+def collect_data(urls: List[str]) -> None:
+    driver = driver_instance()
+    counter = 0
+    
+    for url in urls:
+        open_url(url, driver)
+        counter += 1
+        if counter == 20:
+            driver.close()
+            driver, counter = driver_instance, 0
 
 
 def scraper():
     params = get_params()
+
+    print('Opening Reddit')
     driver = driver_instance()
     driver.get(params.reddit_page)
-    # Setup reddit page format
+
+    print('Formatting Elements')
     sort_posts(driver)
     change_format(driver) # Classic format - takes up less real-estate in the browser
-
-    current_date = date.today()
-    scroll_down(driver, current_date)
-
-    post_links = collect_posts(driver)
     
+    print('Loading Elements')
+    current_date = date.today()
+    scroll_down(driver, current_date, params.days_prior)
+    
+    print('Collecting Post URLs')
+    post_urls = collect_posts(driver)
+    driver.close()
+    
+    print('Opening Posts and Saving to Local Machine')
+    collect_data(post_urls)
 
 
 scraper()
