@@ -8,10 +8,11 @@ from datetime import datetime, timedelta
 from structures.config import get_params
 
 
-def make_dir(current_directory: str) -> None:
+def make_dir(current_directory: str) -> bool:
     doesExist = os.path.exists(current_directory)
     if not doesExist:
         os.makedirs(current_directory)
+    return doesExist
 
 
 def driver_instance(driver_file_name=None) -> webdriver.firefox.webdriver.WebDriver:
@@ -49,6 +50,14 @@ def change_format(driver: webdriver.firefox.webdriver.WebDriver) -> None:
 def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, date_in_past: datetime.date) -> None:
     # We want to scroll down until we reach posts that are more than 6 months ago
     last_post_date = False  # Indicates whether or not the last post is the distance required from the current date
+    post_dates = os.path.dirname(__file__) 
+    dir_list = None
+    if 'reddit_posts' in os.listdir(post_dates):
+        post_dates = post_dates + '/reddit_posts'
+        dir_list = os.listdir(post_dates)
+
+    last_recorded_post = None
+    scroll_counter = 0
     while not last_post_date:
         for i in range(10):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") # Execute this line 10 times
@@ -59,9 +68,23 @@ def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, date_in_past: dat
         open_url(post_elements[-1].get_attribute('href'), driver2)
         latest_post_date = driver2.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')[0]
         latest_post_date = datetime.strptime(latest_post_date, '%Y-%m-%d').date()
-        driver2.close()
-        if latest_post_date < date_in_past:
+        driver2.quit()
+
+        if last_recorded_post is not None:
+            if last_recorded_post == latest_post_date:
+                scroll_counter += 1
+                if scroll_counter == 10:
+                    break
+            else:
+                last_recorded_post = latest_post_date
+                scroll_counter = 0
+        else:
+            last_recorded_post = latest_post_date
+        if latest_post_date < date_in_past :
             last_post_date = True
+        if dir_list is not None:
+            if latest_post_date in dir_list:
+                last_post_date = True
 
 
 def collect_posts(driver: webdriver.firefox.webdriver.WebDriver) -> List[str]:
@@ -82,16 +105,24 @@ def collect_data(urls: List[str], local_path: str) -> None:
         save_name = ''.join(splitted)+'.html'
         open_url(url, driver)
 
-        date_post = driver.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')[0]
-        sub_dir = reddit_posts + date_post+'/'
-        make_dir(sub_dir)
+        date_post = driver.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')
+        date_post[-1] = date_post[-1].split('.')[0]
+        date_post[-1] = ''.join(date_post[-1].split(':'))
+        date_post = ' '.join(date_post)
+        save_name = date_post + save_name #Name of file
+        date_post = date_post.split(' ')[0]
+        make_dir(reddit_posts+date_post) #Makes folder for that date
 
-        with open(sub_dir+save_name, mode='w', encoding='utf-8') as f:
+        save_name = reddit_posts + date_post+'/'+save_name
+        if os.path.exists(save_name):
+            break
+
+        with open(save_name, mode='w', encoding='utf-8') as f:
             f.write(driver.page_source)
 
         counter += 1
         if counter == 20:
-            driver.close()
+            driver.quit()
             driver, counter = driver_instance(), 0
 
 
@@ -118,13 +149,12 @@ def scraper(params=get_params()):
     
     print('Collecting Post URLs')
     post_urls = collect_posts(driver)
-    driver.close()
+    driver.quit()
     
     print('Opening Posts and Saving to Local Machine')
     collect_data(post_urls, local_path)
 
     print('Completed Scrape')
-        
 
 
 scraper()
