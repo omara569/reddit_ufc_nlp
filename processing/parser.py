@@ -17,7 +17,6 @@ def make_soup(file_path: str) -> BeautifulSoup:
     return soup
 
 
-# TODO: Make this go through all the posts and save them to directories
 def parse_posts(reddit_post_path: str, posts_parsed_path: str) -> None:
     dates = os.listdir(reddit_post_path)
     for date in dates:
@@ -27,7 +26,7 @@ def parse_posts(reddit_post_path: str, posts_parsed_path: str) -> None:
         for post in posts:
             soup = make_soup(date_path+'/'+post)
             image_html = get_image(soup)
-            post_text = get_post_text(soup) # Title included
+            post_text = get_post_text(soup) # Title included. Gets the comment text as well!
             video_html = get_video(soup)
             post_dir = post.split('.')[0]
             make_dir(posts_parsed_path+'/'+date+'/'+post_dir)
@@ -42,20 +41,34 @@ def parse_posts(reddit_post_path: str, posts_parsed_path: str) -> None:
                     f.write(video_html.prettify())                
 
 
+# TODO: Fetch the image - not just HTML. For now, this is fine.
 def get_image(soup:BeautifulSoup) -> str:
     post = soup.find('shreddit-post')
     image_html = post.find('img')
     return image_html
 
 
+# TODO: Fetch the video - not just HTML. For now, this is fine.
 def get_video(soup: BeautifulSoup) -> str:
     video = soup.find('video', class_ = 'bg-black')
     return video
 
 
-# TODO: Something to implement down the line
+# TODO: Something to implement - you want all the text appended to the original text
 def get_comment_text(soup: BeautifulSoup) -> str:
-    pass
+    comment_elements = soup.find_all('shreddit-comment')
+    bag_of_text = ''
+    for comment in comment_elements:
+        if not comment:
+            continue
+        author = comment['author']
+        if author == '[deleted]':
+            continue
+        timestamp = comment.find('faceplate-timeago')['ts']
+        comment_text = comment.find('div', {'slot':'comment'}).text
+        bag_of_text += author + ' replied at ' + timestamp + ':\n' + comment_text + '\n'
+
+    return bag_of_text
 
 
 def get_post_text(soup: BeautifulSoup) -> str:
@@ -69,6 +82,8 @@ def get_post_text(soup: BeautifulSoup) -> str:
             text += text_block.text
         text = ' '.join(text.split('\n')).strip(' ')
     text = post_title + '\n' + text
+    comment_text = get_comment_text(soup)
+    text = text + '\n' + comment_text
     return text
 
 
