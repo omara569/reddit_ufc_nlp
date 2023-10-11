@@ -9,6 +9,7 @@ class Params:
     gecko_driver_file_name: str
     reddit_posts_dir_name: str
     posts_parsed: str
+    fighter_list_url: str
 
 
 params_default = {
@@ -18,6 +19,7 @@ params_default = {
     'gecko_driver_file_name' : 'geckodriver.log',
     'reddit_posts_dir_name' : '/reddit_posts',
     'posts_parsed':'/posts_parsed',
+    'fighter_list_url': 'https://www.ufc.com/athletes/all',
 }
 
 

@@ -5,6 +5,7 @@ from selenium.webdriver.firefox.options import Options
 from typing import List
 from datetime import date
 from datetime import datetime, timedelta
+from time import sleep
 from structures.config import get_params
 
 
@@ -126,8 +127,39 @@ def collect_data(urls: List[str], local_path: str) -> None:
             driver, counter = driver_instance(), 0
 
 
+def fighter_list(url: str, local_path: str):
+    driver = driver_instance()
+    open_url(url, driver)
+    sleep(2)
+    close_button = driver.find_element(By.CSS_SELECTOR, 'button.onetrust-close-btn-handler.onetrust-close-btn-ui.banner-close-button.ot-close-icon')
+    sleep(2)
+    close_button.click()
+    # Endless scrolling
+    counter = 0
+    while counter != 10:
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+        try:
+            driver.find_element(By.CSS_SELECTOR, 'a.button').click()
+            sleep(1)
+            counter = 0
+        except:
+            counter += 1
+    
+    # Done scrolling, now get the list of names
+    elements = driver.find_elements(By.CSS_SELECTOR, 'span.c-listing-athlete__name')
+
+    fighter_names = {element.text for element in elements} #Set of Fighter Names
+    driver.quit()
+    with open(local_path+'/fighter_names.txt', mode = 'w', encoding = 'utf-8') as f:
+        for item in fighter_names:
+            f.write(item + '\n')
+    
+
 def scraper(params=get_params()):
     local_path = os.path.dirname(__file__) # Returns the working directory of this script
+
+    print('Getting List of Fighter Names')
+    fighter_list(params.fighter_list_url, local_path)
 
     print('Opening Reddit')
     driver = driver_instance(params.gecko_driver_file_name)
