@@ -165,8 +165,9 @@ def scraper(params=get_params()):
     driver = driver_instance(params.gecko_driver_file_name)
     driver.get(params.reddit_page)
 
-    print('Formatting Elements')
+    print('Sorting Posts')
     sort_posts(driver)
+    print('Formatting Elements')
     change_format(driver) # Classic format - takes up less real-estate in the browser
     
     print('Loading Elements')

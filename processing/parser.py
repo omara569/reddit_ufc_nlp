@@ -54,7 +54,6 @@ def get_video(soup: BeautifulSoup) -> str:
     return video
 
 
-# TODO: Something to implement - you want all the text appended to the original text
 def get_comment_text(soup: BeautifulSoup) -> str:
     comment_elements = soup.find_all('shreddit-comment')
     bag_of_text = ''
@@ -74,27 +73,31 @@ def get_comment_text(soup: BeautifulSoup) -> str:
 def get_post_text(soup: BeautifulSoup) -> str:
     post = soup.find('shreddit-post')
     post_title = ' : '.join(soup.find('title').text.split(' : ')[:-1])
+    poster = post.find('span', {'slot':'authorName'}).text.strip('\n')
+    post_time = post['created-timestamp']
     post_text = post.find('div', {'slot':'text-body'})
+    starting_text = poster + ' posted at ' + post_time + ':\n'
     text = ''
     if post_text is not None:
         post_text = post_text.find_all('p')    
         for text_block in post_text:
             text += text_block.text
         text = ' '.join(text.split('\n')).strip(' ')
-    text = post_title + '\n' + text
+    text += post_title + '\n' + text
     comment_text = get_comment_text(soup)
-    text = text + '\n' + comment_text
+    text = starting_text + text + '\n' + comment_text
     return text
 
 
 def parser():
     local_path = os.path.dirname(__file__)
+    root_path = os.getcwd()
     params = get_params()
     # Define the path the posts will be saved to
-    posts_path = local_path+params.reddit_posts_dir_name
+    posts_path = root_path + '/' +params.reddit_posts_dir_name
     dates_collected = os.listdir(posts_path) # Already collected dates
 
-    posts_parsed_path = local_path+params.posts_parsed # Location we'll save the text of a post
+    posts_parsed_path = root_path + '/' +params.posts_parsed # Location we'll save the text of a post
     make_dir(posts_parsed_path) 
 
     print('Starting Parsing')
