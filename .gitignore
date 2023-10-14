@@ -1,5 +1,7 @@
 # ignore log files
 *.log
 
-# ignore json
-*.json
+# ignore text_model contents except for select files
+text_model/*
+!text_model/__init__.py
+!text_model/__get_model.py
