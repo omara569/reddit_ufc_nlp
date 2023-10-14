@@ -6,7 +6,4 @@
 !/text_model/__init__.py
 !/text_model/get_model.py
 
-# ignore processing contents in regards to reddit posts and parsed posts
-/processing/posts_parsed/*
-/processing/reddit_posts/*
-/processing/fighter_names.txt
+
