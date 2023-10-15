@@ -1,5 +1,6 @@
 from transformers import BertTokenizer, BertModel, BertForSequenceClassification
 from typing import List, Any, Tuple
+from entity_recognition import extract_names
 import pandas as pd
 from structures.config import get_params
 import os 
@@ -26,7 +27,7 @@ def load_data(parsed_posts_path: str) -> List[str]:
     return data
 
 
-def extract_content(text: str) -> Tuple:
+def extract_content(text: str) -> Tuple[dict]:
     splitted = text.split('\n')
     indices = []
     for idx, text in enumerate(splitted):
@@ -46,12 +47,27 @@ def extract_content(text: str) -> Tuple:
             comments.append(comment)
         else:
             comment = ' '.join( splitted[val:] )
-    return post, comments
+
+    post_splitted = post.split(' posted at ')
+    post_info = {'poster': post_splitted[0].strip(' '), 'post_time': post_splitted[1].split(': ')[0], 'post_text': post_splitted[1].split(': ')[1].strip(' ')}
+    comment_info = {'commenter':[], 'comment_time':[], 'comment_text':[]}
+    for comment in comments:
+        comment_splitted = comment.split(' replied at ')
+        comment_info['commenter'].append(comment_splitted[0].strip(' '))
+        comment_info['comment_time'].append(comment_splitted[1].split(': ')[0])
+        comment_info['comment_text'].append(comment_splitted[1].split(': ')[1].strip(' '))
+    return post_info, comment_info
 
 
 def process_data(text_list: List[str]):
     for post_text in text_list:
-        post, comments = extract_content(post_text)
+        post_info, comment_info = extract_content(post_text)
+    
+    txt_list = [post_info['post_text']] # Contains all of our text from a given post. Each index is from a post/comment
+    for comment_text in comment_info['comment_text']:
+        txt_list.append(comment_text)
+    # Now we want to loop through the text and in each iteration we extract the names, fuzzy match with our list of fighters, and then perform the sentiment analysis on the text snippet in which they appear (i.e. the specific post or comment)
+    # TODO: Pick up from here
 
 
 def sentiment_analysis():
