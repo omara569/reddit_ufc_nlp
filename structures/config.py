@@ -24,7 +24,7 @@ params_default = {
     'posts_parsed':'processing/posts_parsed',
     'fighter_list_url': 'https://www.ufc.com/athletes/all',
     'fighter_names_path': '/processing/fighter_names.txt',
-    'bert_model':'bert-base-uncased',
+    'bert_model':'minh21/XLNet-Reddit-Sentiment-Analysis',
     'model_path': 'text_model',
 }
 

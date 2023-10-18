@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [0.2.0] : 2023-10-12
+
+- Created model retrieval tool and sentiment analysis with entity recognition
+
 ## [0.1.0] : 2023-10-11
 
 - Completed all preprocessing (i.e. Scraping and Parsing)
