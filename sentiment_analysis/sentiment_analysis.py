@@ -14,10 +14,12 @@ def ufc_fighter_list(names_path: str) -> List[str]:
     return individuals_list
 
 
-def load_data(parsed_posts_path: str) -> List[List[str]]:
+def load_data(parsed_posts_path: str, dates_analyzed) -> List[List[str]]:
     dates_dir = os.listdir(parsed_posts_path)
     data = []
     for date in dates_dir:
+        if (dates_analyzed is not None) and (date in dates_analyzed):
+            continue
         sub_path = parsed_posts_path + '/' + date
         post_dir = os.listdir(sub_path) # The individual posts in question
         for post in post_dir:
@@ -105,7 +107,7 @@ def sentiment_analysis():
     # Get model and tokenizer
     print('Getting model and tokenizer')
     model_path = root_path + '/' + params.model_path
-    model = XLNetForSequenceClassification.from_pretrained(model_path, num_labels=3) # ['Negative', 'Neurtral', 'Positive']
+    model = XLNetForSequenceClassification.from_pretrained(model_path, num_labels=3) # ['Negative', 'Neutral', 'Positive']
     tokenizer = XLNetTokenizer.from_pretrained(model_path)
 
     # Get list of UFC fighters
@@ -113,11 +115,20 @@ def sentiment_analysis():
     fighter_names_path = root_path + '/' + params.fighter_names_path
     fighter_list = ufc_fighter_list(fighter_names_path)
 
+    # Depending on whether or not this is the first run, we need to load the according dates - either all the dates or a select few
+    print('Determining data dates for analysis')
+    dates_analyzed = None
+    if not params.initial_run:
+        tmp_df = pd.read_excel(local_path + '/output_data.xlsx')
+        dates_analyzed = tmp_df.columns[1:] # The columns of this dataframe are the ones containing which dates we've looked at previously
+
     # Grab the data
+    print('Loading Data')
     parsed_posts = root_path + '/' + params.posts_parsed
-    data = load_data(parsed_posts) # Text data that we want to process
+    data = load_data(parsed_posts, dates_analyzed) # Text data that we want to process
 
     # Sentiment Analysis on the data
+    print('Performing Sentiment Analysis')
     fighter_list_dict = process_data(data, fighter_list, model, tokenizer) # Looks at all posts one by one
     
     # From here, we need to keep track of each fighter and their overall sentiments at specific dating
@@ -137,9 +148,14 @@ def sentiment_analysis():
         row.update(dates)
         flattened_data.append(row)
 
+    # Now we want to either append the new data set to the old data set or create a new data set entirely
     print('Saving Data Locally')
     save_name = local_path + '/output_data.xlsx'
-    df = pd.DataFrame(flattened_data)
+    df = pd.DataFrame(flattened_data) # From most recent sentiment analysis
+    if not params.initial_run:
+        old_df = pd.read_excel(local_path + '/output_data.xlsx') # from prior sentiment analysis
+        df = pd.merge(left=old_df, right=df, how='outer', on='Fighter')
+
     df.to_excel(save_name, index=False) # Since there's no need to create an SQL server for now
     print('Done')
 

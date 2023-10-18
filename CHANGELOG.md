@@ -1,6 +1,10 @@
 # CHANGELOG
 
-## [0.2.0] : 2023-10-12
+## [0.3.0] : 2023-10-18
+
+- Adjusted tools and made them run the analysis on dates not already analyzed. Also fixed issues pertaining to scraper following initial run
+
+## [0.2.0] : 2023-10-14
 
 - Created model retrieval tool and sentiment analysis with entity recognition
 

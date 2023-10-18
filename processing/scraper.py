@@ -3,8 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.firefox.options import Options
 from typing import List
-from datetime import date
-from datetime import datetime, timedelta
+from datetime import date, datetime, timedelta
 from time import sleep
 from structures.config import get_params
 
@@ -38,12 +37,14 @@ def sort_posts(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     sort_by_elements = [sub_element for sub_element in elements if sub_element.get_attribute('slot')=='dropdown-items'][0]
     sort_by_element = [sub_element for sub_element in sort_by_elements.find_elements(By.CSS_SELECTOR, 'li') if 'New' in sub_element.text][0]
     sort_by_element.click()
+    sleep(1)
 
 
 def change_format(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     element = driver.find_element(By.CSS_SELECTOR, 'shreddit-layout-event-setter')
     element.click()
     elements = driver.find_elements(By.CSS_SELECTOR, 'li')
+    sleep(1) # Give it a second to refresh
     element = [sub_element for sub_element in elements if 'Classic' in sub_element.text][0]
     element.click()
 
@@ -175,7 +176,7 @@ def scraper(params=get_params()):
     load_to_date = None
     if not params.initial_run:
         last_date = local_path + '/reddit_posts/'
-        load_to_date = os.listdir(last_date)[-2].date()
+        load_to_date = datetime.strptime(os.listdir(last_date)[-2], '%Y-%m-%d').date()
     else:
         load_to_date = current_date - timedelta(days=params.days_prior)
     scroll_down(driver, load_to_date)
