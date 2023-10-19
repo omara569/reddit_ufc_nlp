@@ -118,9 +118,12 @@ def sentiment_analysis():
     # Depending on whether or not this is the first run, we need to load the according dates - either all the dates or a select few
     print('Determining data dates for analysis')
     dates_analyzed = None
+    cols = None
     if not params.initial_run:
         tmp_df = pd.read_excel(local_path + '/output_data.xlsx')
-        dates_analyzed = tmp_df.columns[1:] # The columns of this dataframe are the ones containing which dates we've looked at previously
+        cols = sorted(tmp_df.columns[1:]) # Sorted columns
+        cols = cols[:-2] # We'll ignore the last two days of data and re-analyze them
+        dates_analyzed = tmp_df[cols] # The columns of this dataframe are the ones containing which dates we've looked at previously
 
     # Grab the data
     print('Loading Data')
@@ -154,6 +157,7 @@ def sentiment_analysis():
     df = pd.DataFrame(flattened_data) # From most recent sentiment analysis
     if not params.initial_run:
         old_df = pd.read_excel(local_path + '/output_data.xlsx') # from prior sentiment analysis
+        old_df = old_df[cols] # From earlier code where it was established which columns we would decide didn't need re-analyzing
         df = pd.merge(left=old_df, right=df, how='outer', on='Fighter')
 
     df.to_excel(save_name, index=False) # Since there's no need to create an SQL server for now

@@ -1,6 +1,9 @@
 # ignore log files
 *.log
 
+# ignore bak files
+*.bak
+
 # ignore text_model contents except for select files
 /text_model/*
 !/text_model/__init__.py
@@ -9,3 +12,6 @@
 # ignore reddit and parsed reddit posts
 /processing/posts_parsed/*
 /processing/reddit_posts/*
+
+# ignore cache files
+/sentiment_analysis/__pycache__/*
