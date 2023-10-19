@@ -122,8 +122,8 @@ def sentiment_analysis():
     if not params.initial_run:
         tmp_df = pd.read_excel(local_path + '/output_data.xlsx')
         cols = sorted(tmp_df.columns[1:]) # Sorted columns
-        cols = cols[:-2] # We'll ignore the last two days of data and re-analyze them
-        dates_analyzed = tmp_df[cols] # The columns of this dataframe are the ones containing which dates we've looked at previously
+        dates_analyzed = cols[:-2] # We'll ignore the last two days of data and re-analyze them
+
 
     # Grab the data
     print('Loading Data')
@@ -157,7 +157,17 @@ def sentiment_analysis():
     df = pd.DataFrame(flattened_data) # From most recent sentiment analysis
     if not params.initial_run:
         old_df = pd.read_excel(local_path + '/output_data.xlsx') # from prior sentiment analysis
-        old_df = old_df[cols] # From earlier code where it was established which columns we would decide didn't need re-analyzing
+        col_list = ['Fighter']
+        col_list.extend(cols)
+        old_df = old_df[col_list] # From earlier code where it was established which columns we would decide didn't need re-analyzing
+        df_cols_to_keep = []
+        for df_col in df.columns:
+            if df_col == 'Fighter':
+                df_cols_to_keep.append(df_col)
+            elif df_col not in col_list:
+                df_cols_to_keep.append(df_col)
+
+        df = df[df_cols_to_keep]
         df = pd.merge(left=old_df, right=df, how='outer', on='Fighter')
 
     df.to_excel(save_name, index=False) # Since there's no need to create an SQL server for now
