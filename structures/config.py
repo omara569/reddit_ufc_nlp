@@ -13,6 +13,7 @@ class Params:
     fighter_names_path: str
     bert_model: str
     model_path: str
+    data_path: str
 
 
 params_default = {
@@ -26,6 +27,7 @@ params_default = {
     'fighter_names_path': '/processing/fighter_names.txt',
     'bert_model':'minh21/XLNet-Reddit-Sentiment-Analysis',
     'model_path': 'text_model',
+    'data_path': 'sentiment_analysis/output_data.xlsx',
 }
 
 

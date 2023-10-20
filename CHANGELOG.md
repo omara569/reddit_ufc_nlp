@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [0.4.0] : 2023-10-20
+
+- Bug fixes in sentiment analysis and began dashboard programming
+
 ## [0.3.0] : 2023-10-18
 
 - Adjusted tools and made them run the analysis on dates not already analyzed. Also fixed issues pertaining to scraper following initial run
