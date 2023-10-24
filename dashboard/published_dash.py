@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd 
 import matplotlib.pyplot as plt
-from ..structures.config import get_params
+from ..structures.config import config
 
 
 @st.cache_data
@@ -63,7 +63,7 @@ def fighter_hist(search_query):
 
 
 # config information
-params = get_params()
+params = config.get_params()
 local_css("dashboard/style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 # building out the app
