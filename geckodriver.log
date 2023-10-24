@@ -1,0 +1,199 @@
+1698116235008	geckodriver	INFO	Listening on 127.0.0.1:62426
+1698116238047	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileyQODxj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116238922	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116239047	Marionette	INFO	Listening on port 62434
+WebDriver BiDi listening on ws://127.0.0.1:62427
+Read port: 62434
+1698116239391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62427/devtools/browser/8010bf28-e0e0-4d88-a190-660789638bd2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=oRdp3vf7iCzeFt6s9yP9kg&is_itp=true&channel_id=95fc72b19232d0abd452424869ee4717f3238dfcac25a1d9feeb2bb3aefbf279&origin=https%3A%2F%2Fwww.reddit.com, line 98: Script terminated by timeout at:
+_.Xd@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:98:24
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:128:232
+yi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:191:286
+xi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:191:452
+zi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:192:28
+vi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:191:242
+pi.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:188:66
+pi/<@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:182:288
+oc@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:56:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:53:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1698116436566	Marionette	INFO	Stopped listening on port 62434
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileIGoEjP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116273773	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116273911	Marionette	INFO	Listening on port 62530
+WebDriver BiDi listening on ws://127.0.0.1:62500
+Read port: 62530
+1698116274372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62500/devtools/browser/09171d21-da2c-4683-8bc7-77261bdba9bf
+1698116282433	Marionette	INFO	Stopped listening on port 62530
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1698116290628	geckodriver	INFO	Listening on 127.0.0.1:62585
+1698116293636	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileSVw4ob"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116294158	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116294269	Marionette	INFO	Listening on port 62593
+Read port: 62593
+WebDriver BiDi listening on ws://127.0.0.1:62586
+1698116294391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62586/devtools/browser/52f2e204-9551-4d8a-8b41-fc5ea5f2bab8
+1698116303804	Marionette	INFO	Stopped listening on port 62593
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116311778	geckodriver	INFO	Listening on 127.0.0.1:62654
+1698116314800	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiles60yhT"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116315482	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116315607	Marionette	INFO	Listening on port 62662
+WebDriver BiDi listening on ws://127.0.0.1:62655
+Read port: 62662
+1698116315988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62655/devtools/browser/21663d9d-780c-433c-8603-30ea2a93acda
+1698116324426	Marionette	INFO	Stopped listening on port 62662
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: Script terminated by timeout at:
+wt/<@https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js:1:36576
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116331528	geckodriver	INFO	Listening on 127.0.0.1:62718
+1698116334545	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilelHdUiu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116335220	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116335339	Marionette	INFO	Listening on port 62727
+WebDriver BiDi listening on ws://127.0.0.1:62719
+Read port: 62727
+1698116335713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62719/devtools/browser/314a92d2-f09a-4483-a3e7-9ea1ad979ffa
+1698116344509	Marionette	INFO	Stopped listening on port 62727
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js, line 1: Script terminated by timeout at:
+ee@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js:1:3515
+_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js:1:433876
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116351687	geckodriver	INFO	Listening on 127.0.0.1:62787
+1698116354716	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile9l4IGD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116355342	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116355489	Marionette	INFO	Listening on port 62795
+WebDriver BiDi listening on ws://127.0.0.1:62788
+Read port: 62795
+1698116355879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62788/devtools/browser/4a3f8193-924e-4e3a-a9d1-aac20c3b0ed9
+1698116363955	Marionette	INFO	Stopped listening on port 62795
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116371438	geckodriver	INFO	Listening on 127.0.0.1:62858
+1698116374484	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileRJ09mg"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116375117	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116375246	Marionette	INFO	Listening on port 62866
+WebDriver BiDi listening on ws://127.0.0.1:62859
+Read port: 62866
+1698116375522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62859/devtools/browser/cecad939-221a-472e-a3b8-8ff9b612b586
+1698116384365	Marionette	INFO	Stopped listening on port 62866
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js, line 1: Script terminated by timeout at:
+tick@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js:1:172291
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116391794	geckodriver	INFO	Listening on 127.0.0.1:62928
+1698116394854	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilePCWIKm"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116395467	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116395599	Marionette	INFO	Listening on port 62937
+WebDriver BiDi listening on ws://127.0.0.1:62929
+Read port: 62937
+1698116395938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62929/devtools/browser/8658e581-4872-45c0-9e14-28d7b2a99d5b
+1698116404290	Marionette	INFO	Stopped listening on port 62937
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116411558	geckodriver	INFO	Listening on 127.0.0.1:62996
+1698116414611	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile6IngCH"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116415264	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116415378	Marionette	INFO	Listening on port 63004
+WebDriver BiDi listening on ws://127.0.0.1:62997
+Read port: 63004
+1698116415649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62997/devtools/browser/8b15e733-993a-4658-b4b2-c989c8312564
+1698116423728	Marionette	INFO	Stopped listening on port 63004
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116441249	geckodriver	INFO	Listening on 127.0.0.1:63077
+1698116444295	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiletP5qCq"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116445046	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116445172	Marionette	INFO	Listening on port 63085
+WebDriver BiDi listening on ws://127.0.0.1:63078
+Read port: 63085
+1698116445452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63078/devtools/browser/c69a61ca-8610-40fd-bc4c-88c35d310c14
