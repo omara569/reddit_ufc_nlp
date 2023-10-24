@@ -2,6 +2,10 @@
 
 ## [0.4.0] : 2023-10-20
 
+- Bug fixes in scraper (using BeautifulSoup as part of scrape) due to issues with reddit. Also implemented bug fix with geckodriver process (can kill whenever running scraper now)
+
+## [0.4.0] : 2023-10-20
+
 - Bug fixes in sentiment analysis and began dashboard programming
 
 ## [0.3.0] : 2023-10-18

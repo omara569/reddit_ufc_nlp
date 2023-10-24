@@ -5,6 +5,8 @@ from selenium.webdriver.firefox.options import Options
 from typing import List
 from datetime import date, datetime, timedelta
 from time import sleep
+from psutil import process_iter
+from bs4 import BeautifulSoup 
 from structures.config import get_params
 
 
@@ -15,7 +17,18 @@ def make_dir(current_directory: str) -> bool:
     return doesExist
 
 
-def driver_instance(driver_file_name=None) -> webdriver.firefox.webdriver.WebDriver:
+def kill_existing(): # kills existing instances of the geckodriver for firefox
+    for proc in process_iter(['pid', 'name', 'open_files']):
+        if proc.info['open_files'] is not None:
+            for file in proc.info['open_files']:
+                if 'geckodriver.log' in file.path.lower():
+                    proc.kill()
+    sleep(1)
+
+
+def driver_instance(driver_file_name=None, kill_existing_bool=False) -> webdriver.firefox.webdriver.WebDriver:
+    if kill_existing_bool:
+        kill_existing()
     firefox_options = Options()
     firefox_options.add_argument('-headless')
     if driver_file_name is not None: # We only perform this at the start
@@ -64,10 +77,15 @@ def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, date_in_past: dat
         for i in range(10):
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight);") # Execute this line 10 times
 
-        post_elements = driver.find_elements(By.CSS_SELECTOR, 'a.absolute.inset-0')
+        # post_elements = driver.find_elements(By.CSS_SELECTOR, 'a.absolute.inset-0') # Using selenium
+        page_source = driver.page_source    # Using BeautifulSoup
+        soup = BeautifulSoup(page_source, 'html.parser')
+        post_elements = soup.find_all('a', class_='absolute inset-0')
+        href = 'https://www.reddit.com' + post_elements[-1]['href']
         # Open the lastest post on the page. Check it's date and if it's 6 months prior to the desired date, we can stop scrolling and exit
         driver2 = driver_instance()
-        open_url(post_elements[-1].get_attribute('href'), driver2)
+        # href = post_elements[-1].get_attribute('href')
+        open_url(href, driver2)
         latest_post_date = driver2.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')[0]
         latest_post_date = datetime.strptime(latest_post_date, '%Y-%m-%d').date()
         driver2.quit()
@@ -129,7 +147,7 @@ def collect_data(urls: List[str], local_path: str) -> None:
 
 
 def fighter_list(url: str, local_path: str):
-    driver = driver_instance()
+    driver = driver_instance(kill_existing_bool=True)
     open_url(url, driver)
     sleep(2)
     close_button = driver.find_element(By.CSS_SELECTOR, 'button.onetrust-close-btn-handler.onetrust-close-btn-ui.banner-close-button.ot-close-icon')
@@ -154,6 +172,7 @@ def fighter_list(url: str, local_path: str):
     with open(local_path+'/fighter_names.txt', mode = 'w', encoding = 'utf-8') as f:
         for item in fighter_names:
             f.write(item + '\n')
+    sleep(1)
     
 
 def scraper(params=get_params()):
@@ -163,7 +182,7 @@ def scraper(params=get_params()):
     fighter_list(params.fighter_list_url, local_path)
 
     print('Opening Reddit')
-    driver = driver_instance(params.gecko_driver_file_name)
+    driver = driver_instance(params.gecko_driver_file_name, kill_existing_bool=True)
     driver.get(params.reddit_page)
 
     print('Sorting Posts')
