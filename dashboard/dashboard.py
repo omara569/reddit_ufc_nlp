@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd 
 import numpy as np 
-import altair as alt
+import matplotlib.pyplot as plt
 from structures.config import get_params
 
 
@@ -42,10 +42,25 @@ def search_fighter(search_query):
     
     # filtered_df = data.filter(regex='|'.join([search_query, 'Date']))
     filtered_df = data[[col for col in data.columns if search_query.lower() in col.lower() or col=='Date']]
-    if not filtered_df.empty:
-        st.line_chart(filtered_df, x='Date')
+    st.line_chart(filtered_df, x='Date', height=300)
     data_load_state.text('Input a Name in the text box below to look up fighter sentiments')
     
+
+def fighter_hist(search_query):
+    try:
+        filtered_df = data[[col for col in data.columns if search_query.lower() in col.lower()]]
+        if not filtered_df.empty:
+            # of the fighters available from the query, we make a histogram of their sentiment values
+            # average across available fighters for histogram
+            filtered_df = filtered_df.mean(axis=1, skipna=True)
+            fig, ax = plt.subplots()
+            ax.hist(filtered_df)
+            ax.set_xlabel('Bin')
+            ax.set_ylabel('Frequency')
+            ax.set_title('Normalized Histogram (If multiple fighters, histogram of average)')
+            st.pyplot(fig)
+    except AttributeError:
+        st.text('Fighter not found')
 
 
 # config information
@@ -55,7 +70,15 @@ remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 # building out the app
 
 # Initializations
-st.title('UFC Fighter Sentiment History')
+st.markdown(
+    """
+    <div style="display: flex; justify-content: center;">
+        <h1>UFC Fighter Sentiment History</h1>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 data_load_state = st.text('Loading data...')
 data = load_data(params.data_path)
 data_load_state.text('')
@@ -65,8 +88,8 @@ note_2 = st.text('Higher numbers indicate more positive sentiments')
 # Search bar
 #icon("search")
 search_bar = st.text_input("", "Islam Makhachev") # Shows sentiments over the past x days
-if search_bar:
-    search_fighter(search_bar)
+fighter_hist(search_bar)
+search_fighter(search_bar)
 
 # st.subheader('Raw data')
 # st.write(data) # Writes table onto screen (interactive table!)

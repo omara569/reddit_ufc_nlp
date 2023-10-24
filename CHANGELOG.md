@@ -1,6 +1,10 @@
 # CHANGELOG
 
-## [0.4.0] : 2023-10-20
+## [0.5.0] : 2023-10-24
+
+- Created dashboard and deployed
+
+## [0.4.0] : 2023-10-24
 
 - Bug fixes in scraper (using BeautifulSoup as part of scrape) due to issues with reddit. Also implemented bug fix with geckodriver process (can kill whenever running scraper now)
 

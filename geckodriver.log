@@ -1,908 +1,199 @@
-1697696832559	geckodriver	INFO	Listening on 127.0.0.1:51648
-1697696835558	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilemNc4dj"
+1698116235008	geckodriver	INFO	Listening on 127.0.0.1:62426
+1698116238047	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileyQODxj"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696836665	Marionette	INFO	Marionette enabled
+1698116238922	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697696836801	Marionette	INFO	Listening on port 51659
-WebDriver BiDi listening on ws://127.0.0.1:51649
-Read port: 51659
-1697696837124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116239047	Marionette	INFO	Listening on port 62434
+WebDriver BiDi listening on ws://127.0.0.1:62427
+Read port: 62434
+1698116239391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51649/devtools/browser/aa6bc4ca-2513-420a-bf56-5803c6bc42b6
+DevTools listening on ws://127.0.0.1:62427/devtools/browser/8010bf28-e0e0-4d88-a190-660789638bd2
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=oRdp3vf7iCzeFt6s9yP9kg&is_itp=true&channel_id=95fc72b19232d0abd452424869ee4717f3238dfcac25a1d9feeb2bb3aefbf279&origin=https%3A%2F%2Fwww.reddit.com, line 98: Script terminated by timeout at:
+_.Xd@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:98:24
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:128:232
+yi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:191:286
+xi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:191:452
+zi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:192:28
+vi@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:191:242
+pi.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:188:66
+pi/<@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:182:288
+oc@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:56:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.v5o8Bcmol9k.O/am=ACgY/d=1/rs=AF0KOtWn1oDaJWnsk_QoqwMIN-FbhMry9Q/m=credential_server_library:53:473
+
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1697697050258	Marionette	INFO	Stopped listening on port 51659
+1698116436566	Marionette	INFO	Stopped listening on port 62434
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/new/?feedViewType=classicView, line 54: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-river BiDi listening on ws://127.0.0.1:51734
-Read port: 51741
-1697696863621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileIGoEjP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698116273773	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698116273911	Marionette	INFO	Listening on port 62530
+WebDriver BiDi listening on ws://127.0.0.1:62500
+Read port: 62530
+1698116274372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51734/devtools/browser/d104eac3-f90a-4112-824e-4c3ed063249d
-1697696868254	Marionette	INFO	Stopped listening on port 51741
+DevTools listening on ws://127.0.0.1:62500/devtools/browser/09171d21-da2c-4683-8bc7-77261bdba9bf
+1698116282433	Marionette	INFO	Stopped listening on port 62530
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17bap1j/if_this_man_beats_ankalaev_on_saturday_should_he/?rdt=49742, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
 JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
-1697696874505	geckodriver	INFO	Listening on 127.0.0.1:51812
-1697696877534	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileWoBzZG"
+1698116290628	geckodriver	INFO	Listening on 127.0.0.1:62585
+1698116293636	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileSVw4ob"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696878530	Marionette	INFO	Marionette enabled
+1698116294158	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697696878633	Marionette	INFO	Listening on port 51820
-WebDriver BiDi listening on ws://127.0.0.1:51813
-Read port: 51820
-1697696878948	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116294269	Marionette	INFO	Listening on port 62593
+Read port: 62593
+WebDriver BiDi listening on ws://127.0.0.1:62586
+1698116294391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51813/devtools/browser/85ff4b67-c940-4503-9505-12266405b747
-1697696886227	Marionette	INFO	Stopped listening on port 51820
+DevTools listening on ws://127.0.0.1:62586/devtools/browser/52f2e204-9551-4d8a-8b41-fc5ea5f2bab8
+1698116303804	Marionette	INFO	Stopped listening on port 62593
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17b5muv/its_going_to_be_beautiful_violence_two_dawggggs/?rdt=42378, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697696891810	geckodriver	INFO	Listening on 127.0.0.1:51880
-1697696894856	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile3oPzmP"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116311778	geckodriver	INFO	Listening on 127.0.0.1:62654
+1698116314800	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiles60yhT"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696895330	Marionette	INFO	Marionette enabled
+1698116315482	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697696895417	Marionette	INFO	Listening on port 51888
-WebDriver BiDi listening on ws://127.0.0.1:51881
-Read port: 51888
-1697696895695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116315607	Marionette	INFO	Listening on port 62662
+WebDriver BiDi listening on ws://127.0.0.1:62655
+Read port: 62662
+1698116315988	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51881/devtools/browser/701aa30e-15ef-42ca-9c41-6f5184253ab3
-1697696903109	Marionette	INFO	Stopped listening on port 51888
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17b1e4s/doesnt_matter_who_youre_a_fan_of_this_is_facts/?rdt=60047, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697696907929	geckodriver	INFO	Listening on 127.0.0.1:51947
-1697696910959	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileHZ1eld"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696911411	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697696911492	Marionette	INFO	Listening on port 51955
-WebDriver BiDi listening on ws://127.0.0.1:51948
-Read port: 51955
-1697696911759	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51948/devtools/browser/6538a21b-9599-402e-bc86-0609a373cfa9
-1697696918706	Marionette	INFO	Stopped listening on port 51955
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17aw6gx/would_he_fight_leon_vs_colby_winner_on_12_days/?rdt=45129, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697696923577	geckodriver	INFO	Listening on 127.0.0.1:52013
-1697696926596	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilef561U1"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696927051	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697696927142	Marionette	INFO	Listening on port 52021
-WebDriver BiDi listening on ws://127.0.0.1:52014
-Read port: 52021
-1697696927424	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52014/devtools/browser/240b9baf-fc8e-48d7-ba73-2a4d165dd75e
-1697696934823	Marionette	INFO	Stopped listening on port 52021
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17arfxd/conor_takes_shots_at_islam/?rdt=37258, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697696939887	geckodriver	INFO	Listening on 127.0.0.1:52084
-1697696942890	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileO0gK8X"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696943562	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697696943660	Marionette	INFO	Listening on port 52092
-WebDriver BiDi listening on ws://127.0.0.1:52085
-Read port: 52092
-1697696943929	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52085/devtools/browser/954ea5e5-3ea3-423d-b313-d04c1212e105
-1697696951500	Marionette	INFO	Stopped listening on port 52092
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17anoc3/theres_a_lot_of_izzy_haters_on_this_sub_but_you/?rdt=42648, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697696956979	geckodriver	INFO	Listening on 127.0.0.1:52152
-1697696959991	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilezzGZkM"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696960491	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697696960621	Marionette	INFO	Listening on port 52160
-WebDriver BiDi listening on ws://127.0.0.1:52153
-Read port: 52160
-1697696960950	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52153/devtools/browser/a4448454-08f4-4432-94d3-2c83163898b1
-1697696969376	Marionette	INFO	Stopped listening on port 52160
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=XRjdgguEpRZsRtvxtViRYA&is_itp=true&channel_id=3d21f2d7d451996afc2d27099a32484c09c8a7cdf0101f7364306e46ca431780&origin=https%3A%2F%2Fwww.reddit.com, line 177: Script terminated by timeout at:
-_.Mh/</</<@/_/gsi/_/js/k=gsi.gsi.en_US.Gea4sMhZ9PE.O/am=ACgY/d=1/rs=AF0KOtXTwi6z4B5U9gx4Rvm7hSy1y6qywg/m=credential_server_library:177:1179
+DevTools listening on ws://127.0.0.1:62655/devtools/browser/21663d9d-780c-433c-8603-30ea2a93acda
+1698116324426	Marionette	INFO	Stopped listening on port 62662
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: Script terminated by timeout at:
+wt/<@https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js:1:36576
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17ab7zz/let_not_forget_the_time_nate_diaz_beat_leon/?rdt=48929, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697696974173	geckodriver	INFO	Listening on 127.0.0.1:52233
-1697696977176	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileHsCaKP"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116331528	geckodriver	INFO	Listening on 127.0.0.1:62718
+1698116334545	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilelHdUiu"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696977683	Marionette	INFO	Marionette enabled
+1698116335220	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697696977796	Marionette	INFO	Listening on port 52241
-WebDriver BiDi listening on ws://127.0.0.1:52234
-Read port: 52241
-1697696978080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116335339	Marionette	INFO	Listening on port 62727
+WebDriver BiDi listening on ws://127.0.0.1:62719
+Read port: 62727
+1698116335713	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52234/devtools/browser/ebae24f8-5fb2-46bd-bc69-71e7aabd2149
-1697696985639	Marionette	INFO	Stopped listening on port 52241
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17a630l/attention_dwcs_contestants/?rdt=47904, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697696991171	geckodriver	INFO	Listening on 127.0.0.1:52302
-1697696994179	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileY6nifU"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697696994625	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697696994762	Marionette	INFO	Listening on port 52310
-WebDriver BiDi listening on ws://127.0.0.1:52303
-Read port: 52310
-1697696995186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52303/devtools/browser/3d6a419d-c00c-454e-a882-0103abc91a94
-1697697003400	Marionette	INFO	Stopped listening on port 52310
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js, line 1: Script terminated by timeout at:
-_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:433874
+DevTools listening on ws://127.0.0.1:62719/devtools/browser/314a92d2-f09a-4483-a3e7-9ea1ad979ffa
+1698116344509	Marionette	INFO	Stopped listening on port 62727
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js, line 1: Script terminated by timeout at:
+ee@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js:1:3515
+_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js:1:433876
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17a0tlh/volks_elbow_is_fine/?rdt=48948, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697009149	geckodriver	INFO	Listening on 127.0.0.1:52375
-1697697012140	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileM4Glm4"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116351687	geckodriver	INFO	Listening on 127.0.0.1:62787
+1698116354716	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile9l4IGD"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697012783	Marionette	INFO	Marionette enabled
+1698116355342	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697697012866	Marionette	INFO	Listening on port 52383
-WebDriver BiDi listening on ws://127.0.0.1:52376
-Read port: 52383
-1697697013155	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116355489	Marionette	INFO	Listening on port 62795
+WebDriver BiDi listening on ws://127.0.0.1:62788
+Read port: 62795
+1698116355879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52376/devtools/browser/f427f215-1f4f-47c8-bcd4-5ae328306d13
-1697697020036	Marionette	INFO	Stopped listening on port 52383
+DevTools listening on ws://127.0.0.1:62788/devtools/browser/4a3f8193-924e-4e3a-a9d1-aac20c3b0ed9
+1698116363955	Marionette	INFO	Stopped listening on port 62795
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 1: TypeError: can't access dead object
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/179q4dc/enter_for_a_chance_to_win_a_2night_trip_for_two/?rdt=58604, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697025644	geckodriver	INFO	Listening on 127.0.0.1:52445
-1697697028650	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileH9oAoP"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116371438	geckodriver	INFO	Listening on 127.0.0.1:62858
+1698116374484	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileRJ09mg"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697029250	Marionette	INFO	Marionette enabled
+1698116375117	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697697029346	Marionette	INFO	Listening on port 52453
-WebDriver BiDi listening on ws://127.0.0.1:52446
-Read port: 52453
-1697697029630	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116375246	Marionette	INFO	Listening on port 62866
+WebDriver BiDi listening on ws://127.0.0.1:62859
+Read port: 62866
+1698116375522	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52446/devtools/browser/da351f1f-6db6-410a-93e8-bb0a46928a43
-1697697037673	Marionette	INFO	Stopped listening on port 52453
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/179gcdq/would_you_eat_the_official_frozen_pizza_of_the_ufc/?rdt=53272, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697054543	geckodriver	INFO	Listening on 127.0.0.1:52519
-1697697057560	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileXurVog"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697058009	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697697058088	Marionette	INFO	Listening on port 52527
-WebDriver BiDi listening on ws://127.0.0.1:52520
-Read port: 52527
-1697697058347	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52520/devtools/browser/119380ec-61bb-4163-bae0-965c54ad87eb
-1697697084049	Marionette	INFO	Stopped listening on port 52527
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: Script terminated by timeout at:
-getPropertyOptions@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:7454
-requestUpdate@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:10364
-set muted/<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:42374
-serve@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:11763
-_flush@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:11924
-start@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:11808
-_handleMediaReady@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:43617
-_handleCanPlay@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:437827
-_attachMediaEventListeners/</i<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js:1:437626
-
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shreddit-comment-tree-59dd154c.js, line 1: TypeError: can't access dead object
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/index-61d38cba.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shreddit-comment-4784658d.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shreddit-comment-action-row-831438bf.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shreddit-comment-4784658d.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shreddit-comment-action-row-831438bf.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.reddit.com/r/ufc/comments/17b6u0l/drod_teef/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-1697697089023	geckodriver	INFO	Listening on 127.0.0.1:52598
-1697697092021	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilexrmUJ1"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697092671	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697697092788	Marionette	INFO	Listening on port 52606
-WebDriver BiDi listening on ws://127.0.0.1:52599
-Read port: 52606
-1697697093138	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52599/devtools/browser/af124ca3-e2e9-474e-bdcd-3f2e3637060d
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1697697121271	Marionette	INFO	Stopped listening on port 52606
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: Script terminated by timeout at:
-wt/<@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:36555
+DevTools listening on ws://127.0.0.1:62859/devtools/browser/cecad939-221a-472e-a3b8-8ff9b612b586
+1698116384365	Marionette	INFO	Stopped listening on port 62866
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js, line 1: Script terminated by timeout at:
+tick@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-840d924a.js:1:172291
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17b4e5h/are_they_boxing_again_this_is_cursed/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697126719	geckodriver	INFO	Listening on 127.0.0.1:52685
-1697697129750	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileqB7uKw"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116391794	geckodriver	INFO	Listening on 127.0.0.1:62928
+1698116394854	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilePCWIKm"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697130494	Marionette	INFO	Marionette enabled
+1698116395467	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697697130583	Marionette	INFO	Listening on port 52693
-WebDriver BiDi listening on ws://127.0.0.1:52686
-Read port: 52693
-1697697130849	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116395599	Marionette	INFO	Listening on port 62937
+WebDriver BiDi listening on ws://127.0.0.1:62929
+Read port: 62937
+1698116395938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52686/devtools/browser/7965b1ca-fa77-43b5-9945-10ed1338a9fb
-1697697163970	Marionette	INFO	Stopped listening on port 52693
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
+DevTools listening on ws://127.0.0.1:62929/devtools/browser/8658e581-4872-45c0-9e14-28d7b2a99d5b
+1698116404290	Marionette	INFO	Stopped listening on port 62937
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.reddit.com/r/ufc/comments/17b0bv5/damn_dont_blame_charles_for_pulling_out_i_wouldnt/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697169560	geckodriver	INFO	Listening on 127.0.0.1:52790
-1697697172577	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileSOWF7a"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116411558	geckodriver	INFO	Listening on 127.0.0.1:62996
+1698116414611	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile6IngCH"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697173368	Marionette	INFO	Marionette enabled
+1698116415264	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697697173457	Marionette	INFO	Listening on port 52798
-WebDriver BiDi listening on ws://127.0.0.1:52791
-Read port: 52798
-1697697173823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116415378	Marionette	INFO	Listening on port 63004
+WebDriver BiDi listening on ws://127.0.0.1:62997
+Read port: 63004
+1698116415649	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52791/devtools/browser/2a566bcc-3e9b-4ce1-b29d-a19056c5552b
-JavaScript warning: https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js, line 1: Script terminated by timeout at:
-94805/r/R<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:4591
-94805/value/<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:5935
-Vu@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:405111
-Ol@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:389267
-Cl@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:389195
-El@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:389056
-vl@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:386043
-64448/Ko/<@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:335864
-60053/t.unstable_runWithPriority@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:476193
-Go@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:335641
-Ko@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:335811
-$o@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:335744
-dl@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:383428
-enqueueSetState@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:339718
-72408/v.prototype.setState@https://platform.twitter.com/embed/embed.9449.143d97ea3ade6f4824dc.js:2:467732
-94805/r/R</</e._unsubscribe<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:4478
-61322/e/</a<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:111785
-p@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:102729
-61322/En/</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:74166
-38389/t.default/</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:11376
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:100587
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:99073
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:98790
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:97153
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96729
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96439
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96158
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:95795
-dispatch@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:104708
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96411
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96158
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:95795
-value@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:66117
-value@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:65747
-value@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:71317
-p@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:102729
-61322/En/</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:74166
-38389/t.default/</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:11376
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:100587
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:99073
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:98790
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:97153
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96729
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96439
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:96158
-61322/ei</</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:95795
-dispatch@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:104708
-61322/e/</<@https://platform.twitter.com/embed/embed.5731.21a38d427c079d171432.js:1:114232
-
-1697697223924	Marionette	INFO	Stopped listening on port 52798
+DevTools listening on ws://127.0.0.1:62997/devtools/browser/8b15e733-993a-4658-b4b2-c989c8312564
+1698116423728	Marionette	INFO	Stopped listening on port 63004
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17aw6gx/would_he_fight_leon_vs_colby_winner_on_12_days/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697232734	geckodriver	INFO	Listening on 127.0.0.1:52959
-1697697235735	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilejjEMtb"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-4784cebb.js, line 4: TypeError: can't access dead object
+1698116441249	geckodriver	INFO	Listening on 127.0.0.1:63077
+1698116444295	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiletP5qCq"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697237145	Marionette	INFO	Marionette enabled
+1698116445046	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1697697237344	Marionette	INFO	Listening on port 52974
-WebDriver BiDi listening on ws://127.0.0.1:52960
-Read port: 52974
-1697697238481	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1698116445172	Marionette	INFO	Listening on port 63085
+WebDriver BiDi listening on ws://127.0.0.1:63078
+Read port: 63085
+1698116445452	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52960/devtools/browser/0cc4a83c-cd8c-4450-a439-32fd28bbd63b
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-0333270c.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
-1697697301766	Marionette	INFO	Stopped listening on port 52974
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: Script terminated by timeout at:
-Se@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:21428
-@https://www.redditstatic.com/shreddit/en-US/auth-flow-link-ad0c8b9f.js:1:1255
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17asq8o/walt_got_popped_for_masteron_usada_aint_done_yet/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697308772	geckodriver	INFO	Listening on 127.0.0.1:53153
-1697697311688	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile8oGrtC"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697312747	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697697312882	Marionette	INFO	Listening on port 53161
-WebDriver BiDi listening on ws://127.0.0.1:53154
-Read port: 53161
-1697697313353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53154/devtools/browser/fb66f62f-419b-44ac-8a35-c0b9f24d5705
-1697697353154	Marionette	INFO	Stopped listening on port 53161
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: Script terminated by timeout at:
-createRenderRoot/<@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:8959
-createRenderRoot@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:9195
-createRenderRoot@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:20072
-connectedCallback@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:9306
-connectedCallback@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:20388
-Ee/</<@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:20969
-Ee/<@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:20984
-o@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:1032
-@https://www.redditstatic.com/shreddit/en-US/shreddit-slotter-14155103.js:1:913
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17apmoc/is_sean_strickland_actually_just_young_rod_stewart/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-1697697358397	geckodriver	INFO	Listening on 127.0.0.1:53280
-1697697361416	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileXvOqtb"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697362187	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697697362264	Marionette	INFO	Listening on port 53288
-WebDriver BiDi listening on ws://127.0.0.1:53281
-Read port: 53288
-1697697362579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53281/devtools/browser/842ee199-c9fd-424b-be55-ecfa066de2d9
-JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 348: TypeError: can't access dead object
-1697697395910	Marionette	INFO	Stopped listening on port 53288
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: Script terminated by timeout at:
-en@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:43605
-Kt@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:43030
-_renderContent@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:45962
-runner@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:46275
-Nt/this._load@https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js:1:38936
-
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 1: TypeError: can't access dead object
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/17ail0g/soon_on_disney/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-6fea3fe9.js, line 4: TypeError: can't access dead object
-console.log: "RemoteSettingsWorker error: AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort."
-console.error: (new RemoteSettingsWorkerError("AbortError: IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
-console.error: services.settings: 
-  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
-  Stack:
-    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
-NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
-_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:907:14
-maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:812:38
-observe@resource://gre/modules/AsyncShutdown.sys.mjs:573:17
-
-console.warn: services.settings: security-state/onecrl sync interrupted by shutdown
-console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
-1697697401377	geckodriver	INFO	Listening on 127.0.0.1:53388
-1697697404360	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilesvlaTp"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1697697405193	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1697697405286	Marionette	INFO	Listening on port 53396
-WebDriver BiDi listening on ws://127.0.0.1:53389
-Read port: 53396
-1697697405603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53389/devtools/browser/02647657-1898-42c5-8317-43db322c3a0b
+DevTools listening on ws://127.0.0.1:63078/devtools/browser/c69a61ca-8610-40fd-bc4c-88c35d310c14
