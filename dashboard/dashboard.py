@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd 
-import numpy as np 
 import matplotlib.pyplot as plt
 from structures.config import get_params
 
@@ -57,7 +56,7 @@ def fighter_hist(search_query):
             ax.hist(filtered_df)
             ax.set_xlabel('Bin')
             ax.set_ylabel('Frequency')
-            ax.set_title('Normalized Histogram (If multiple fighters, histogram of average)')
+            ax.set_title('Histogram (If multiple fighters, histogram of average)')
             st.pyplot(fig)
     except AttributeError:
         st.text('Fighter not found')
