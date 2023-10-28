@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [0.5.1] : 2023-10-28
+
+- Updated scraper functionality to collect images and edited the dashboard layout. Next change will be dashboard including fighter images upon search
+
 ## [0.5.0] : 2023-10-24
 
 - Created dashboard and deployed

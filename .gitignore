@@ -13,5 +13,8 @@
 /processing/posts_parsed/*
 /processing/reddit_posts/*
 
+# ignore the image files
+/processing/fighter_images/*
+
 # ignore cache files
 /sentiment_analysis/__pycache__/*
