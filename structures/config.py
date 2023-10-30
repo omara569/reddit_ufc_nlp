@@ -11,6 +11,7 @@ class Params:
     posts_parsed: str
     fighter_list_url: str
     fighter_names_path: str
+    fighter_images_path: str
     bert_model: str
     model_path: str
     data_path: str
@@ -25,6 +26,7 @@ params_default = {
     'posts_parsed':'processing/posts_parsed',
     'fighter_list_url': 'https://www.ufc.com/athletes/all',
     'fighter_names_path': '/processing/fighter_names.txt',
+    'fighter_images_path': 'processing/fighter_images',
     'bert_model':'minh21/XLNet-Reddit-Sentiment-Analysis',
     'model_path': 'text_model',
     'data_path': 'sentiment_analysis/output_data.xlsx',

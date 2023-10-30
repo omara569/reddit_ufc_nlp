@@ -3360,3 +3360,4 @@ WebDriver BiDi listening on ws://127.0.0.1:57848
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
 DevTools listening on ws://127.0.0.1:57848/devtools/browser/3be09092-4e39-4986-b914-79a06cf78366
+1698343625544	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
