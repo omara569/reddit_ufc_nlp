@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from typing import List, Tuple
 import altair as alt
+import os
+from urllib.parse import quote
+from PIL import Image
 from fuzzywuzzy import fuzz
 from structures.config import get_params
 
@@ -43,11 +46,27 @@ def search_fighter(search_bar) -> str:
         best_match, _ = fuzzy_match_names(search_bar, fighter_names)
         if best_match is None:
             best_match = "Islam Makhachev".upper()
-        #filtered_df = data[[col for col in data.columns if search_query.lower() in col.lower() or col=='Date']]
+        
+        # Get the fighter name and image displayed
+        col1, col2 = st.columns(2)
+        with col1:
+            st.write('Showing data for ' + best_match)
+        with col2:
+            image_path = root + '/' + params.fighter_images_path + '/'
+            encoded_image_path = os.path.join(image_path, best_match + ".png")
+            try:
+                image = Image.open(encoded_image_path)
+                st.image(image, use_column_width=True)
+            except FileNotFoundError:
+                st.write('No Image Available')
+
         filtered_df = data[[best_match, 'Date']]
         filtered_df[best_match] = filtered_df[best_match].interpolate() # interpolate missing points
         filtered_df[best_match] = filtered_df[best_match].fillna(0) # Leftover points are zeros
         filtered_df['color'] = filtered_df[best_match].map(lambda x: 'green' if x > 0 else 'red' if x < 0 else 'black')
+
+        filtered_df, best_match, tmp = apostrophe_handling(filtered_df, best_match)
+
         # Create chart        
         chart = alt.Chart(filtered_df).mark_circle(size=100).encode(
             x='Date',  # Ordinal encoding for discrete x-axis
@@ -71,7 +90,22 @@ def search_fighter(search_bar) -> str:
             stroke='transparent'  # Remove axis strokes for cleaner appearance
         )
         st.altair_chart(combined_chart)
+
+        if tmp is not None:
+            best_match = tmp
+
     return best_match
+
+
+def apostrophe_handling(input_df: pd.DataFrame, best_match: str) -> Tuple:
+    tmp = None
+    if "'" in best_match:
+        tmp = best_match
+        replacement = best_match.replace("'", "")
+        st.write(replacement)
+        input_df = input_df.rename(columns={best_match:replacement})
+        best_match = replacement
+    return input_df, best_match, tmp
 
 
 def get_fighter_names(path: str) -> List[str]:
@@ -95,6 +129,7 @@ def fighter_hist(best_match):
     filtered_df = data[best_match]
     filtered_df = filtered_df.interpolate().fillna(0)
     filtered_df = pd.DataFrame(filtered_df)
+    filtered_df, best_match, _ = apostrophe_handling(filtered_df, best_match)
     histogram = alt.Chart(filtered_df).mark_bar().encode( 
         x=alt.X(best_match, bin=alt.Bin(maxbins=30)),
         y='count()'
@@ -142,6 +177,7 @@ def bubble():
 
 # config information
 params = get_params()
+root = os.getcwd()
 local_css("dashboard/style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
@@ -174,9 +210,10 @@ note = st.text('Note: Lower numbers indicate more negative sentiments')
 note_2 = st.text('Higher numbers indicate more positive sentiments')
 
 # Search bar
-search_bar = st.text_input("", "Islam Makhachev") # Shows sentiments over the past x days
+best_match = 'Islam Makhachev'
+search_bar = st.text_input("", best_match) # Shows the sentiment over time
+
 best_match = search_fighter(search_bar)
-st.write('Showing data for ' + best_match)
 fighter_hist(best_match)
 
 bubble()
