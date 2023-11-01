@@ -149,54 +149,56 @@ def collect_data(urls: List[str], local_path: str) -> None:
 
 
 def fighter_list(url: str, local_path: str):
-    driver = driver_instance(kill_existing_bool=True)
-    open_url(url, driver)
-    sleep(2)
-    close_button = driver.find_element(By.CSS_SELECTOR, 'button.onetrust-close-btn-handler.onetrust-close-btn-ui.banner-close-button.ot-close-icon')
-    sleep(2)
-    close_button.click()
-    # Endless scrolling
-    counter = 0
-    while counter != 10:
-        driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-        try:
-            driver.find_element(By.CSS_SELECTOR, 'a.button').click()
-            sleep(1)
-            counter = 0
-        except:
-            counter += 1
-    
-    # Done scrolling, now get the list of names and images
-    fighter_images_dir = local_path + '/fighter_images'
-    make_dir(fighter_images_dir)
-    elements = driver.find_elements(By.CSS_SELECTOR, 'div.c-listing-athlete-flipcard__front')
-    name_elements = [element.find_element(By.CSS_SELECTOR, 'span.c-listing-athlete__name') for element in elements]
-    names = [element.text for element in name_elements]
-    thumbnail_elements = driver.find_elements(By.CSS_SELECTOR, 'div.c-listing-athlete__thumbnail')
-    image_urls = []
-    for sub_element in thumbnail_elements:
-        try:
-            image_urls.append(sub_element.find_element(By.CSS_SELECTOR, 'img').get_attribute('src'))
-        except NoSuchElementException:
-            image_urls.append(None)
+    day_val = date.today().isoweekday() # Monday is one and Sunday is 7. We want this to run on every Saturday
+    if day_val==6:
+        driver = driver_instance(kill_existing_bool=True)
+        open_url(url, driver)
+        sleep(2)
+        close_button = driver.find_element(By.CSS_SELECTOR, 'button.onetrust-close-btn-handler.onetrust-close-btn-ui.banner-close-button.ot-close-icon')
+        sleep(2)
+        close_button.click()
+        # Endless scrolling
+        counter = 0
+        while counter != 10:
+            driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            try:
+                driver.find_element(By.CSS_SELECTOR, 'a.button').click()
+                sleep(1)
+                counter = 0
+            except:
+                counter += 1
+        
+        # Done scrolling, now get the list of names and images
+        fighter_images_dir = local_path + '/fighter_images'
+        make_dir(fighter_images_dir)
+        elements = driver.find_elements(By.CSS_SELECTOR, 'div.c-listing-athlete-flipcard__front')
+        name_elements = [element.find_element(By.CSS_SELECTOR, 'span.c-listing-athlete__name') for element in elements]
+        names = [element.text for element in name_elements]
+        thumbnail_elements = driver.find_elements(By.CSS_SELECTOR, 'div.c-listing-athlete__thumbnail')
+        image_urls = []
+        for sub_element in thumbnail_elements:
+            try:
+                image_urls.append(sub_element.find_element(By.CSS_SELECTOR, 'img').get_attribute('src'))
+            except NoSuchElementException:
+                image_urls.append(None)
 
-    fighter_names = {element for element in names} #Set of Fighter Names
-    driver.quit()
+        fighter_names = {element for element in names} #Set of Fighter Names
+        driver.quit()
 
-    # Text file containing fighter names
-    with open(local_path+'/fighter_names.txt', mode = 'w', encoding = 'utf-8') as f:
-        for item in fighter_names:
-            f.write(item + '\n')
-    # Saving the images as well
-    for idx, url in enumerate(image_urls):
-        if url is not None:
-            response = requests.get(url)
-            if response.status_code == 200:
-                image_content = response.content
-                file_path = fighter_images_dir + '/' + names[idx] + '.png'
-                with open(file_path, 'wb') as file:
-                    file.write(image_content)
-    sleep(1)
+        # Text file containing fighter names
+        with open(local_path+'/fighter_names.txt', mode = 'w', encoding = 'utf-8') as f:
+            for item in fighter_names:
+                f.write(item + '\n')
+        # Saving the images as well
+        for idx, url in enumerate(image_urls):
+            if url is not None:
+                response = requests.get(url)
+                if response.status_code == 200:
+                    image_content = response.content
+                    file_path = fighter_images_dir + '/' + names[idx] + '.png'
+                    with open(file_path, 'wb') as file:
+                        file.write(image_content)
+        sleep(1)
     
 
 def scraper(params=get_params()):
