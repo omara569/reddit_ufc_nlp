@@ -66,17 +66,22 @@ def search_fighter(search_bar) -> str:
         filtered_df['color'] = filtered_df[best_match].map(lambda x: 'green' if x > 0 else 'red' if x < 0 else 'black')
 
         filtered_df, best_match, tmp = apostrophe_handling(filtered_df, best_match)
-
+        first_date = filtered_df['Date'][0]
+        median_date = filtered_df['Date'][len(filtered_df)//2]
+        last_date = filtered_df['Date'].iloc[-1]
+        subset_date = [first_date, median_date, last_date]
+        
+        
         # Create chart        
         chart = alt.Chart(filtered_df).mark_circle(size=100).encode(
-            x='Date',  # Ordinal encoding for discrete x-axis
-            y=best_match,  # Quantitative encoding for y-axis
+            x=alt.X('Date', axis=alt.Axis(values=subset_date)),  # Ordinal encoding for discrete x-axis
+            y=alt.Y(best_match, title="Sentiment Value"),  # Quantitative encoding for y-axis
             color=alt.Color('color:N', scale=None)
         )
         # Add thin bars using rule mark
         bars = alt.Chart(filtered_df).mark_rule(strokeWidth=2).encode(
-            x='Date',
-            y=best_match,
+            x=alt.X('Date', axis=alt.Axis(values=subset_date)),
+            y=alt.Y(best_match, title="Sentiment Value"),
             color=alt.Color('color:N', scale=None)
         )
         # Combine the chart and bars
@@ -131,8 +136,8 @@ def fighter_hist(best_match):
     filtered_df = pd.DataFrame(filtered_df)
     filtered_df, best_match, _ = apostrophe_handling(filtered_df, best_match)
     histogram = alt.Chart(filtered_df).mark_bar().encode( 
-        x=alt.X(best_match, bin=alt.Bin(maxbins=30)),
-        y='count()'
+        x=alt.X(best_match, bin=alt.Bin(maxbins=30), title="Sentiment Value"),
+        y=alt.Y('count()', title='Frequency')
     ).properties(
         width=700,
         height=400
