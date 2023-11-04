@@ -199,6 +199,17 @@ content = """
 
 # Initializations
 st.markdown(
+    '''
+    <style>
+        body {
+            background-image: url("dashboard/octogon.jpeg");
+            background-size: cover;
+        }
+    </style>''',
+    unsafe_allow_html=True
+)
+
+st.markdown(
     """
     <div style="display: flex; justify-content: center;">
         <h1>UFC Fighter Sentiment History</h1>
