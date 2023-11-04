@@ -197,17 +197,6 @@ content = """
 </div>
 """
 
-# Initializations
-st.markdown(
-    '''
-    <style>
-        body {
-            background-image: url("dashboard/octogon.jpeg");
-            background-size: cover;
-        }
-    </style>''',
-    unsafe_allow_html=True
-)
 
 st.markdown(
     """
