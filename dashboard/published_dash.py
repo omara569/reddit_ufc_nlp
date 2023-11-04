@@ -185,13 +185,12 @@ remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 # Credit where it's due:
 # Define the content
 content = """
-<div style="position: fixed; top: 50px; left: 10px;">
+<div>
     <p>Developed by Omar Abu-Hijleh</p>
-    <p>Github: <a href="https://github.com/omara569/reddit_ufc_nlp/tree/main" target="_blank">https://github.com/omara569/reddit_ufc_nlp/tree/main</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/omar-abu-hijleh/" target="_blank">https://www.linkedin.com/in/omar-abu-hijleh/</a></p>
+    <p> <a href="https://github.com/omara569/reddit_ufc_nlp/tree/main" target="_blank">Github</a></p>
+    <p><a href="https://www.linkedin.com/in/omar-abu-hijleh/" target="_blank">LinkedIn</a></p>
 </div>
 """
-st.markdown(content, unsafe_allow_html=True)
 
 # Initializations
 st.markdown(
@@ -205,6 +204,7 @@ st.markdown(
 
 fighter_names = get_fighter_names(params.fighter_names_path[1:])
 data = load_data(params.data_path)
+st.markdown(content, unsafe_allow_html=True)
 data_load_state = st.write('Input a Name in the text box below to look up fighter sentiments')
 note = st.text('Note: Lower numbers indicate more negative sentiments')
 note_2 = st.text('Higher numbers indicate more positive sentiments')
