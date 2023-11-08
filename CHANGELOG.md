@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [1.0.0] : 2023-11-08
+
+- Final Changes, including "README", dashboard details, and "requirements.txt" file
+
 ## [0.5.2] : 2023-10-29
 
 - Added images of fighters to dashboard. Updated requirements.txt

@@ -190,7 +190,7 @@ remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 content = """
 <div>
     <p>Developed by Omar Abu-Hijleh</p>
-    <p> <a href="https://github.com/omara569/reddit_ufc_nlp/tree/main" target="_blank">Github</a></p>
+    <p><a href="https://github.com/omara569/reddit_ufc_nlp/tree/main" target="_blank">Github</a></p>
     <p><a href="https://www.linkedin.com/in/omar-abu-hijleh/" target="_blank">LinkedIn</a></p>
 </div>
 """
