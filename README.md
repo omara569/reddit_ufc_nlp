@@ -8,14 +8,14 @@ The sentiment analysis is performed using HuggingFace transformers.
 
 It is recommended that a virual environment is used and the path to the directory containing these files is added to the path in the virtual environment.
 
-These libraries and their dependencies can be installed using the "requirements.txt" file using [pip](https://https//pip.pypa.io/en/stable/) package manager:
+These libraries and their dependencies can be installed using the "requirements.txt" file using [pip](https://pip.pypa.io/en/stable/installation/) package manager:
 ```bash
 pip install requirements.txt
 ```
 
 ## HuggingFace model
 
-To select the HuggingFace model, change the ```bert_model``` variable in the ```params_default``` to be the desired model. Though the variable name is "bert_model", is is not actually limited to BERT models, and is actually an XLNet model by default. Note that if an XLNet model is not being used, the following libraries must have their "transformers" imports adjusted:
+To select the HuggingFace model, change the ```bert_model``` variable in the ```params_default``` dictionary to be the desired model. Though the variable name is "bert_model", is is not actually limited to BERT models, and is actually an XLNet model by default. Note that if an XLNet model is not being used, the following libraries must have their "transformers" imports adjusted:
 - The "sentiment_analysis.py" file in the "sentiment_analysis" directory
 - The "get_model.py" file in the "text_model" directory
 
