@@ -15,7 +15,7 @@ pip install requirements.txt
 
 ## HuggingFace model
 
-To select the HuggingFace model, change the ```bash bert_model``` variable in the ```bash params_default``` to be the desired model. Though the variable name is "bert_model", is is not actually limited to BERT models, and is actually an XLNet model by default. Note that if an XLNet model is not being used, the following libraries must have their "transformers" imports adjusted:
+To select the HuggingFace model, change the ```bert_model``` variable in the ```params_default``` to be the desired model. Though the variable name is "bert_model", is is not actually limited to BERT models, and is actually an XLNet model by default. Note that if an XLNet model is not being used, the following libraries must have their "transformers" imports adjusted:
 - The "sentiment_analysis.py" file in the "sentiment_analysis" directory
 - The "get_model.py" file in the "text_model" directory
 
@@ -23,7 +23,6 @@ To select the HuggingFace model, change the ```bash bert_model``` variable in th
 
 We run the following in this order:
 ```
-bash
 python processing/scraper.py
 python processing/parser.py
 python sentiment_analysis/sentiment_analysis.py
