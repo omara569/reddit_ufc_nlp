@@ -2,7 +2,7 @@
 
 UFC-NLP is an open-source project that gathers UFC fighter sentiments from the UFC reddit page.
 
-The sentiment analysis is performed using HuggingFace transformers.
+The sentiment analysis is performed using [Hugging Face transformers](https://huggingface.co/).
 
 ## Installation
 
@@ -13,9 +13,9 @@ These libraries and their dependencies can be installed using the "requirements.
 pip install requirements.txt
 ```
 
-## HuggingFace model
+## Hugging Face model
 
-To select the HuggingFace model, change the ```bert_model``` variable in the ```params_default``` dictionary to be the desired model. Though the variable name is "bert_model", is is not actually limited to BERT models, and is actually an XLNet model by default. Note that if an XLNet model is not being used, the following libraries must have their "transformers" imports adjusted:
+To select the Hugging Face model, change the ```bert_model``` variable in the ```params_default``` dictionary to be the desired model. Though the variable name is "bert_model", is is not actually limited to BERT models, and is actually an XLNet model by default. Note that if an XLNet model is not being used, the following libraries must have their "transformers" imports adjusted:
 - The "sentiment_analysis.py" file in the "sentiment_analysis" directory
 - The "get_model.py" file in the "text_model" directory
 
