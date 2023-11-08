@@ -3,6 +3,7 @@ from structures.config import get_params
 import os
 
 
+# Obtains the hugging face model being used. In this case we're using an XLNet Model
 def save_model():
     params = get_params() # Params
     local_path = os.path.dirname(__file__) # Returns the working directory of this script

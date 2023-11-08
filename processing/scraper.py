@@ -12,6 +12,7 @@ from bs4 import BeautifulSoup
 from structures.config import get_params
 
 
+# Create directoreis as needed
 def make_dir(current_directory: str) -> bool:
     doesExist = os.path.exists(current_directory)
     if not doesExist:
@@ -19,6 +20,7 @@ def make_dir(current_directory: str) -> bool:
     return doesExist
 
 
+# Kills existing instances of the selenium web browser to avoid any issues with processes in use
 def kill_existing(): # kills existing instances of the geckodriver for firefox
     for proc in process_iter(['pid', 'name', 'open_files']):
         if proc.info['open_files'] is not None:
@@ -28,6 +30,7 @@ def kill_existing(): # kills existing instances of the geckodriver for firefox
     sleep(1)
 
 
+# Creates an instance of the web browser
 def driver_instance(driver_file_name=None, kill_existing_bool=False) -> webdriver.firefox.webdriver.WebDriver:
     if kill_existing_bool:
         kill_existing()
@@ -39,6 +42,7 @@ def driver_instance(driver_file_name=None, kill_existing_bool=False) -> webdrive
     return webdriver.Firefox(options=firefox_options)
 
 
+# Opens URL
 def open_url(url: str, driver: webdriver.firefox.webdriver.WebDriver) -> None:
     driver.get(url)
 
@@ -55,6 +59,7 @@ def sort_posts(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     sleep(1)
 
 
+# Function to select the "classic" layout feature on the reddit posts
 def change_format(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     element = driver.find_element(By.CSS_SELECTOR, 'shreddit-layout-event-setter')
     element.click()
@@ -64,6 +69,7 @@ def change_format(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     element.click()
 
 
+# Scrolls down the page and utilizes Beautiful Soup parsing to work around unresponsive target machines (needed for dealing with dynamic HTML)
 def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, date_in_past: datetime.date) -> None:
     # We want to scroll down until we reach posts that are more than 6 months ago
     last_post_date = False  # Indicates whether or not the last post is the distance required from the current date
@@ -109,12 +115,14 @@ def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, date_in_past: dat
                 last_post_date = True
 
 
+# Collect the urls of the posts loaded onto the page
 def collect_posts(driver: webdriver.firefox.webdriver.WebDriver) -> List[str]:
     post_elements = driver.find_elements(By.CSS_SELECTOR, 'a.absolute.inset-0')
     post_urls = [element.get_attribute('href') for element in post_elements]
     return post_urls
 
 
+# Save post HTML to local machine
 def collect_data(urls: List[str], local_path: str) -> None:
     driver = driver_instance()
     counter = 0
@@ -148,7 +156,9 @@ def collect_data(urls: List[str], local_path: str) -> None:
             driver, counter = driver_instance(), 0
 
 
+# Obtain all existing fighters in UFC and saving as a text list. Also obtains all fighter images
 def fighter_list(url: str, local_path: str):
+    print('Getting List of Fighter Names')
     day_val = date.today().isoweekday() # Monday is one and Sunday is 7. We want this to run on every Saturday
     if day_val==6:
         driver = driver_instance(kill_existing_bool=True)
@@ -201,10 +211,10 @@ def fighter_list(url: str, local_path: str):
         sleep(1)
     
 
+# Scrape UFC reddit
 def scraper(params=get_params()):
     local_path = os.path.dirname(__file__) # Returns the working directory of this script
 
-    print('Getting List of Fighter Names')
     fighter_list(params.fighter_list_url, local_path)
 
     print('Opening Reddit')

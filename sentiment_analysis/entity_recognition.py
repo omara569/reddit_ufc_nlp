@@ -2,6 +2,8 @@ import spacy
 from fuzzywuzzy import fuzz
 from typing import List, Tuple
 
+
+# Extracts named entities from text
 def extract_names(text: str) -> str:
     nlp = spacy.load('en_core_web_sm')
     doc = nlp(text)
@@ -11,6 +13,7 @@ def extract_names(text: str) -> str:
     return names
 
 
+# Performs a fuzzy match of a given name with a list of names
 def fuzzy_match_names(name: str, individual_list: List[str], threshold=50) -> Tuple:
     best_match = None
     best_score = 0

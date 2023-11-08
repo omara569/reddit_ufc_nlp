@@ -1,22 +1,23 @@
 from bs4 import BeautifulSoup
-import pandas as pd
 import os
-from typing import Any, List, Tuple
 from structures.config import get_params
 
 
+# Make directories as needed
 def make_dir(directory: str) -> None:
     doesExist = os.path.exists(directory)
     if not doesExist:
         os.makedirs(directory)
 
 
+# Turn HTML into BeautifulSoup object
 def make_soup(file_path: str) -> BeautifulSoup:
     with open(file_path, encoding='utf-8') as f:
         soup = BeautifulSoup(f, 'html.parser')
     return soup
 
 
+# Parse text of each individual reddit post scraped 
 def parse_posts(reddit_post_path: str, posts_parsed_path: str) -> None:
     dates = os.listdir(reddit_post_path)
     for date in dates:
@@ -41,19 +42,20 @@ def parse_posts(reddit_post_path: str, posts_parsed_path: str) -> None:
                     f.write(video_html.prettify())                
 
 
-# TODO: Fetch the image - not just HTML. For now, this is fine.
+# TODO: Fetch the images - not just HTML - image to be used with computer vision to recognize fighters and read any text in memes to gather sentiment
 def get_image(soup:BeautifulSoup) -> str:
     post = soup.find('shreddit-post')
     image_html = post.find('img')
     return image_html
 
 
-# TODO: Fetch the video - not just HTML. For now, this is fine.
+# TODO: Fetch the video - not just HTML - similar to "get_image" function purpose, but with video instead
 def get_video(soup: BeautifulSoup) -> str:
     video = soup.find('video', class_ = 'bg-black')
     return video
 
 
+# Obtain the text of each comment on a reddit post
 def get_comment_text(soup: BeautifulSoup) -> str:
     comment_elements = soup.find_all('shreddit-comment')
     bag_of_text = ''
@@ -70,6 +72,7 @@ def get_comment_text(soup: BeautifulSoup) -> str:
     return bag_of_text
 
 
+# Obtain the text of the reddit post. This is the initial post and the comments from "get_comment_text"
 def get_post_text(soup: BeautifulSoup) -> str:
     post = soup.find('shreddit-post')
     post_title = ' : '.join(soup.find('title').text.split(' : ')[:-1])
@@ -90,12 +93,10 @@ def get_post_text(soup: BeautifulSoup) -> str:
 
 
 def parser():
-    local_path = os.path.dirname(__file__)
     root_path = os.getcwd()
     params = get_params()
     # Define the path the posts will be saved to
     posts_path = root_path + '/' +params.reddit_posts_dir_name
-    dates_collected = os.listdir(posts_path) # Already collected dates
 
     posts_parsed_path = root_path + '/' +params.posts_parsed # Location we'll save the text of a post
     make_dir(posts_parsed_path) 

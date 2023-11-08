@@ -583,3 +583,4 @@ Read port: 61733
 console.error: ({})
 DevTools listening on ws://127.0.0.1:61726/devtools/browser/fbb78faa-354c-41f4-9215-6a952106ee66
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1699170147907	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.

@@ -1,10 +1,8 @@
 import streamlit as st
 import pandas as pd 
-import matplotlib.pyplot as plt
 from typing import List, Tuple
 import altair as alt
 import os
-from urllib.parse import quote
 from PIL import Image
 from fuzzywuzzy import fuzz
 from structures.config import get_params
@@ -215,7 +213,7 @@ note = st.text('Note: Lower numbers indicate more negative sentiments')
 note_2 = st.text('Higher numbers indicate more positive sentiments')
 
 # Search bar
-best_match = 'Islam Makhachev'
+best_match = 'Max Holloway'
 search_bar = st.text_input("", best_match) # Shows the sentiment over time
 
 best_match = search_fighter(search_bar)
