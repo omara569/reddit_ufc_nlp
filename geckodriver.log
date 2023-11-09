@@ -2094,3 +2094,4 @@ Ii/<@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AFAg/d=1/rs=AF0KOtWcrC-SsDqQhq
 qc@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AFAg/d=1/rs=AF0KOtWcrC-SsDqQhqfvSMMuOtckbO2tDQ/m=credential_server_library:62:102
 b@/_/gsi/_/js/k=gsi.gsi.en_US.gNRnwkFw-k0.O/am=AFAg/d=1/rs=AF0KOtWcrC-SsDqQhqfvSMMuOtckbO2tDQ/m=credential_server_library:59:473
 
+1699493644700	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
