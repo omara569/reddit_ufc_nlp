@@ -39,7 +39,7 @@ Other details on dashboard updates:
 Streamlit is a dashboard framework used for the deployment of this project. It comes with a free community cloud for hosting dashboards straight from github repositories. Documentation can be found at [here](https://docs.streamlit.io/).
 
 To run the dashboard locally, the following must be input into the command line:
-streamlit run dashboard/published_dash.py
+```streamlit run dashboard/published_dash.py```
 
 Note:
 - There is another "structures" directory within the "dashboard" directory. This is due to the nature of streamlit - as it needs the "structures" directory to be local to the "published_dash.py" file in order to properly run on the cloud server. The "structures" directory is the same as the one in the root directory. 
