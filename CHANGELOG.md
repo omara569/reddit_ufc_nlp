@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [1.0.1] : 2023-11-13
+
+- Fixed bug from Googlel sign-in popup
+
 ## [1.0.0] : 2023-11-08
 
 - Final Changes, including "README", dashboard details, and "requirements.txt" file

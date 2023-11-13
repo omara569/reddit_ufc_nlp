@@ -69,6 +69,18 @@ def change_format(driver: webdriver.firefox.webdriver.WebDriver) -> None:
     element.click()
 
 
+# Sign in with Google box needs to be closed
+def close_signin(driver: webdriver.firefox.webdriver.WebDriver) -> None:
+    sleep(1)
+    credentials_element = driver.find_element(By.ID, 'credential_picker_container')
+    iframe = credentials_element.find_element(By.TAG_NAME, 'iframe')
+    driver.switch_to.frame(iframe)
+    close_element = driver.find_element(By.ID, 'close')
+    close_element.click()
+    driver.switch_to.default_content()
+    sleep(1)
+
+
 # Scrolls down the page and utilizes Beautiful Soup parsing to work around unresponsive target machines (needed for dealing with dynamic HTML)
 def scroll_down(driver: webdriver.firefox.webdriver.WebDriver, date_in_past: datetime.date) -> None:
     # We want to scroll down until we reach posts that are more than 6 months ago
@@ -220,6 +232,7 @@ def scraper(params=get_params()):
     print('Opening Reddit')
     driver = driver_instance(params.gecko_driver_file_name, kill_existing_bool=True)
     driver.get(params.reddit_page)
+    close_signin(driver)
 
     print('Sorting Posts')
     sort_posts(driver)
