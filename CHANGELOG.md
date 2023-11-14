@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## [1.0.2] : 2023-11-13
+
+- Fixes naming issue in reddit scraper
+
 ## [1.0.1] : 2023-11-13
 
 - Fixed bug from Googlel sign-in popup

@@ -140,7 +140,7 @@ def collect_data(urls: List[str], local_path: str) -> None:
     counter = 0
     reddit_posts = local_path + '/' + 'reddit_posts/'
     make_dir(reddit_posts)
-
+    comment_counter = 0 # Used in instances where we need to create a new name for the post that the below methodology doesn't work for (i.e. Try-except)
     for url in urls:
         splitted = url.split('.com')[-1]
         splitted = splitted.split('/')
@@ -159,8 +159,14 @@ def collect_data(urls: List[str], local_path: str) -> None:
         if os.path.exists(save_name):
             break
 
-        with open(save_name, mode='w', encoding='utf-8') as f:
-            f.write(driver.page_source)
+        try:
+            with open(save_name, mode='w', encoding='utf-8') as f:
+                f.write(driver.page_source)
+        except OSError:
+            save_name = reddit_posts + date_post + '/new_name_post ' + str(comment_counter) + '.html'
+            with open(save_name, mode='w', encoding='utf-8') as f:
+                f.write(driver.page_source)
+            comment_counter += 1
 
         counter += 1
         if counter == 20:
