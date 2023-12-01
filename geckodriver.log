@@ -1,993 +1,850 @@
-1700978670322	geckodriver	INFO	Listening on 127.0.0.1:52776
-1700978673407	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileIsQ7Re"
+1701354887981	geckodriver	INFO	Listening on 127.0.0.1:56723
+1701354891003	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilegDzJKy"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978674507	Marionette	INFO	Marionette enabled
+1701354891760	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700978674661	Marionette	INFO	Listening on port 52785
-WebDriver BiDi listening on ws://127.0.0.1:52777
-Read port: 52785
-1700978675014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701354891957	Marionette	INFO	Listening on port 56742
+WebDriver BiDi listening on ws://127.0.0.1:56724
+Read port: 56742
+1701354892328	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52777/devtools/browser/8879676b-3c0f-4ae0-a8ba-5ecc8d423325
+DevTools listening on ws://127.0.0.1:56724/devtools/browser/0aece5f2-b5f8-46b1-900f-49f0c211c1b7
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1701354923464	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1701355479474	Marionette	INFO	Stopped listening on port 56742
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+ "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile5KWxqa"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701355161666	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701355161795	Marionette	INFO	Listening on port 56930
+Read port: 56930
+WebDriver BiDi listening on ws://127.0.0.1:56903
+1701355161905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:56903/devtools/browser/d502f01b-db05-4c31-ac13-936c915729b3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1701355167922	Marionette	INFO	Stopped listening on port 56930
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: Script terminated by timeout at:
+_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:375961
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355175700	geckodriver	INFO	Listening on 127.0.0.1:57001
+1701355178714	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilenxO6Ec"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701355180078	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701355180285	Marionette	INFO	Listening on port 57018
+WebDriver BiDi listening on ws://127.0.0.1:57002
+Read port: 57018
+1701355180825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57002/devtools/browser/f892ae37-184e-4e21-9a73-c499b5bef754
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1701355192396	Marionette	INFO	Stopped listening on port 57018
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: Script terminated by timeout at:
+getHiddenAndVisibilityChangeForDocument@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:10:48185
+Sh/n/this.checkAndMeasureIfAdIsBeingOverlapped<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:10:43347
+Md/</o<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:349284
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=%2BIvFqAQG8Pjhw2LDdHzwBA&is_itp=true&channel_id=b1889d5c87becf86bb08cf603c01df25f6d87717d533dedfa86b9f5e653f5973&origin=https%3A%2F%2Fwww.reddit.com, line 183: Script terminated by timeout at:
+_.di/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:183:1163
+_.di@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:183:1060
+_.ei/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:184:56
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355197999	geckodriver	INFO	Listening on 127.0.0.1:57075
+1701355201078	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilexqVh1Y"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701355201821	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701355201955	Marionette	INFO	Listening on port 57083
+WebDriver BiDi listening on ws://127.0.0.1:57076
+Read port: 57083
+1701355202260	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57076/devtools/browser/ba5792ad-e261-4f2f-ad50-72e7ad853b0d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1701355216227	Marionette	INFO	Stopped listening on port 57083
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=Hlj5xfomgpyhVFRpG0iQKg&is_itp=true&channel_id=ce39aa28b7289b372ad2ba3cbc2d77d58176251f0afcf206ff6532e913e8ddd7&origin=https%3A%2F%2Fwww.reddit.com, line 182: Script terminated by timeout at:
+_.di/</</<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:182:1159
+
+JavaScript warning: https://accounts.google.com/gsi/client, line 263: Script terminated by timeout at:
+Iq.prototype.na@https://accounts.google.com/gsi/client:263:89
+Ap.prototype.na@https://accounts.google.com/gsi/client:274:45
+Kq/c.port1.onmessage@https://accounts.google.com/gsi/client:262:72
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355222123	geckodriver	INFO	Listening on 127.0.0.1:57145
+1701355225193	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile9HNKKs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701355226458	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701355226652	Marionette	INFO	Listening on port 57155
+WebDriver BiDi listening on ws://127.0.0.1:57146
+Read port: 57155
+1701355226990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57146/devtools/browser/113dbb97-6934-4248-ab1b-837a0ae64827
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1701355235519	Marionette	INFO	Stopped listening on port 57155
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: Script terminated by timeout at:
+_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:375961
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355241945	geckodriver	INFO	Listening on 127.0.0.1:57207
+1701355244991	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile3WvTSj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701355245937	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701355246129	Marionette	INFO	Listening on port 57216
+WebDriver BiDi listening on ws://127.0.0.1:57208
+Read port: 57216
+1701355246484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57208/devtools/browser/25e168b3-35ac-4a6e-befa-a8d5b45c9b49
+1701355254812	Marionette	INFO	Stopped listening on port 57216
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355262715	geckodriver	INFO	Listening on 127.0.0.1:57268
+1701355265787	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile6CXFDE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701355266642	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701355266822	Marionette	INFO	Listening on port 57276
+WebDriver BiDi listening on ws://127.0.0.1:57269
+Read port: 57276
+1701355267134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57269/devtools/browser/46677991-103a-431a-a670-0a5efeb17989
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+1701355278438	Marionette	INFO	Stopped listening on port 57276
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js, line 1: Script terminated by timeout at:
+_abandonRulesCheck@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:271115
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355285441	geckodriver	INFO	Listening on 127.0.0.1:57335
+1701355288538	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile0zWFrb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701355289408	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701355289563	Marionette	INFO	Listening on port 57343
+WebDriver BiDi listening on ws://127.0.0.1:57336
+Read port: 57343
+1701355289900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:57336/devtools/browser/4d9c67b3-6ff3-4747-ad9f-ea296e5c91fa
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700978705595	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1700979017496	Marionette	INFO	Stopped listening on port 52785
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978699950	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978700106	Marionette	INFO	Listening on port 52848
-WebDriver BiDi listening on ws://127.0.0.1:52839
-Read port: 52848
-1700978700476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52839/devtools/browser/05de7d24-bc02-4f99-b277-8509626b9463
-1700978705418	Marionette	INFO	Stopped listening on port 52848
-JavaScript warning: https://accounts.google.com/gsi/client, line 265: Script terminated by timeout at:
-Kq.prototype.na@https://accounts.google.com/gsi/client:265:89
-Cp.prototype.na@https://accounts.google.com/gsi/client:276:45
-Mq/c.port1.onmessage@https://accounts.google.com/gsi/client:264:72
+1701355300770	Marionette	INFO	Stopped listening on port 57343
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: Script terminated by timeout at:
+_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:375961
 
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/pdp-right-rail-content-client-js-b0d13679.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-1700978712064	geckodriver	INFO	Listening on 127.0.0.1:52901
-1700978715098	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileQnDTpp"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355308004	geckodriver	INFO	Listening on 127.0.0.1:57407
+1701355311042	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileWiBCrw"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978715923	Marionette	INFO	Marionette enabled
+1701355311864	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700978716051	Marionette	INFO	Listening on port 52910
-WebDriver BiDi listening on ws://127.0.0.1:52902
-Read port: 52910
-1700978716476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355311998	Marionette	INFO	Listening on port 57415
+WebDriver BiDi listening on ws://127.0.0.1:57408
+Read port: 57415
+1701355312350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52902/devtools/browser/3ac67b86-8dff-4601-9eaa-422c1cbc842a
-1700978726157	Marionette	INFO	Stopped listening on port 52910
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=s0cp2ARIHpH7ahI9yDHhYA&is_itp=true&channel_id=5243617a87fd72b215e60a2e3cd2cd9edfed8420912d231c8e7b556eaed17e3f&origin=https%3A%2F%2Fwww.reddit.com, line 183: Script terminated by timeout at:
-_.di/</<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:183:1161
+DevTools listening on ws://127.0.0.1:57408/devtools/browser/c37aa2bb-a153-49a2-84e9-86ed47937bf8
+1701355321827	Marionette	INFO	Stopped listening on port 57415
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=bnItG3EDajGgvxWydu%2Fp5Q&is_itp=true&channel_id=5083aa5169fc20c0c118ebe7b81eed30148e9a79ccccbf66c6e9adaa927fd075&origin=https%3A%2F%2Fwww.reddit.com, line 182: Script terminated by timeout at:
+_.di/</</<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:182:1159
 
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-ed@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:339070
-Jl@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:338673
-e@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:340104
+JavaScript warning: https://accounts.google.com/gsi/client, line 263: Script terminated by timeout at:
+Iq.prototype.na@https://accounts.google.com/gsi/client:263:89
+Ap.prototype.na@https://accounts.google.com/gsi/client:274:45
+Kq/c.port1.onmessage@https://accounts.google.com/gsi/client:262:72
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978733424	geckodriver	INFO	Listening on 127.0.0.1:52973
-1700978736435	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilelJkHhU"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355329303	geckodriver	INFO	Listening on 127.0.0.1:57474
+1701355332371	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilex6LNZy"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978737158	Marionette	INFO	Marionette enabled
+1701355333234	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700978737301	Marionette	INFO	Listening on port 52981
-WebDriver BiDi listening on ws://127.0.0.1:52974
-Read port: 52981
-1700978737652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355333411	Marionette	INFO	Listening on port 57483
+WebDriver BiDi listening on ws://127.0.0.1:57475
+Read port: 57483
+1701355333738	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:52974/devtools/browser/d37a2970-4adf-48fd-82d5-a91c42e7b4bf
-1700978746381	Marionette	INFO	Stopped listening on port 52981
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=TCTBdiJgIHPukRS3dwjblA&is_itp=true&channel_id=66db7c3ec567c3819407618ee83c9fe284d11799520cee16f1b483664df759c8&origin=https%3A%2F%2Fwww.reddit.com, line 251: Script terminated by timeout at:
-Ik.prototype.appendChild@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:251:434
-_.Jk@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:245:122
-Vn/<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:361:87
-
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:374933
-
+DevTools listening on ws://127.0.0.1:57475/devtools/browser/6626394b-a872-42d0-a20e-fac1e06484eb
+1701355342997	Marionette	INFO	Stopped listening on port 57483
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978754759	geckodriver	INFO	Listening on 127.0.0.1:53040
-1700978757728	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilebSrtdi"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355350282	geckodriver	INFO	Listening on 127.0.0.1:57534
+1701355353370	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilemn8pS2"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978758854	Marionette	INFO	Marionette enabled
+1701355354205	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700978759029	Marionette	INFO	Listening on port 53076
-WebDriver BiDi listening on ws://127.0.0.1:53041
-Read port: 53076
-1700978759493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355354392	Marionette	INFO	Listening on port 57542
+WebDriver BiDi listening on ws://127.0.0.1:57535
+Read port: 57542
+1701355354689	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:53041/devtools/browser/01a0883b-1178-480e-a4fc-13c56868ca21
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700978769491	Marionette	INFO	Stopped listening on port 53076
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:374933
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978777695	geckodriver	INFO	Listening on 127.0.0.1:53153
-1700978780739	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileg9fDaI"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978782036	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978782204	Marionette	INFO	Listening on port 53165
-WebDriver BiDi listening on ws://127.0.0.1:53154
-Read port: 53165
-1700978782666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53154/devtools/browser/f1b65d1c-52f8-4cd1-b21b-86758d16e55d
-1700978792943	Marionette	INFO	Stopped listening on port 53165
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-wt/<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:36577
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978801784	geckodriver	INFO	Listening on 127.0.0.1:53226
-1700978804833	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileYdM3v1"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978805692	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978805837	Marionette	INFO	Listening on port 53234
-WebDriver BiDi listening on ws://127.0.0.1:53227
-Read port: 53234
-1700978806208	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53227/devtools/browser/8c582996-4bd3-4d0f-ad71-a08d168d970c
+DevTools listening on ws://127.0.0.1:57535/devtools/browser/530a93f7-35e6-42b8-acfc-9b1211a331ce
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700978819366	Marionette	INFO	Stopped listening on port 53234
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-60567b18.js, line 1: Script terminated by timeout at:
-_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-60567b18.js:1:77540
+1701355372216	Marionette	INFO	Stopped listening on port 57542
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: Script terminated by timeout at:
+n@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js:1:15494
+_handleTimeUpdate@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js:1:67257
+dispatchEvent@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js:1:45020
+_updateCurrentTime@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js:1:77617
+_requestTimeUpdate@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js:1:77469
+_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js:1:77564
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978827112	geckodriver	INFO	Listening on 127.0.0.1:53319
-1700978830149	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile5bBpSK"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355379707	geckodriver	INFO	Listening on 127.0.0.1:57598
+1701355382757	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile53GrQM"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978831018	Marionette	INFO	Marionette enabled
+1701355383782	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700978831180	Marionette	INFO	Listening on port 53331
-WebDriver BiDi listening on ws://127.0.0.1:53320
-Read port: 53331
-1700978831654	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355383977	Marionette	INFO	Listening on port 57607
+WebDriver BiDi listening on ws://127.0.0.1:57599
+Read port: 57607
+1701355384337	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:53320/devtools/browser/bd81aa9c-279c-4abb-af0d-0097a34061da
-1700978840835	Marionette	INFO	Stopped listening on port 53331
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:374933
+DevTools listening on ws://127.0.0.1:57599/devtools/browser/9bcc6e08-33bf-40e1-9704-3af4ce6c2846
+1701355394219	Marionette	INFO	Stopped listening on port 57607
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: Script terminated by timeout at:
+_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:375961
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978850471	geckodriver	INFO	Listening on 127.0.0.1:53409
-1700978853474	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileavz2NE"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355402411	geckodriver	INFO	Listening on 127.0.0.1:57662
+1701355405417	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileF8ofVZ"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978854438	Marionette	INFO	Marionette enabled
+1701355406158	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700978854596	Marionette	INFO	Listening on port 53453
-WebDriver BiDi listening on ws://127.0.0.1:53410
-Read port: 53453
-1700978854961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355406281	Marionette	INFO	Listening on port 57670
+WebDriver BiDi listening on ws://127.0.0.1:57663
+Read port: 57670
+1701355406580	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:53410/devtools/browser/0106e95e-72c0-4588-b746-cb01c7a8408c
-1700978863765	Marionette	INFO	Stopped listening on port 53453
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978871468	geckodriver	INFO	Listening on 127.0.0.1:53536
-1700978874499	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileV5lrzq"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978875677	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978875822	Marionette	INFO	Listening on port 53544
-WebDriver BiDi listening on ws://127.0.0.1:53537
-Read port: 53544
-1700978876187	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53537/devtools/browser/6dabfd67-6cd2-439a-9c59-851ccd3c0892
-1700978885626	Marionette	INFO	Stopped listening on port 53544
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-ed@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:339070
-Jl@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:338673
-e@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:340104
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978894261	geckodriver	INFO	Listening on 127.0.0.1:53598
-1700978897291	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilelE4Qbh"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978898133	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978898273	Marionette	INFO	Listening on port 53616
-WebDriver BiDi listening on ws://127.0.0.1:53599
-Read port: 53616
-1700978898670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53599/devtools/browser/6971245c-6c50-4e43-a93d-a605dc5fa77f
+DevTools listening on ws://127.0.0.1:57663/devtools/browser/e612b9ea-8069-42d2-862b-74f7d3507190
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700978907940	Marionette	INFO	Stopped listening on port 53616
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:374933
+1701355416563	Marionette	INFO	Stopped listening on port 57670
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: Script terminated by timeout at:
+nd@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:339637
+td@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:339240
+e@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:340671
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978916441	geckodriver	INFO	Listening on 127.0.0.1:53674
-1700978919451	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileVTrfDs"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355425177	geckodriver	INFO	Listening on 127.0.0.1:57719
+1701355428206	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilellKQaz"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978920475	Marionette	INFO	Marionette enabled
+1701355428951	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700978920609	Marionette	INFO	Listening on port 53682
-WebDriver BiDi listening on ws://127.0.0.1:53675
-Read port: 53682
-1700978920955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355429081	Marionette	INFO	Listening on port 57731
+WebDriver BiDi listening on ws://127.0.0.1:57720
+Read port: 57731
+1701355429434	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:53675/devtools/browser/77e8809d-6e2e-487b-9cde-d6d3f82f9739
-1700978930692	Marionette	INFO	Stopped listening on port 53682
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-60567b18.js, line 1: Script terminated by timeout at:
-_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-60567b18.js:1:77540
-
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=q3JLSkObVVJT8C%2FCI%2B%2BkrQ&is_itp=true&channel_id=871079521cfb49516597b0a4f3d7e2a583686e3d8bd9db5fc881e8159b438ef8&origin=https%3A%2F%2Fwww.reddit.com, line 183: Script terminated by timeout at:
-_.di/</</<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:183:1159
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978940152	geckodriver	INFO	Listening on 127.0.0.1:53747
-1700978943198	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileo6urOD"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978943972	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978944120	Marionette	INFO	Listening on port 53757
-WebDriver BiDi listening on ws://127.0.0.1:53748
-Read port: 53757
-1700978944480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53748/devtools/browser/0aae0d40-d0a2-4358-bd9b-118bad13de1a
-1700978953998	Marionette	INFO	Stopped listening on port 53757
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:374933
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978962779	geckodriver	INFO	Listening on 127.0.0.1:53816
-1700978965861	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileB12Vor"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978966718	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978966869	Marionette	INFO	Listening on port 53838
-WebDriver BiDi listening on ws://127.0.0.1:53817
-Read port: 53838
-1700978967290	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53817/devtools/browser/9dc43264-2ddd-46f3-94f8-2014dc986c47
-1700978978017	Marionette	INFO	Stopped listening on port 53838
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-v@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:15740
-g@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:17035
-_$AI@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:16501
-v@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:15822
-g@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:16980
-_$AI@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:16501
-fe@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:19909
-update@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:20315
-update@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:300914
-performUpdate@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:11142
-scheduleUpdate@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:10789
-_$Ej@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:10697
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700978987281	geckodriver	INFO	Listening on 127.0.0.1:53939
-1700978990299	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileIzvrvq"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700978991137	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700978991294	Marionette	INFO	Listening on port 53947
-WebDriver BiDi listening on ws://127.0.0.1:53940
-Read port: 53947
-1700978991625	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:53940/devtools/browser/5d7b0db8-2c0f-4487-aa03-c7e326c3cf6e
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700979001299	Marionette	INFO	Stopped listening on port 53947
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 1: Script terminated by timeout at:
-_setTimeoutForAlertBuffer/<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:374933
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979022459	geckodriver	INFO	Listening on 127.0.0.1:54014
-1700979025483	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileaUyuB6"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979026257	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700979026376	Marionette	INFO	Listening on port 54022
-WebDriver BiDi listening on ws://127.0.0.1:54015
-Read port: 54022
-1700979026504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:54015/devtools/browser/e56294f0-5793-46ef-a491-39a35576d888
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700979056397	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1700979073647	Marionette	INFO	Stopped listening on port 54022
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: Script terminated by timeout at:
-getHiddenAndVisibilityChangeForDocument@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:4:48365
-kh/n/this.checkAndMeasureIfAdIsBeingOverlapped<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:4:43343
-Od/</o<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:348717
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979080153	geckodriver	INFO	Listening on 127.0.0.1:54111
-1700979083141	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile95gK81"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979084127	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700979084264	Marionette	INFO	Listening on port 54119
-WebDriver BiDi listening on ws://127.0.0.1:54112
-Read port: 54119
-1700979084396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:54112/devtools/browser/e4ed53f4-f6cc-4de0-9222-545696e1e1d3
-1700979114247	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700979130774	Marionette	INFO	Stopped listening on port 54119
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: Script terminated by timeout at:
-wh/n<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:4:42163
-wh@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:4:42165
-kh/n/this.checkAndMeasureIfAdIsBeingOverlapped<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:4:43487
-Od/</o<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:348717
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979137265	geckodriver	INFO	Listening on 127.0.0.1:54211
-1700979140344	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileYwFa12"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979141049	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1700979141176	Marionette	INFO	Listening on port 54219
-WebDriver BiDi listening on ws://127.0.0.1:54212
-Read port: 54219
-1700979141514	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:54212/devtools/browser/e11e9f99-b1b5-4044-8a5d-a9e88a56694c
-1700979171503	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700979186523	Marionette	INFO	Stopped listening on port 54219
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=g94jY0W68k3biPwauXhyQg&is_itp=true&channel_id=c6f03fc1996453d0ce8f6674bc8b809909601f2ab3c2474836b31603b84389ac&origin=https%3A%2F%2Fwww.reddit.com, line 182: Script terminated by timeout at:
-_.di/</</<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:182:1159
-
+DevTools listening on ws://127.0.0.1:57720/devtools/browser/9ee4b99b-c81c-43c1-876c-d838a6bbbaa8
+1701355439549	Marionette	INFO	Stopped listening on port 57731
 JavaScript warning: https://accounts.google.com/gsi/client, line 264: Script terminated by timeout at:
-Kq.prototype.na@https://accounts.google.com/gsi/client:264:89
-Cp.prototype.na@https://accounts.google.com/gsi/client:275:45
-Mq/c.port1.onmessage@https://accounts.google.com/gsi/client:263:72
+Iq.prototype.na@https://accounts.google.com/gsi/client:264:89
+Ap.prototype.na@https://accounts.google.com/gsi/client:275:45
+Kq/c.port1.onmessage@https://accounts.google.com/gsi/client:263:72
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979192788	geckodriver	INFO	Listening on 127.0.0.1:54311
-1700979195803	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileDPmQHT"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355448336	geckodriver	INFO	Listening on 127.0.0.1:57791
+1701355451375	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileQFYJKl"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979196545	Marionette	INFO	Marionette enabled
+1701355452305	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979196669	Marionette	INFO	Listening on port 54319
-WebDriver BiDi listening on ws://127.0.0.1:54312
-Read port: 54319
-1700979196962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355452485	Marionette	INFO	Listening on port 57801
+WebDriver BiDi listening on ws://127.0.0.1:57792
+Read port: 57801
+1701355452810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54312/devtools/browser/1272c9b9-c213-43f1-9bee-dbdda82840af
+DevTools listening on ws://127.0.0.1:57792/devtools/browser/0fbd2cab-3970-4d25-b456-680c47ace3ce
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700979226620	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700979255799	Marionette	INFO	Stopped listening on port 54319
+1701355463168	Marionette	INFO	Stopped listening on port 57801
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: Script terminated by timeout at:
+oa@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:298374
+observerIsIntersectingCallback/this.consumeTimeoutId<@https://www.redditstatic.com/shreddit/en-US/pdp-right-rail-content-client-js-02026cc8.js:1:3103
+
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979262248	geckodriver	INFO	Listening on 127.0.0.1:54407
-1700979265269	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilemJ9y6d"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355484607	geckodriver	INFO	Listening on 127.0.0.1:57866
+1701355487686	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile6OXtXc"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979266054	Marionette	INFO	Marionette enabled
+1701355488437	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979266224	Marionette	INFO	Listening on port 54415
-WebDriver BiDi listening on ws://127.0.0.1:54408
-Read port: 54415
-1700979266579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355488606	Marionette	INFO	Listening on port 57875
+WebDriver BiDi listening on ws://127.0.0.1:57867
+Read port: 57875
+1701355488952	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54408/devtools/browser/dacce69c-01eb-4256-a2cf-bd5268ea76c6
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=OxHntV5hKnr12M6SNJyr0g&is_itp=true&channel_id=2b476e778bba6f2a8a4c5e669d01c4397d6a7f3a3fa3bc6ae7fadbc2e34217dd&origin=https%3A%2F%2Fwww.reddit.com, line 129: Script terminated by timeout at:
-_.I<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:129:1218
-of@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:131:41
-_.N@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:131:158
-Ri@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:198:286
-Oi@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:198:225
-Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:195:61
-Ii/<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:189:288
-qc@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:62:102
-b@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:59:473
-
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+DevTools listening on ws://127.0.0.1:57867/devtools/browser/8444a2bb-2af4-4724-8c50-ea660c16154b
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701355518481	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/lite-yt-embed-98768cb3.js
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=ZR9Xmu3HRE9qUvt%2B3yNtlg&is_itp=true&channel_id=5b824737cb273dc552b02d0b8fc9faecc22c3da632d87645a833cfb304fc68f8&origin=https%3A%2F%2Fwww.reddit.com, line 129: Script terminated by timeout at:
-_.I<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:129:1218
-_.N@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:131:209
-Qi@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:197:466
-Si@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:198:28
-Oi@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:197:242
-Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:194:61
-Ii/<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:188:288
-qc@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:62:102
-b@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:59:473
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=LJtgJoEiFPpW%2FfCGWt6x5w&is_itp=true&channel_id=5368aa6b0bab4c14cab35af4580938a033d7b6b19d77b957f3ec5b3b1a4eea88&origin=https%3A%2F%2Fwww.reddit.com, line 54: Script terminated by timeout at:
+Vb@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:54:2103
+Yb@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:54:2505
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:59:473
 
-1700979296144	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1700979315867	Marionette	INFO	Stopped listening on port 54415
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701355612503	Marionette	INFO	Stopped listening on port 57875
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979322502	geckodriver	INFO	Listening on 127.0.0.1:54522
-1700979325510	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilenNM0Ne"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355617378	geckodriver	INFO	Listening on 127.0.0.1:57987
+1701355620407	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileV8fhQ7"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979326292	Marionette	INFO	Marionette enabled
+1701355621098	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979326442	Marionette	INFO	Listening on port 54532
-WebDriver BiDi listening on ws://127.0.0.1:54523
-Read port: 54532
-1700979326793	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355621218	Marionette	INFO	Listening on port 57995
+WebDriver BiDi listening on ws://127.0.0.1:57988
+Read port: 57995
+1701355621544	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54523/devtools/browser/9ba5fa9a-16cd-4fc4-a706-e657e7cd3421
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700979356415	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=B%2Fikoi374tAasSvN5E%2F60Q&is_itp=true&channel_id=faaba3cc86824a024bdfd73be5aaed13e4c7a319256d093d4c9c6376378ab696&origin=https%3A%2F%2Fwww.reddit.com, line 4: Script terminated by timeout at:
-_._F_toggles_initialize@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:4:134
-@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:4:163
-@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAg/d=1/rs=AF0KOtU3dukY3cun_8JvfXL2dTLbc6dGgA/m=credential_server_library:370:4
+DevTools listening on ws://127.0.0.1:57988/devtools/browser/5e330981-3693-4d80-bded-d7b9d608cdca
+1701355652681	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=X%2BtsryOGRBdTyJ8eCYAuJw&is_itp=true&channel_id=8453353b616a5b9f68cdcfc7093a7507f198a1b450cd549fe7a7eda94f66fe80&origin=https%3A%2F%2Fwww.reddit.com, line 129: Script terminated by timeout at:
+_.I<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:129:1218
+of@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:131:41
+_.N@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:131:158
+Ri@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:286
+Oi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:225
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:194:61
+Ii/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:188:288
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:59:473
 
-JavaScript error: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=B%2Fikoi374tAasSvN5E%2F60Q&is_itp=true&channel_id=faaba3cc86824a024bdfd73be5aaed13e4c7a319256d093d4c9c6376378ab696&origin=https%3A%2F%2Fwww.reddit.com, line 373: ReferenceError: gis is not defined
-1700979376048	Marionette	INFO	Stopped listening on port 54532
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 348: TypeError: can't access dead object
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=B%2BenG3WCQ8gRv9VDojXcng&is_itp=true&channel_id=1013bdbe046dd47d1eef3f701b26ba6530fccdb32a285519039bb365d707e959&origin=https%3A%2F%2Fwww.reddit.com, line 54: Script terminated by timeout at:
+Vb@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:54:2033
+Yb@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:54:2505
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:59:473
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=h600PeEY2W%2Fiv0rD5d3qyQ&is_itp=true&channel_id=9c8929b98ba885cf44275fa2521814920ac7b9db54855d29844194d9299d65e3&origin=https%3A%2F%2Fwww.reddit.com, line 131: Script terminated by timeout at:
+_.N@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:131:140
+Qi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:466
+Si@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:198:28
+Oi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:242
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:194:61
+Ii/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:188:288
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:59:473
+
+1701355963250	Marionette	INFO	Stopped listening on port 57995
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979383092	geckodriver	INFO	Listening on 127.0.0.1:54606
-1700979386101	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileDIYAU6"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701355968647	geckodriver	INFO	Listening on 127.0.0.1:58186
+1701355971698	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileVVU59f"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979386894	Marionette	INFO	Marionette enabled
+1701355972567	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979387045	Marionette	INFO	Listening on port 54614
-WebDriver BiDi listening on ws://127.0.0.1:54607
-Read port: 54614
-1700979387355	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701355972693	Marionette	INFO	Listening on port 58194
+Read port: 58194
+WebDriver BiDi listening on ws://127.0.0.1:58187
+1701355972801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54607/devtools/browser/1de1d635-9d32-4711-a2de-b0e9e5fad28f
+DevTools listening on ws://127.0.0.1:58187/devtools/browser/daf858e4-e3fe-4b30-ab5f-734add31b4d4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700979417105	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-60567b18.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
-1700979445118	Marionette	INFO	Stopped listening on port 54614
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: Script terminated by timeout at:
-getHiddenAndVisibilityChangeForDocument@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:4:48365
-kh/n/this.checkAndMeasureIfAdIsBeingOverlapped<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:4:43343
-Od/</o<@https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js:1:348717
+1701356002662	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=OXcdT9sl1uoP%2FarvR3gkig&is_itp=true&channel_id=dac16be42e48409138b68231188c725cfb35b5d23c1adf171c81df9fe8886785&origin=https%3A%2F%2Fwww.reddit.com, line 131: Script terminated by timeout at:
+_.N@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAh/d=1/rs=AF0KOtXHRIZsf_QwwpHLr6tjh325NTwJ7A/m=credential_server_library:131:140
+Ri@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAh/d=1/rs=AF0KOtXHRIZsf_QwwpHLr6tjh325NTwJ7A/m=credential_server_library:198:286
+Li@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAh/d=1/rs=AF0KOtXHRIZsf_QwwpHLr6tjh325NTwJ7A/m=credential_server_library:198:167
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAh/d=1/rs=AF0KOtXHRIZsf_QwwpHLr6tjh325NTwJ7A/m=credential_server_library:195:82
+Ii/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAh/d=1/rs=AF0KOtXHRIZsf_QwwpHLr6tjh325NTwJ7A/m=credential_server_library:189:288
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAh/d=1/rs=AF0KOtXHRIZsf_QwwpHLr6tjh325NTwJ7A/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAh/d=1/rs=AF0KOtXHRIZsf_QwwpHLr6tjh325NTwJ7A/m=credential_server_library:59:473
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701356197863	Marionette	INFO	Stopped listening on port 58194
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: Script terminated by timeout at:
+unsetContinuousTimer@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:10:33682
+measureViewChange@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:10:27692
+isIntersectingChange@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:10:48054
+Sh/n/this._observerIsNotIntersectingCallback<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:10:43991
+observerIsNotIntersectingCallback@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:10:51261
+la/t/this._handleLeave@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:298854
+wt/<@https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js:1:36691
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979451755	geckodriver	INFO	Listening on 127.0.0.1:54685
-1700979454764	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilekQ9QjP"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701356204471	geckodriver	INFO	Listening on 127.0.0.1:58445
+1701356207481	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileyqOac4"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979455544	Marionette	INFO	Marionette enabled
+1701356209420	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979455677	Marionette	INFO	Listening on port 54693
-WebDriver BiDi listening on ws://127.0.0.1:54686
-Read port: 54693
-1700979456062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701356209590	Marionette	INFO	Listening on port 58469
+WebDriver BiDi listening on ws://127.0.0.1:58446
+Read port: 58469
+1701356210010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54686/devtools/browser/86768b53-4e6b-48e1-81ed-ac59276b2946
-1700979485690	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+DevTools listening on ws://127.0.0.1:58446/devtools/browser/d466746f-fb9b-4dd3-935d-8dfe981ab156
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1701356239802	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700979510040	Marionette	INFO	Stopped listening on port 54693
-JavaScript warning: https://accounts.google.com/gsi/client, line 131: Script terminated by timeout at:
-_.Df.prototype.V@https://accounts.google.com/gsi/client:131:1388
-_.Df.prototype.resolve@https://accounts.google.com/gsi/client:131:1255
-kp/e.onload@https://accounts.google.com/gsi/client:205:95
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=ha2yxIzlx1UZrmHVP6jd9g&is_itp=true&channel_id=5e8bdeac5a8a1ec28a50931a7e5c8c85397330d0e93af566dd5d6c536c10169b&origin=https%3A%2F%2Fwww.reddit.com, line 54: Script terminated by timeout at:
+Vb@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:54:2103
+Yb@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:54:2505
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:59:473
 
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701356615489	Marionette	INFO	Stopped listening on port 58469
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979516816	geckodriver	INFO	Listening on 127.0.0.1:54776
-1700979519828	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileIW6s4p"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701356620670	geckodriver	INFO	Listening on 127.0.0.1:58655
+1701356623699	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilekM61zA"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979520628	Marionette	INFO	Marionette enabled
+1701356624469	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979520786	Marionette	INFO	Listening on port 54784
-WebDriver BiDi listening on ws://127.0.0.1:54777
-Read port: 54784
-1700979521163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701356624627	Marionette	INFO	Listening on port 58663
+WebDriver BiDi listening on ws://127.0.0.1:58656
+Read port: 58663
+1701356624987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54777/devtools/browser/d497c069-78b3-41b4-b4b2-4b9edf4806db
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=RXzGHs%2Bx2FoxtWsHp8%2B%2BFg&is_itp=true&channel_id=dccabd1d52e6c1b85bbda97ec1d4fa883ccc6434ee7360ff6ad0a638e85ed74a&origin=https%3A%2F%2Fwww.reddit.com, line 130: Script terminated by timeout at:
-_.pf@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:130:625
-Oi@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:198:222
-Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:195:61
-Ii/<@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:189:288
-qc@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:62:102
-b@/_/gsi/_/js/k=gsi.gsi.en_US.DP4wobnzwJg.O/am=AFAw/d=1/rs=AF0KOtWXwVuUSa6w-2UFzxhwUa6hjon2yw/m=credential_server_library:59:473
-
+DevTools listening on ws://127.0.0.1:58656/devtools/browser/6c4b6d04-d2ab-42dc-833f-fcbed8045a0c
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700979550699	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1701356654643	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+1701357055485	Marionette	INFO	Stopped listening on port 58663
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701357060555	geckodriver	INFO	Listening on 127.0.0.1:58863
+1701357063589	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileSqhTOt"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701357064518	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701357064650	Marionette	INFO	Listening on port 58871
+WebDriver BiDi listening on ws://127.0.0.1:58864
+Read port: 58871
+1701357065007	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:58864/devtools/browser/449ad190-38b9-4293-beed-ecdaa2534827
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700979576508	Marionette	INFO	Stopped listening on port 54784
+1701357094593	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=G9u9fWYbtMY7mAbvx5N9PA&is_itp=true&channel_id=4ebf8e4e57e2ff33e99baa3b17dae31ee49468b3131c3f96aec1a18665bc1bf7&origin=https%3A%2F%2Fwww.reddit.com, line 190: Script terminated by timeout at:
+Ji@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:190:249
+Pi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:196:204
+Mi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:196:22
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:195:95
+Ii/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:189:288
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:59:473
+
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701357483387	Marionette	INFO	Stopped listening on port 58871
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701357488556	geckodriver	INFO	Listening on 127.0.0.1:59051
+1701357491563	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilem2szfN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701357492268	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701357492388	Marionette	INFO	Listening on port 59059
+WebDriver BiDi listening on ws://127.0.0.1:59052
+Read port: 59059
+1701357492748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59052/devtools/browser/f1a7d846-6c10-475c-a8e4-abf835089808
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701357522452	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=Prx4oSWM5wp2d1vA2dW8Hg&is_itp=true&channel_id=6774359eb9cd52aca3f5dbf6ae49e5fa19976d850912d0305d891e8ecb36c78f&origin=https%3A%2F%2Fwww.reddit.com, line 129: Script terminated by timeout at:
+_.I<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:129:1218
+of@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:131:41
+_.N@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:131:158
+Ri@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:286
+Oi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:225
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:194:61
+Ii/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:188:288
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:59:473
+
+1701357577771	Marionette	INFO	Stopped listening on port 59059
 JavaScript warning: https://accounts.google.com/gsi/client, line 3: Script terminated by timeout at:
 _._F_toggles_initialize@https://accounts.google.com/gsi/client:3:134
 @https://accounts.google.com/gsi/client:3:163
-@https://accounts.google.com/gsi/client:290:4
+@https://accounts.google.com/gsi/client:289:4
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979583148	geckodriver	INFO	Listening on 127.0.0.1:54892
-1700979586162	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiledLXuen"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701357584151	geckodriver	INFO	Listening on 127.0.0.1:59172
+1701357587171	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileHIvB30"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979586957	Marionette	INFO	Marionette enabled
+1701357588228	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979587109	Marionette	INFO	Listening on port 54900
-WebDriver BiDi listening on ws://127.0.0.1:54893
-Read port: 54900
-1700979587450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701357588291	Marionette	INFO	Listening on port 59180
+WebDriver BiDi listening on ws://127.0.0.1:59173
+Read port: 59180
+1701357588548	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54893/devtools/browser/bfeffef8-f09c-44bb-a882-00549597fc1c
+DevTools listening on ws://127.0.0.1:59173/devtools/browser/2c413921-f60a-48ce-9e49-95c99d6a8701
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701357964434	Marionette	INFO	Stopped listening on port 59180
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-91edb5c9.js, line 10: TypeError: can't access dead object
+1701357970203	geckodriver	INFO	Listening on 127.0.0.1:59333
+1701357973231	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile9q6FOr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701357973923	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701357974046	Marionette	INFO	Listening on port 59341
+WebDriver BiDi listening on ws://127.0.0.1:59334
+Read port: 59341
+1701357974399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59334/devtools/browser/2db00210-f009-476d-b1e8-5cf59dff6579
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1701358003987	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-6bd1dc90.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701358313709	Marionette	INFO	Stopped listening on port 59341
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-cc9d1a37.js, line 10: TypeError: can't access dead object
+1701358320410	geckodriver	INFO	Listening on 127.0.0.1:59501
+1701358323419	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileYIF6G8"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701358324099	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701358324221	Marionette	INFO	Listening on port 59510
+WebDriver BiDi listening on ws://127.0.0.1:59502
+Read port: 59510
+1701358324582	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59502/devtools/browser/2e783d44-c6fc-495f-b61d-651f8d1cfdb2
+1701358354146	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701358544334	Marionette	INFO	Stopped listening on port 59510
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-91edb5c9.js, line 10: TypeError: can't access dead object
+1701358549769	geckodriver	INFO	Listening on 127.0.0.1:59602
+1701358552811	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile4mXvYQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1701358553472	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1701358553604	Marionette	INFO	Listening on port 59610
+WebDriver BiDi listening on ws://127.0.0.1:59603
+Read port: 59610
+1701358553955	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59603/devtools/browser/26c7dccb-4668-493b-9e89-3f82d5e7627c
+1701358583761	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700979617018	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1700979643820	Marionette	INFO	Stopped listening on port 54900
-JavaScript warning: https://accounts.google.com/gsi/client, line 3: Script terminated by timeout at:
-_._F_toggles_initialize@https://accounts.google.com/gsi/client:3:134
-@https://accounts.google.com/gsi/client:3:163
-@https://accounts.google.com/gsi/client:290:4
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=fMPxCmVSdz0tj%2BL%2BSScWjQ&is_itp=true&channel_id=5f3a700b1f2ce28e1acfd5de1f41962e65f8fa6695a613f79c27135b9c46a046&origin=https%3A%2F%2Fwww.reddit.com, line 196: Script terminated by timeout at:
+Pi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:196:441
+Mi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:196:22
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:195:95
+Ii/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:189:288
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:59:473
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1701358857228	Marionette	INFO	Stopped listening on port 59610
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-91edb5c9.js, line 1: Script terminated by timeout at:
+Rr@https://www.redditstatic.com/shreddit/en-US/shell-91edb5c9.js:1:286504
+oa@https://www.redditstatic.com/shreddit/en-US/shell-91edb5c9.js:1:298451
+observerIsIntersectingCallback/this.consumeTimeoutId<@https://www.redditstatic.com/shreddit/en-US/pdp-right-rail-content-client-js-c1265b33.js:1:3103
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979650496	geckodriver	INFO	Listening on 127.0.0.1:54993
-1700979653503	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilelKP5KZ"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-91edb5c9.js, line 10: TypeError: can't access dead object
+1701358862247	geckodriver	INFO	Listening on 127.0.0.1:59751
+1701358865283	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilexflIhT"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979654302	Marionette	INFO	Marionette enabled
+1701358865973	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979654438	Marionette	INFO	Listening on port 55001
-WebDriver BiDi listening on ws://127.0.0.1:54994
-Read port: 55001
-1700979654781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701358866093	Marionette	INFO	Listening on port 59759
+WebDriver BiDi listening on ws://127.0.0.1:59752
+Read port: 59759
+1701358866440	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:54994/devtools/browser/43715e42-1400-4f16-8879-3a3d59842484
+DevTools listening on ws://127.0.0.1:59752/devtools/browser/c8cebaf4-014a-4a9e-9a22-a5ef11840819
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=VfNhQ%2F6z3iA5Nvw9N%2BPsyg&is_itp=true&channel_id=88789147bb84bc4c483db4f3ffc4a7cae4da92b0d651e53ff98a51b3eac86509&origin=https%3A%2F%2Fwww.reddit.com, line 129: Script terminated by timeout at:
+_.I<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:129:1218
+of@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:131:41
+_.N@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:131:158
+Ri@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:286
+Oi@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:197:225
+Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:194:61
+Ii/<@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:188:288
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:62:102
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAg/d=1/rs=AF0KOtUjtUqkvcNFF3v4QDH9nYkJX9nIKw/m=credential_server_library:59:473
+
 JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1700979684550	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1700979709361	Marionette	INFO	Stopped listening on port 55001
-JavaScript warning: https://accounts.google.com/gsi/client, line 3: Script terminated by timeout at:
-_._F_toggles_initialize@https://accounts.google.com/gsi/client:3:134
-@https://accounts.google.com/gsi/client:3:163
-@https://accounts.google.com/gsi/client:291:4
+1701358896640	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=0ExZ2smbOLk9x6AGXXyu9w&is_itp=true&channel_id=8b0f66c9bd669d5aca656ae7dba706288d45016ff7e1aecb9a6014b7c45979ea&origin=https%3A%2F%2Fwww.reddit.com, line 56: Script terminated by timeout at:
+Yb@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:56:448
+qc@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:62:38
+b@/_/gsi/_/js/k=gsi.gsi.it.BeRuxid1gHc.O/am=AFAw/d=1/rs=AF0KOtUMJRL8P9LykRXAhSNmSl74rWKM7g/m=credential_server_library:59:473
 
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+1701359230239	Marionette	INFO	Stopped listening on port 59759
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-f16a456b.js, line 4: TypeError: can't access dead object
-1700979715674	geckodriver	INFO	Listening on 127.0.0.1:55074
-1700979718714	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileHTKiT9"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-91edb5c9.js, line 10: TypeError: can't access dead object
+1701359235390	geckodriver	INFO	Listening on 127.0.0.1:59898
+1701359238406	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileDThuqU"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1700979719433	Marionette	INFO	Marionette enabled
+1701359239062	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1700979719579	Marionette	INFO	Listening on port 55082
-WebDriver BiDi listening on ws://127.0.0.1:55075
-Read port: 55082
-1700979719869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1701359239182	Marionette	INFO	Listening on port 59906
+WebDriver BiDi listening on ws://127.0.0.1:59899
+Read port: 59906
+1701359239526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:55075/devtools/browser/9b78edca-82a2-4141-a27d-f853e1ff2a05
+DevTools listening on ws://127.0.0.1:59899/devtools/browser/ae598ceb-2bf8-4e8a-b2e3-8d01445b594c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+1701359269205	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-2e72595a.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
