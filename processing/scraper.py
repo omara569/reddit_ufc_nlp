@@ -146,8 +146,12 @@ def collect_data(urls: List[str], local_path: str) -> None:
         splitted = splitted.split('/')
         save_name = ''.join(splitted)+'.html'
         open_url(url, driver)
-
-        date_post = driver.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')
+        
+        try:
+            date_post = driver.find_element(By.CSS_SELECTOR, 'time').get_attribute('datetime').split('T')
+        except NoSuchElementException:
+            continue # Skip posts that don't have a date defined on their HTML
+        
         date_post[-1] = date_post[-1].split('.')[0]
         date_post[-1] = ''.join(date_post[-1].split(':'))
         date_post = ' '.join(date_post)
