@@ -1,0 +1,17 @@
+1702686646280	geckodriver	INFO	Listening on 127.0.0.1:52229
+1702686649306	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileJH1LzM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1702686649985	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1702686650061	Marionette	INFO	Listening on port 52238
+WebDriver BiDi listening on ws://127.0.0.1:52230
+Read port: 52238
+1702686650295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:52230/devtools/browser/2ee5d49a-9dc1-4085-abb6-37d13150d1a0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1702686681322	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+Exiting due to channel error.
