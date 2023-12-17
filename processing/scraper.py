@@ -49,8 +49,20 @@ def open_url(url: str, driver: webdriver.firefox.webdriver.WebDriver) -> None:
 
 # Function to click the "sort by" feature on the reddit posts
 def sort_posts(driver: webdriver.firefox.webdriver.WebDriver) -> None:
-    elements = driver.find_elements(By.CSS_SELECTOR, 'div') 
-    sort_by_element = [sub_element for sub_element in elements if "Sort By" in sub_element.text][-1]
+    #elements = driver.find_elements(By.CSS_SELECTOR, 'div') 
+    #sort_by_element = [sub_element for sub_element in elements if "Sort By" in sub_element.text][-1]
+    elements = driver.find_elements(By.CSS_SELECTOR, 'shreddit-sort-dropdown')
+    sort_by_element = None 
+    for element in elements:
+        try:
+            text = element.get_attribute('header-text')
+            if text=='Sort by': # and ("sorting" == noun):
+                sort_by_element = element 
+                break
+        except TypeError:
+            continue
+
+    #sort_by_element = [sub_element for sub_element in elements if "Sort by" in sub_element.text][-1]
     sort_by_element.click()
     elements = driver.find_elements(By.CSS_SELECTOR, 'div')
     sort_by_elements = [sub_element for sub_element in elements if sub_element.get_attribute('slot')=='dropdown-items'][0]
@@ -237,8 +249,6 @@ def fighter_list(url: str, local_path: str):
 def scraper(params=get_params()):
     local_path = os.path.dirname(__file__) # Returns the working directory of this script
 
-    fighter_list(params.fighter_list_url, local_path)
-
     print('Opening Reddit')
     driver = driver_instance(params.gecko_driver_file_name, kill_existing_bool=True)
     driver.get(params.reddit_page)
@@ -265,6 +275,8 @@ def scraper(params=get_params()):
     
     print('Opening Posts and Saving to Local Machine')
     collect_data(post_urls, local_path)
+
+    fighter_list(params.fighter_list_url, local_path)
 
     print('Completed Scrape')
 
