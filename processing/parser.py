@@ -66,7 +66,10 @@ def get_comment_text(soup: BeautifulSoup) -> str:
         if author == '[deleted]':
             continue
         timestamp = comment.find('faceplate-timeago')['ts']
-        comment_text = comment.find('div', {'slot':'comment'}).text
+        try:
+            comment_text = comment.find('div', {'slot':'comment'}).text
+        except AttributeError:
+            continue
         bag_of_text += author + ' replied at ' + timestamp + ':\n' + comment_text + '\n'
 
     return bag_of_text

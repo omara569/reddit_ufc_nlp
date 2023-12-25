@@ -1,164 +1,255 @@
-1703187131910	geckodriver	INFO	Listening on 127.0.0.1:51428
-1703187134970	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile8T6YwR"
+1703483685368	geckodriver	INFO	Listening on 127.0.0.1:65344
+1703483688374	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile5wCZrQ"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187135456	Marionette	INFO	Marionette enabled
+1703483689144	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1703187135541	Marionette	INFO	Listening on port 51452
-WebDriver BiDi listening on ws://127.0.0.1:51429
-Read port: 51452
-1703187135737	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703483689246	Marionette	INFO	Listening on port 65353
+WebDriver BiDi listening on ws://127.0.0.1:65345
+Read port: 65353
+1703483689564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51429/devtools/browser/d1311391-7f96-473e-b917-fb98929aa914
+DevTools listening on ws://127.0.0.1:65345/devtools/browser/ac3e4e72-f6c7-447e-8abc-abd5644cb98f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1703187167241	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1703483719330	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
 console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
-1703187323443	Marionette	INFO	Stopped listening on port 51452
+1703483805965	Marionette	INFO	Stopped listening on port 65353
 Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/?rdt=61144, line 56: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-e8655f09.js, line 4: TypeError: can't access dead object
+JavaScript error: https://www.reddit.com/r/ufc/?rdt=33076, line 56: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-1c7b1098.js, line 4: TypeError: can't access dead object
 ssion
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51513/devtools/browser/b7343176-abc8-4542-a643-379151be9712
+DevTools listening on ws://127.0.0.1:65414/devtools/browser/77293931-1d88-47e5-be21-8b0ee7855793
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1703187165149	Marionette	INFO	Stopped listening on port 51521
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 721: Script terminated by timeout at:
-a</k</K.A.onmessage@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:721:389
-
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 226: Script terminated by timeout at:
-P<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:226:2
-vT@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:778:133
-l<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:609:108
-lt@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:817:101
-aK@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:857:216
-M@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:513:349
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/18numyx/1st_quarter_of_2024_outlook_for_ufcs_welterweight/?rdt=46510, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-e8655f09.js, line 4: TypeError: can't access dead object
-1703187169348	geckodriver	INFO	Listening on 127.0.0.1:51580
-1703187172389	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileh2xBQZ"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187172808	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187172880	Marionette	INFO	Listening on port 51588
-WebDriver BiDi listening on ws://127.0.0.1:51581
-Read port: 51588
-1703187173092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51581/devtools/browser/511495c2-ec23-4877-afc8-4980fba05ec4
-1703187180840	Marionette	INFO	Stopped listening on port 51588
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 1171: Script terminated by timeout at:
-Jh.prototype.L@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:1171:429
-
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=xsUNteIGoVE15KHcA4V9aA&is_itp=true&channel_id=ebb43903cd542ff38f4d52720265125a5c26a71770bfbb46a401ae2c41fadc51&origin=https%3A%2F%2Fwww.reddit.com, line 184: Script terminated by timeout at:
-_.ci/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQ6/d=1/rs=AF0KOtXBqMV15tThd7Cft_obWV06QhS3jA/m=credential_server_library:184:1163
-_.ci@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQ6/d=1/rs=AF0KOtXBqMV15tThd7Cft_obWV06QhS3jA/m=credential_server_library:184:1060
-_.di/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQ6/d=1/rs=AF0KOtXBqMV15tThd7Cft_obWV06QhS3jA/m=credential_server_library:185:56
+1703483711759	Marionette	INFO	Stopped listening on port 65423
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 333: Script terminated by timeout at:
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:17
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:333:421
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:681:425
+a<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:725:39
+y</K/y</E<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:369:309
+a<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:737:415
+P</h.X/P<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:222:132
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+P</h.X@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:221:491
+y</K/y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:369:337
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+K@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:368:485
+y</K</<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:360:487
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:360:454
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:360:255
+y</K/y</E<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:369:309
+a<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:737:415
+P</h.X/P<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:222:132
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+P</h.X@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:221:491
+y</K/y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:369:337
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+K@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:368:485
+c</E</r<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:659:270
 
 Dynamically enable window occlusion 1
 JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
 JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-1703187184977	geckodriver	INFO	Listening on 127.0.0.1:51656
-1703187187993	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilekExMU0"
+1703483716549	geckodriver	INFO	Listening on 127.0.0.1:65487
+1703483719568	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilefgjGif"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187188389	Marionette	INFO	Marionette enabled
+1703483719989	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1703187188461	Marionette	INFO	Listening on port 51665
-WebDriver BiDi listening on ws://127.0.0.1:51657
-Read port: 51665
-1703187188665	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703483720069	Marionette	INFO	Listening on port 65502
+WebDriver BiDi listening on ws://127.0.0.1:65488
+Read port: 65502
+1703483720276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51657/devtools/browser/ec304420-495b-4155-bcb8-5d1e1fdbd17f
-1703187196167	Marionette	INFO	Stopped listening on port 51665
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 721: Script terminated by timeout at:
-a</k</K.A.onmessage@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:721:389
-
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 226: Script terminated by timeout at:
-P<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:226:2
-vT@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:778:133
-l<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:609:108
-lt@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:817:101
-aK@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:857:216
-M@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:513:349
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/18nq9yw/colby_won_on_paper/?rdt=45258, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-e8655f09.js, line 4: TypeError: can't access dead object
-1703187200985	geckodriver	INFO	Listening on 127.0.0.1:51730
-1703187203971	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileSSFtyy"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187204462	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187204547	Marionette	INFO	Listening on port 51739
-WebDriver BiDi listening on ws://127.0.0.1:51731
-Read port: 51739
-1703187204828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51731/devtools/browser/56100aaa-55d8-4b7e-ad1e-460d9f54a5d1
-1703187212938	Marionette	INFO	Stopped listening on port 51739
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-1703187218897	geckodriver	INFO	Listening on 127.0.0.1:51824
-1703187221914	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiletpBGeS"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187222598	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187222719	Marionette	INFO	Listening on port 51835
-WebDriver BiDi listening on ws://127.0.0.1:51825
-Read port: 51835
-1703187223013	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51825/devtools/browser/8221b641-fbab-43c9-aa8b-3f9b13458807
-1703187231700	Marionette	INFO	Stopped listening on port 51835
+DevTools listening on ws://127.0.0.1:65488/devtools/browser/da3a8966-1d38-4892-b996-e288a8dd126b
+1703483728131	Marionette	INFO	Stopped listening on port 65502
 JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 1170: Script terminated by timeout at:
 Jh.prototype.L@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:1170:389
 
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 480: Script terminated by timeout at:
-n</K</<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:480:447
-h@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:591:25
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=AZdrD5xxoFmKlr10EThx1w&is_itp=true&channel_id=0ec97298955c2b6c80a8d3d1b585586b470dd7676149fda22e06ce21c13b003b&origin=https%3A%2F%2Fwww.reddit.com, line 183: Script terminated by timeout at:
+_.ci/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:183:1163
+_.ci@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:183:1060
+_.di/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:184:56
 
 Dynamically enable window occlusion 1
 JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
 JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-1703187237536	geckodriver	INFO	Listening on 127.0.0.1:51916
-1703187240570	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileuftzzp"
+1703483733031	geckodriver	INFO	Listening on 127.0.0.1:49179
+1703483736042	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileGaIULu"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187241474	Marionette	INFO	Marionette enabled
+1703483736551	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1703187241588	Marionette	INFO	Listening on port 51925
-Read port: 51925
-WebDriver BiDi listening on ws://127.0.0.1:51917
-1703187241692	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703483736632	Marionette	INFO	Listening on port 49187
+WebDriver BiDi listening on ws://127.0.0.1:49180
+Read port: 49187
+1703483736825	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51917/devtools/browser/8a81c5c1-a31e-42ec-8c55-239f97d0b700
-1703187250009	Marionette	INFO	Stopped listening on port 51925
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=Mld5oH8q0nkr7pcGKZQIJg&is_itp=true&channel_id=11cd5fb8f0f2c313dcf1de12de7c6695ea754f6399d529f9ece8ca7a67d735c5&origin=https%3A%2F%2Fwww.reddit.com, line 183: Script terminated by timeout at:
-_.ci/</</<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:183:1159
+DevTools listening on ws://127.0.0.1:49180/devtools/browser/9e04354d-70d2-4091-a683-7d33be2304f9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1703483744984	Marionette	INFO	Stopped listening on port 49187
+JavaScript warning: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: Script terminated by timeout at:
+r@https://www.redditstatic.com/shreddit/sentry-94f7e90f.js:1:55855
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=rGmfIeNLhQXKFR%2BlzS0u0w&is_itp=true&channel_id=b96988915575df17b8e80ef0505230282be94fa83b537730467a1ced01aff5f6&origin=https%3A%2F%2Fwww.reddit.com, line 184: Script terminated by timeout at:
+_.ci/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQqCA/d=1/rs=AF0KOtX3Z_XdBRKPLO9ffjsGXVRra8CDaw/m=credential_server_library:184:1163
+_.ci@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQqCA/d=1/rs=AF0KOtX3Z_XdBRKPLO9ffjsGXVRra8CDaw/m=credential_server_library:184:1060
+_.di/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQqCA/d=1/rs=AF0KOtX3Z_XdBRKPLO9ffjsGXVRra8CDaw/m=credential_server_library:185:56
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
+1703483750390	geckodriver	INFO	Listening on 127.0.0.1:49249
+1703483753395	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiletKEKfK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703483753898	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703483753986	Marionette	INFO	Listening on port 49258
+WebDriver BiDi listening on ws://127.0.0.1:49250
+Read port: 49258
+1703483754193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49250/devtools/browser/493fad35-8360-4496-95da-1b7fae62133e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1703483762146	Marionette	INFO	Stopped listening on port 49258
+JavaScript warning: https://accounts.google.com/gsi/client, line 268: Script terminated by timeout at:
+Nq.prototype.na@https://accounts.google.com/gsi/client:268:89
+Dp.prototype.na@https://accounts.google.com/gsi/client:279:45
+Pq/c.port1.onmessage@https://accounts.google.com/gsi/client:267:72
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
+1703483767364	geckodriver	INFO	Listening on 127.0.0.1:49321
+1703483770392	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileIw1AO2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703483770847	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703483770923	Marionette	INFO	Listening on port 49329
+WebDriver BiDi listening on ws://127.0.0.1:49322
+Read port: 49329
+1703483771151	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49322/devtools/browser/8603fdc1-a483-4cd2-ad27-d992654c0eb1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1703483779305	Marionette	INFO	Stopped listening on port 49329
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=2Zig38E4Hkl8%2FlHBHr9RSg&is_itp=true&channel_id=aa59ba1e7a43959b7b2c67d8faee318e7cd8ea3a4cf0d342e5e830a10eff5530&origin=https%3A%2F%2Fwww.reddit.com, line 184: Script terminated by timeout at:
+_.ci/</<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQqAg/d=1/rs=AF0KOtWitAAaq1Gh9AW__EehcsXbT6ld4Q/m=credential_server_library:184:1161
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 759: Script terminated by timeout at:
+nO@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:759:38
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:401:383
+g<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:561:11
+q</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:351:146
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:351:109
+n</V<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:437:183
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+n<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:437:57
+l</Z<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:571:447
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
+c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
+l<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:571:353
+q</q<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:348:140
+aK@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:857:287
+M@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:513:349
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.reddit.com/r/ufc/comments/18plbm1/the_little_weseal_turned_himself_in_a_fooking/?rdt=43423, line 52: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-1c7b1098.js, line 4: TypeError: can't access dead object
+1703483784619	geckodriver	INFO	Listening on 127.0.0.1:49387
+1703483787621	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilestZW4w"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1703483788039	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1703483788113	Marionette	INFO	Listening on port 49395
+WebDriver BiDi listening on ws://127.0.0.1:49388
+Read port: 49395
+1703483788314	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:49388/devtools/browser/8e441b14-e789-4ecc-87eb-da54f99f5d86
+1703483796912	Marionette	INFO	Stopped listening on port 49395
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 491: Script terminated by timeout at:
+n<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:491:505
+y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:362:228
+n</K</z.eL@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:480:307
+@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:1077:95
+l</Z</<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:572:191
+l</Z<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:572:163
+yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
+g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
+t@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:66
 
 JavaScript warning: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: Script terminated by timeout at:
 r@https://www.redditstatic.com/shreddit/sentry-94f7e90f.js:1:55855
@@ -166,228 +257,20 @@ r@https://www.redditstatic.com/shreddit/sentry-94f7e90f.js:1:55855
 Dynamically enable window occlusion 1
 JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
 JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-1703187255891	geckodriver	INFO	Listening on 127.0.0.1:51998
-1703187258901	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile2mA0Yg"
+1703483810526	geckodriver	INFO	Listening on 127.0.0.1:49466
+1703483813525	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileavC3WY"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187259658	Marionette	INFO	Marionette enabled
+1703483814011	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1703187259771	Marionette	INFO	Listening on port 52013
-WebDriver BiDi listening on ws://127.0.0.1:51999
-Read port: 52013
-1703187260082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1703483814115	Marionette	INFO	Listening on port 49474
+WebDriver BiDi listening on ws://127.0.0.1:49467
+Read port: 49474
+1703483814402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51999/devtools/browser/65bab5cb-0479-436c-8ea3-90ae7bf7fdaf
-1703187269644	Marionette	INFO	Stopped listening on port 52013
-JavaScript warning: https://accounts.google.com/gsi/client, line 269: Script terminated by timeout at:
-Nq.prototype.na@https://accounts.google.com/gsi/client:269:89
-Dp.prototype.na@https://accounts.google.com/gsi/client:280:45
-Pq/c.port1.onmessage@https://accounts.google.com/gsi/client:268:72
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-1703187278194	geckodriver	INFO	Listening on 127.0.0.1:52135
-1703187281237	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiler4PgID"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187281999	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187282127	Marionette	INFO	Listening on port 52143
-WebDriver BiDi listening on ws://127.0.0.1:52136
-Read port: 52143
-1703187282299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52136/devtools/browser/d6956055-fbc7-4924-923b-897e06bd8c60
-1703187291617	Marionette	INFO	Stopped listening on port 52143
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 1170: Script terminated by timeout at:
-Jh.prototype.L@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:1170:389
-
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 480: Script terminated by timeout at:
-n</K</<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:480:447
-h@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:591:25
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-1703187298671	geckodriver	INFO	Listening on 127.0.0.1:52231
-1703187301681	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileYl95Lh"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187302290	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187302403	Marionette	INFO	Listening on port 52251
-WebDriver BiDi listening on ws://127.0.0.1:52232
-Read port: 52251
-1703187302740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52232/devtools/browser/650680b6-3b06-4557-ae68-66900de82aa6
-1703187312290	Marionette	INFO	Stopped listening on port 52251
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-5c909113.js, line 1: Script terminated by timeout at:
-_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-5c909113.js:1:62485
-
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 721: Script terminated by timeout at:
-a</k</K.A.onmessage@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:721:389
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/18mfswb/he_kept_it/?rdt=44999, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-e8655f09.js, line 4: TypeError: can't access dead object
-1703187327732	geckodriver	INFO	Listening on 127.0.0.1:52398
-1703187330771	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileEmn2Vs"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187331452	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187331530	Marionette	INFO	Listening on port 52412
-WebDriver BiDi listening on ws://127.0.0.1:52399
-Read port: 52412
-1703187331761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52399/devtools/browser/95a7a4c4-fea6-4d81-b8d7-35b204caaee7
+DevTools listening on ws://127.0.0.1:49467/devtools/browser/fe1d0db5-9736-4187-ae6c-906b3f6f127a
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1703187361518	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
-console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=nUFBFJ%2Fs1Ad%2BF%2BebukCruQ&is_itp=true&channel_id=3e318bea3f84417cd5d2f40ca0ca07f1e16b11503ce07943bb1c7bcff7aa929e&origin=https%3A%2F%2Fwww.reddit.com, line 54: Script terminated by timeout at:
-Ub@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:54:2103
-Xb@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:54:2505
-pc@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:62:38
-b@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:59:473
-
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1703187389244	Marionette	INFO	Stopped listening on port 52412
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 485: Script terminated by timeout at:
-n<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:485:375
-y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:393:438
-P<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:214:430
-n<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:432:400
-g</k<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:530:456
-yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
-g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
-y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
-y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
-c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
-g<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:530:392
-n</k<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:426:262
-yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
-g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
-y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
-y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
-c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
-n<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:426:192
-@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:1067:311
-yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
-g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
-y</K<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:220
-y<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:113
-c<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:636:305
-@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:1067:83
-yh</r<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:201:87
-yh<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:203:346
-g</this.next@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:512:247
-t@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:397:66
-
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 226: Script terminated by timeout at:
-P<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:226:2
-vT@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:778:133
-l<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:609:108
-lt@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:817:101
-aK@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:857:216
-M@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:513:349
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.reddit.com/r/ufc/comments/18nqtq8/colby_covington_said_he_broke_his_foot_in_the/, line 52: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-e8655f09.js, line 4: TypeError: can't access dead object
-JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
-*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
-*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_untrustedmodules_ping
-1703187397733	geckodriver	INFO	Listening on 127.0.0.1:52618
-1703187400758	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileiNT5wn"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187401849	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187402001	Marionette	INFO	Listening on port 52627
-WebDriver BiDi listening on ws://127.0.0.1:52619
-Read port: 52627
-1703187402450	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52619/devtools/browser/46cdd80e-e30f-4f17-b657-4d670894176f
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
-1703187431928	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
-console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
-JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-P6QBGXDK3N, line 445: Script terminated by timeout at:
-aa.wh@https://www.googletagmanager.com/gtag/js?id=G-P6QBGXDK3N:445:89
-get@https://www.googletagmanager.com/gtag/js?id=G-P6QBGXDK3N:443:119
-stop@https://www.googletagmanager.com/gtag/js?id=G-P6QBGXDK3N:443:87
-aa.Jk/c/<@https://www.googletagmanager.com/gtag/js?id=G-P6QBGXDK3N:443:412
-
-1703187461315	Marionette	INFO	Stopped listening on port 52627
-JavaScript warning: https://accounts.google.com/gsi/client, line 3: Script terminated by timeout at:
-_._F_toggles_initialize@https://accounts.google.com/gsi/client:3:134
-@https://accounts.google.com/gsi/client:3:163
-@https://accounts.google.com/gsi/client:296:4
-
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js, line 226: Script terminated by timeout at:
-P<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:226:2
-vT@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:778:133
-l<@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:609:108
-lt@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:817:101
-aK@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:857:216
-h@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:591:25
-M@https://www.gstatic.com/recaptcha/releases/u-xcq3POCWFlCr3x8_IPxgPu/recaptcha__en.js:513:349
-
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-JavaScript error: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js, line 1: TypeError: can't access dead object
-1703187467594	geckodriver	INFO	Listening on 127.0.0.1:52831
-1703187470672	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileemUt65"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1703187471572	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1703187471675	Marionette	INFO	Listening on port 52839
-WebDriver BiDi listening on ws://127.0.0.1:52832
-Read port: 52839
-1703187471780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:52832/devtools/browser/5a07ec66-cef1-42bc-8171-7687fb406fc4
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=JNB2pdETy5LFOxSyPxA61w&is_itp=true&channel_id=d0d6444beed1a4c1f7fa867ed3931642325a03a8a94b849cf5c4ce4c70bf3b7c&origin=https%3A%2F%2Fwww.reddit.com, line 190: Script terminated by timeout at:
-Ii@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:190:249
-Oi@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:196:204
-Li@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:196:22
-Hi.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:195:100
-Hi/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:189:288
-pc@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:62:102
-b@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:59:473
-
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=%2FBj%2BYXGZ%2FEhrBTZa3dPsqg&is_itp=true&channel_id=eb664997c9ada245c546005e09c78f841ea9e068937d9a78ee80bd3c2660033c&origin=https%3A%2F%2Fwww.reddit.com, line 168: Script terminated by timeout at:
-_.uh@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:168:172
-Oi@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:196:201
-Li@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:196:22
-Hi.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:195:100
-Hi/<@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:189:288
-pc@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:62:102
-b@/_/gsi/_/js/k=gsi.gsi.en_US.C_bdy-Ugg9g.O/am=ABQq/d=1/rs=AF0KOtUwp8BnuO_taQctwTtqzxE6qCHdzQ/m=credential_server_library:59:473
-
-JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
-JavaScript error: resource://gre/modules/XULStore.sys.mjs, line 60: Error: Can't find profile directory.
-1703187501736	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-console.log: "RemoteSettingsWorker error: DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements."
-console.error: (new RemoteSettingsWorkerError("DataError: IndexedDB: records, timestamps execute() Data provided to an operation does not meet requirements.", "resource://services-settings/RemoteSettingsWorker.sys.mjs", 34))
