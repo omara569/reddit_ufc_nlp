@@ -1,177 +1,579 @@
-1710326871315	geckodriver	INFO	Listening on 127.0.0.1:51010
-1710326874374	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileHazL7J"
+1710782323266	geckodriver	INFO	Listening on 127.0.0.1:58784
+1710782326278	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilewxMDuU"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326875071	Marionette	INFO	Marionette enabled
+1710782326712	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1710326875144	Marionette	INFO	Listening on port 51019
-WebDriver BiDi listening on ws://127.0.0.1:51011
-Read port: 51019
-1710326875356	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1710782326799	Marionette	INFO	Listening on port 58792
+WebDriver BiDi listening on ws://127.0.0.1:58785
+Read port: 58792
+1710782327014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51011/devtools/browser/49269186-a47a-4e2f-b4ed-57f3b9680bb4
+DevTools listening on ws://127.0.0.1:58785/devtools/browser/d04174d2-3acb-4821-be97-29032cb1e638
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326906593	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-1710326995048	Marionette	INFO	Stopped listening on port 51019
+1710782358007	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1710782772922	Marionette	INFO	Stopped listening on port 58792
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
 
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326891747	Marionette	INFO	Marionette enabled
+1710782345271	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1710326891818	Marionette	INFO	Listening on port 51087
-WebDriver BiDi listening on ws://127.0.0.1:51078
-Read port: 51087
-1710326892029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1710782345341	Marionette	INFO	Listening on port 58862
+WebDriver BiDi listening on ws://127.0.0.1:58855
+Read port: 58862
+1710782345563	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51078/devtools/browser/74e5a0e4-89e2-4180-a9d6-489e749977cd
+DevTools listening on ws://127.0.0.1:58855/devtools/browser/55d33649-dd98-4da6-bd13-eb1c78cfbf5e
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326895394	Marionette	INFO	Stopped listening on port 51087
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
-1710326899205	geckodriver	INFO	Listening on 127.0.0.1:51154
-1710326902226	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileNXDJEL"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326902617	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1710326902689	Marionette	INFO	Listening on port 51163
-WebDriver BiDi listening on ws://127.0.0.1:51155
-Read port: 51163
-1710326902905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51155/devtools/browser/7558205c-8df0-401d-9010-d9e7767fc24e
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326910053	Marionette	INFO	Stopped listening on port 51163
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
-1710326914086	geckodriver	INFO	Listening on 127.0.0.1:51229
-1710326917112	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile9hZMwy"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326917524	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1710326917605	Marionette	INFO	Listening on port 51240
-WebDriver BiDi listening on ws://127.0.0.1:51230
-Read port: 51240
-1710326917816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51230/devtools/browser/4812ad08-e8d7-48f8-8da0-1d8a937aa6fa
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326925049	Marionette	INFO	Stopped listening on port 51240
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
-1710326929086	geckodriver	INFO	Listening on 127.0.0.1:51308
-1710326932133	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile7T0dyo"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326932519	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1710326932602	Marionette	INFO	Listening on port 51317
-WebDriver BiDi listening on ws://127.0.0.1:51309
-Read port: 51317
-1710326932810	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51309/devtools/browser/0e2d3200-0efb-4989-bcdd-dabb470dd1ab
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326940035	Marionette	INFO	Stopped listening on port 51317
-Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
-1710326944386	geckodriver	INFO	Listening on 127.0.0.1:51377
-1710326947395	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilegdPhWE"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326947807	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1710326947891	Marionette	INFO	Listening on port 51385
-Read port: 51385
-WebDriver BiDi listening on ws://127.0.0.1:51378
-1710326947972	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-DevTools listening on ws://127.0.0.1:51378/devtools/browser/8f49f3d0-8859-49e9-a807-976b011e3703
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326955761	Marionette	INFO	Stopped listening on port 51385
-JavaScript warning: https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js, line 1: Script terminated by timeout at:
-demux@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:132075
-transmuxUnencrypted@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:171085
-transmux@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:170956
-push@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:169500
-push@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:179106
-_handleFragmentLoadProgress@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:194367
-_loadFragForPlayback/<@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:102174
-_doFragLoad/l<@https://www.redditstatic.com/shreddit/en-US/hls-30cece59.js:1:107576
+1710782349127	Marionette	INFO	Stopped listening on port 58862
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: Script terminated by timeout at:
+_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js:1:64886
 
-JavaScript warning: https://www.gstatic.com/recaptcha/releases/QquE1_MNjnFHgZF4HPsEcf_2/recaptcha__en.js, line 262: Script terminated by timeout at:
-L</r</b.K.onmessage@https://www.gstatic.com/recaptcha/releases/QquE1_MNjnFHgZF4HPsEcf_2/recaptcha__en.js:262:239
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=BINhy4vXjXCSpedhZEXnBw&is_itp=true&channel_id=93e56236cde84ce776d46c105137ae0b3c035fb7fb0049a33a24939862ab5771&origin=https%3A%2F%2Fwww.reddit.com, line 184: Script terminated by timeout at:
+_.gi/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:184:1163
+_.gi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:184:1060
+_.hi/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:185:56
 
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
-1710326959964	geckodriver	INFO	Listening on 127.0.0.1:51451
-1710326962974	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilext64Q4"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782353126	geckodriver	INFO	Listening on 127.0.0.1:58922
+1710782356168	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileYBmlmQ"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326963377	Marionette	INFO	Marionette enabled
+1710782356589	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1710326963463	Marionette	INFO	Listening on port 51460
-WebDriver BiDi listening on ws://127.0.0.1:51452
-Read port: 51460
-1710326963652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1710782356660	Marionette	INFO	Listening on port 58930
+WebDriver BiDi listening on ws://127.0.0.1:58923
+Read port: 58930
+1710782356858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51452/devtools/browser/793af602-1455-4b13-babd-28a7b18bf534
+DevTools listening on ws://127.0.0.1:58923/devtools/browser/8d45a0d7-71f2-4ec6-a9d2-4e2fe67a4784
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326970863	Marionette	INFO	Stopped listening on port 51460
+1710782364411	Marionette	INFO	Stopped listening on port 58930
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
-1710326975327	geckodriver	INFO	Listening on 127.0.0.1:51525
-1710326978350	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile3HOPUp"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782368543	geckodriver	INFO	Listening on 127.0.0.1:58998
+1710782371554	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilep6THaz"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710326978749	Marionette	INFO	Marionette enabled
+1710782371986	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1710326978825	Marionette	INFO	Listening on port 51533
-WebDriver BiDi listening on ws://127.0.0.1:51526
-Read port: 51533
-1710326979025	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1710782372071	Marionette	INFO	Listening on port 59011
+WebDriver BiDi listening on ws://127.0.0.1:58999
+Read port: 59011
+1710782372298	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51526/devtools/browser/4816d674-5d29-40dd-84ea-e39300acbb37
+DevTools listening on ws://127.0.0.1:58999/devtools/browser/c3ff3f56-95f9-4d96-b00b-363bceef0c86
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710326986254	Marionette	INFO	Stopped listening on port 51533
+1710782379660	Marionette	INFO	Stopped listening on port 59011
 Dynamically enable window occlusion 1
-JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-504a2d5c.js, line 10: TypeError: can't access dead object
-1710326998402	geckodriver	INFO	Listening on 127.0.0.1:51605
-1710327001440	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile5UVLVZ"
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782383773	geckodriver	INFO	Listening on 127.0.0.1:59073
+1710782386808	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileUyIvqi"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1710327001828	Marionette	INFO	Marionette enabled
+1710782387263	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1710327001904	Marionette	INFO	Listening on port 51613
-WebDriver BiDi listening on ws://127.0.0.1:51606
-Read port: 51613
-1710327002116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1710782387351	Marionette	INFO	Listening on port 59081
+WebDriver BiDi listening on ws://127.0.0.1:59074
+Read port: 59081
+1710782387598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
-DevTools listening on ws://127.0.0.1:51606/devtools/browser/8d4cc9a7-fb56-458e-9f35-15d56010faf5
+DevTools listening on ws://127.0.0.1:59074/devtools/browser/414e1ae5-1793-4e45-8c3a-4fc2dee39d4a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782394975	Marionette	INFO	Stopped listening on port 59081
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782399333	geckodriver	INFO	Listening on 127.0.0.1:59144
+1710782402358	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileSeJJE5"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782402778	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782402850	Marionette	INFO	Listening on port 59152
+WebDriver BiDi listening on ws://127.0.0.1:59145
+Read port: 59152
+1710782403040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59145/devtools/browser/82bfdbcb-3a4c-41e9-b6da-ad5294aeceea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782410562	Marionette	INFO	Stopped listening on port 59152
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 198: Script terminated by timeout at:
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:198:349
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=xqockfAemMzu4faLyejiYw&is_itp=true&channel_id=5159dee4a86e325fc4ae3e751632eca5be61c6b7b1237a14ef3050f4f90be89c&origin=https%3A%2F%2Fwww.reddit.com, line 185: Script terminated by timeout at:
+_.gi/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:185:1163
+_.gi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:185:1060
+_.hi/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:186:56
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782414968	geckodriver	INFO	Listening on 127.0.0.1:59217
+1710782417980	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileZPRdXM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782418363	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782418441	Marionette	INFO	Listening on port 59225
+WebDriver BiDi listening on ws://127.0.0.1:59218
+Read port: 59225
+1710782418659	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59218/devtools/browser/097dd8e0-3bcd-462f-9537-620cb353cf26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782426075	Marionette	INFO	Stopped listening on port 59225
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 162: Script terminated by timeout at:
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:162:225
+N6.prototype.jo@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:996:207
+R<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:269:436
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1002:233
+O<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:356:344
+cR@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:650:349
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:201:128
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=vYEUJvbnSYanNHDdzqSkoA&is_itp=true&channel_id=07f197dabc67556179f523b81e060b603333bafc2fbd5cfca014e179ac29c226&origin=https%3A%2F%2Fwww.reddit.com, line 80: Script terminated by timeout at:
+_.E@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:80:198
+_.Kl@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:309:299
+Z.prototype.Ma@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:326:752
+_.Kj.prototype.m@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:214:187
+_.Kj.prototype.i/</<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:215:236
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782430863	geckodriver	INFO	Listening on 127.0.0.1:59285
+1710782433885	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileE4Ymzs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782434275	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782434351	Marionette	INFO	Listening on port 59293
+WebDriver BiDi listening on ws://127.0.0.1:59286
+Read port: 59293
+1710782434573	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59286/devtools/browser/ca6a7d73-8d83-4dc6-9155-ad855093e645
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782442026	Marionette	INFO	Stopped listening on port 59293
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782447055	geckodriver	INFO	Listening on 127.0.0.1:59356
+1710782450084	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileLw6xAP"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782450468	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782450553	Marionette	INFO	Listening on port 59364
+WebDriver BiDi listening on ws://127.0.0.1:59357
+Read port: 59364
+1710782450776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59357/devtools/browser/919b5a2f-670e-45f1-a9c8-5dfd79d63266
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782458013	Marionette	INFO	Stopped listening on port 59364
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782463005	geckodriver	INFO	Listening on 127.0.0.1:59426
+1710782466032	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileESShdd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782466433	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782466508	Marionette	INFO	Listening on port 59434
+WebDriver BiDi listening on ws://127.0.0.1:59427
+Read port: 59434
+1710782466706	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59427/devtools/browser/e0df74e7-9ddc-43c6-be81-1efd884f4e92
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782474168	Marionette	INFO	Stopped listening on port 59434
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 198: Script terminated by timeout at:
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:198:349
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=1dm1uIAJX2Ss8yF99GHSiA&is_itp=true&channel_id=ac87e1bad6a71cfa74a85a2a8016e6979cc081c2c0907fdd1cd70eba2896749c&origin=https%3A%2F%2Fwww.reddit.com, line 184: Script terminated by timeout at:
+_.gi/</</<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:184:1159
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782479752	geckodriver	INFO	Listening on 127.0.0.1:59495
+1710782482761	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileDjafUh"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782483175	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782483245	Marionette	INFO	Listening on port 59503
+WebDriver BiDi listening on ws://127.0.0.1:59496
+Read port: 59503
+1710782483425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59496/devtools/browser/c0ec6858-443a-4782-a49d-d0ebb0d6b74c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782491305	Marionette	INFO	Stopped listening on port 59503
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=tK8zIioZVA7ke8MPqwM8LA&is_itp=true&channel_id=7fef88c5ee49283dc0a033af96add3f70f88e0d6ecdd58a111c0f33b953bf76f&origin=https%3A%2F%2Fwww.reddit.com, line 185: Script terminated by timeout at:
+_.gi/</<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:185:1161
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782497670	geckodriver	INFO	Listening on 127.0.0.1:59568
+1710782500688	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileeIsAp2"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782501089	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782501177	Marionette	INFO	Listening on port 59578
+WebDriver BiDi listening on ws://127.0.0.1:59569
+Read port: 59578
+1710782501353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59569/devtools/browser/642173fc-276e-4b74-ad28-16ddce4a39eb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782508654	Marionette	INFO	Stopped listening on port 59578
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782515067	geckodriver	INFO	Listening on 127.0.0.1:59643
+1710782518074	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilex02R9f"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782518523	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782518603	Marionette	INFO	Listening on port 59651
+WebDriver BiDi listening on ws://127.0.0.1:59644
+Read port: 59651
+1710782518818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59644/devtools/browser/07110bc7-2818-42ab-98db-3349a779f85c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782526424	Marionette	INFO	Stopped listening on port 59651
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: Script terminated by timeout at:
+_requestTimeUpdate/this._timeRAF<@https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js:1:64886
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 478: Script terminated by timeout at:
+U</b</w.S.onmessage@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:478:483
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782533583	geckodriver	INFO	Listening on 127.0.0.1:59715
+1710782536647	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileS6G5Ps"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782537149	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782537239	Marionette	INFO	Listening on port 59723
+WebDriver BiDi listening on ws://127.0.0.1:59716
+Read port: 59723
+1710782537446	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59716/devtools/browser/279bcf3d-62ab-49d7-9f6f-75c8b4605d34
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782545766	Marionette	INFO	Stopped listening on port 59723
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 306: Script terminated by timeout at:
+O<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:306:205
+Vm@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:564:395
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:211:326
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:25:158
+g</W<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:512:435
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:512:399
+O</T<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:358:61
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+O<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:357:436
+t</P<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:69:112
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:69:9
+e</e<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:387:430
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:185
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 198: Script terminated by timeout at:
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:198:349
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782551658	geckodriver	INFO	Listening on 127.0.0.1:59782
+1710782554706	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilevDWoYd"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782555123	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782555204	Marionette	INFO	Listening on port 59790
+Read port: 59790
+WebDriver BiDi listening on ws://127.0.0.1:59783
+1710782555288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59783/devtools/browser/30ed2086-01d3-4e7b-9cb7-0da14ebda7b1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782562969	Marionette	INFO	Stopped listening on port 59790
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782569858	geckodriver	INFO	Listening on 127.0.0.1:59853
+1710782572866	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileap6Ln9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782573301	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782573383	Marionette	INFO	Listening on port 59861
+WebDriver BiDi listening on ws://127.0.0.1:59854
+Read port: 59861
+1710782573616	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59854/devtools/browser/e187b3a2-1080-4cd1-b2f5-a0230cd4c1dd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782581036	Marionette	INFO	Stopped listening on port 59861
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782588331	geckodriver	INFO	Listening on 127.0.0.1:59923
+1710782591327	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilenpsQrB"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782591753	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782591837	Marionette	INFO	Listening on port 59931
+WebDriver BiDi listening on ws://127.0.0.1:59924
+Read port: 59931
+1710782592054	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59924/devtools/browser/3149f8c1-d1ef-4535-912b-7853f2f42b14
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782599208	Marionette	INFO	Stopped listening on port 59931
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782605654	geckodriver	INFO	Listening on 127.0.0.1:59991
+1710782608686	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileo0339W"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782609105	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782609192	Marionette	INFO	Listening on port 59999
+WebDriver BiDi listening on ws://127.0.0.1:59992
+Read port: 59999
+1710782609432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:59992/devtools/browser/fd57235e-a1c5-4347-81c9-bd541c619666
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782617019	Marionette	INFO	Stopped listening on port 59999
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782624262	geckodriver	INFO	Listening on 127.0.0.1:60068
+1710782627283	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileWfASpQ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782627712	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782627787	Marionette	INFO	Listening on port 60076
+WebDriver BiDi listening on ws://127.0.0.1:60069
+Read port: 60076
+1710782628009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60069/devtools/browser/9fea5948-d905-4097-85bc-fd17de59e1a5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782635498	Marionette	INFO	Stopped listening on port 60076
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782642384	geckodriver	INFO	Listening on 127.0.0.1:60141
+1710782645430	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile7R5hJC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782645841	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782645912	Marionette	INFO	Listening on port 60149
+WebDriver BiDi listening on ws://127.0.0.1:60142
+Read port: 60149
+1710782646121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60142/devtools/browser/809f45ff-f7eb-4bdb-9047-d219dc19e539
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782653691	Marionette	INFO	Stopped listening on port 60149
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782660334	geckodriver	INFO	Listening on 127.0.0.1:60208
+1710782663360	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile8EtfUK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782663788	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782663873	Marionette	INFO	Listening on port 60216
+WebDriver BiDi listening on ws://127.0.0.1:60209
+Read port: 60216
+1710782664066	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60209/devtools/browser/78c5795c-d8c5-41d6-8c7c-c6d68a41d80e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782671244	Marionette	INFO	Stopped listening on port 60216
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782677906	geckodriver	INFO	Listening on 127.0.0.1:60279
+1710782680913	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile64ssVM"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782681321	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782681399	Marionette	INFO	Listening on port 60287
+WebDriver BiDi listening on ws://127.0.0.1:60280
+Read port: 60287
+1710782681585	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60280/devtools/browser/78327528-578c-41a8-8f1b-387b0e6efe1b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782688899	Marionette	INFO	Stopped listening on port 60287
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782696181	geckodriver	INFO	Listening on 127.0.0.1:60347
+1710782699198	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilewOnGfG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782699591	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782699661	Marionette	INFO	Listening on port 60355
+WebDriver BiDi listening on ws://127.0.0.1:60348
+Read port: 60355
+1710782699879	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60348/devtools/browser/f14218df-826c-4cac-b437-0306c842e639
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782706899	Marionette	INFO	Stopped listening on port 60355
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782714653	geckodriver	INFO	Listening on 127.0.0.1:60414
+1710782717663	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilemsOmSo"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782718043	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782718126	Marionette	INFO	Listening on port 60422
+WebDriver BiDi listening on ws://127.0.0.1:60415
+Read port: 60422
+1710782718344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60415/devtools/browser/a8c70c3a-d315-4bed-8625-2d26f50e0a32
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782725681	Marionette	INFO	Stopped listening on port 60422
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782733025	geckodriver	INFO	Listening on 127.0.0.1:60483
+1710782736043	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile9LeZOp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782736439	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782736522	Marionette	INFO	Listening on port 60492
+WebDriver BiDi listening on ws://127.0.0.1:60484
+Read port: 60492
+1710782736715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60484/devtools/browser/2c844f61-3348-4bf6-ba7b-ac54e7f08141
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782743912	Marionette	INFO	Stopped listening on port 60492
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782750927	geckodriver	INFO	Listening on 127.0.0.1:60554
+1710782753937	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileFmNgwn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782754315	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782754388	Marionette	INFO	Listening on port 60562
+WebDriver BiDi listening on ws://127.0.0.1:60555
+Read port: 60562
+1710782754587	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60555/devtools/browser/578f1db9-0db6-44c4-add6-93c55ea81a5c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782761876	Marionette	INFO	Stopped listening on port 60562
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782776212	geckodriver	INFO	Listening on 127.0.0.1:60631
+1710782779255	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileZnsvFj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782779672	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782779757	Marionette	INFO	Listening on port 60639
+Read port: 60639
+WebDriver BiDi listening on ws://127.0.0.1:60632
+1710782779832	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60632/devtools/browser/cb209698-3843-44ce-9d81-4b59bb18c723
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
@@ -180,29 +582,1239 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=q7AaGhKupF1tXsHyMv7seA&is_itp=true&channel_id=060961e6f2d4f5ac8161448b34b481a5c618f221e9d6457242f59a9018206527&origin=https%3A%2F%2Fwww.reddit.com, line 99: Script terminated by timeout at:
-Td@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:99:397
-_.Yd@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:101:404
-Xd@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:101:327
-_.Yd/a<@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:101:430
-Td@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:99:410
-_.Yd@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:101:404
-Xd@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:101:327
-_.Yd/a<@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:101:430
-Td@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:99:410
-_.Yd@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:101:404
-ug@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:150:311
-Li@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:200:368
-Oi@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:197:416
-Ni@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:197:22
-Ii.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:196:64
-Ii/<@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:190:323
-nc@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:64:102
-b@/_/gsi/_/js/k=gsi.gsi.en_US.oU_hPOM5OtE.O/am=ACSICA/d=1/rs=AF0KOtVO_pHwDcWQekDr85AtfPJGs5ViQw/m=credential_server_library:61:473
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782809697	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782811901	Marionette	INFO	Stopped listening on port 60639
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 478: Script terminated by timeout at:
+U</b</w.S.onmessage@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:478:483
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
+console.error: (new AbortError("IndexedDB: main/search-default-override-allowlist list() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: (new Error("IndexedDB: main/sites-classification getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1710782815614	geckodriver	INFO	Listening on 127.0.0.1:60748
+1710782818643	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileJlH4sJ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782819038	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782819110	Marionette	INFO	Listening on port 60756
+WebDriver BiDi listening on ws://127.0.0.1:60749
+Read port: 60756
+1710782819320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60749/devtools/browser/d964c59b-6ced-4f47-8308-8e42606172b1
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=B60utV355CvD5FHF5NqYrw&is_itp=true&channel_id=2039fbe2e85c0aa1b3ac1d916d9ff8cde2a701165b84f8cbf09ac6715e4993ab&origin=https%3A%2F%2Fwww.reddit.com, line 200: Script terminated by timeout at:
+Ui@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:200:82
+Pi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:199:241
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:196:29
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:190:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:61:473
 
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
-1710327032576	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
-Exiting due to channel error.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782849128	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782854668	Marionette	INFO	Stopped listening on port 60756
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 198: Script terminated by timeout at:
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:198:349
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 518: Script terminated by timeout at:
+g</b</<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:518:369
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782858496	geckodriver	INFO	Listening on 127.0.0.1:60861
+1710782861525	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileJwawJ3"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782861932	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782862005	Marionette	INFO	Listening on port 60869
+WebDriver BiDi listening on ws://127.0.0.1:60862
+Read port: 60869
+1710782862183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60862/devtools/browser/4c1d7d01-3ced-443e-b903-fbd4e7670d30
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782891965	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782902111	Marionette	INFO	Stopped listening on port 60869
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 191: Script terminated by timeout at:
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:191:119
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:167
+R<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:269:436
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1002:233
+O<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:356:344
+cR@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:650:349
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:201:128
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=OtM7T9ZDmIaEMHCgALz8IQ&is_itp=true&channel_id=4045f6cdbfe421880ace54beffc353a68e5fe1851bcc85d9611731301bb38620&origin=https%3A%2F%2Fwww.reddit.com, line 185: Script terminated by timeout at:
+_.gi/</<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:185:1161
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782907733	geckodriver	INFO	Listening on 127.0.0.1:60980
+1710782910753	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile4LBz3M"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782911137	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782911210	Marionette	INFO	Listening on port 60988
+WebDriver BiDi listening on ws://127.0.0.1:60981
+Read port: 60988
+1710782911432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:60981/devtools/browser/5e79aae6-6d59-4ec0-9de9-d8b5024e2685
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782941252	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782950353	Marionette	INFO	Stopped listening on port 60988
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 537: Script terminated by timeout at:
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:537:49
+e<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:418:289
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:200:372
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 71: Script terminated by timeout at:
+t</q/t</J<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:71:127
+O<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:333:303
+M</y.J/M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:141:205
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+M</y.J@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:141:58
+t</q/t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:71:143
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+q@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:70:303
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:519:160
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:44:434
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710782954101	geckodriver	INFO	Listening on 127.0.0.1:61095
+1710782957147	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilemjptFm"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710782957552	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710782957628	Marionette	INFO	Listening on port 61103
+WebDriver BiDi listening on ws://127.0.0.1:61096
+Read port: 61103
+1710782957813	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61096/devtools/browser/882160fd-4916-4d8a-b5f8-12cd18181097
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782987630	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710782997679	Marionette	INFO	Stopped listening on port 61103
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 4: Script terminated by timeout at:
+unsetContinuousTimer@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:4:30175
+measureViewChange@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:4:24185
+isIntersectingChange@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:4:44342
+jp/n/this.handleNotIntersectingEvent<@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:4:40526
+observerIsNotIntersectingCallback@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:4:47752
+di/t/this._handleLeave@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:302551
+xt/<@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:36696
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 518: Script terminated by timeout at:
+g</b</<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:518:369
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783001764	geckodriver	INFO	Listening on 127.0.0.1:61211
+1710783004800	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 2" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilekdAoKE"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783005204	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783005276	Marionette	INFO	Listening on port 61219
+WebDriver BiDi listening on ws://127.0.0.1:61212
+Read port: 61219
+1710783005496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61212/devtools/browser/002d3fb0-37fc-4de2-95c5-4b41bf463404
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=tmQWXZrKIVw%2FRAeC7HcnOg&is_itp=true&channel_id=bbb1524f7c499cfc21109fe39632bf7f0f46831af7a4262d690f1a79ed86a216&origin=https%3A%2F%2Fwww.reddit.com, line 135: Script terminated by timeout at:
+_.I<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:135:861
+ce@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:102:415
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:137:320
+Ti@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:200:285
+Pi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:200:224
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:197:29
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:191:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEGA/d=1/rs=AF0KOtUZnEvHvIEW4-bHWYl9E0Ll4qICWg/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783035386	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783043193	Marionette	INFO	Stopped listening on port 61219
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 1: Script terminated by timeout at:
+se@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:14201
+_$AC@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:17137
+g@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:16849
+_$AI@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:16505
+v@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:15826
+g@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:16984
+_$AI@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:16505
+we@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:19913
+update@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:20319
+update@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:305146
+performUpdate@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:11145
+scheduleUpdate@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:10792
+_$Ej@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:10700
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783047140	geckodriver	INFO	Listening on 127.0.0.1:61328
+1710783050149	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilet9J1u7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783050546	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783050628	Marionette	INFO	Listening on port 61336
+WebDriver BiDi listening on ws://127.0.0.1:61329
+Read port: 61336
+1710783050835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61329/devtools/browser/18aafc94-a82d-49d3-a95b-6a1ccb28e730
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783080615	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783088284	Marionette	INFO	Stopped listening on port 61336
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 1: Script terminated by timeout at:
+x@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:5912
+createRenderRoot@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:9198
+createRenderRoot@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:20076
+connectedCallback@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:9309
+connectedCallback@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:20392
+customElements.define@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:10:301562
+ke/</<@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:20973
+ke/<@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:20988
+o@https://www.redditstatic.com/shreddit/en-US/shell-26518868.js:1:1032
+@https://www.redditstatic.com/shreddit/en-US/shreddit-slotter-7c13ffb1.js:1:1337
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 478: Script terminated by timeout at:
+U</b</w.S.onmessage@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:478:483
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783092212	geckodriver	INFO	Listening on 127.0.0.1:61447
+1710783095261	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileq6hfga"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783095680	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783095764	Marionette	INFO	Listening on port 61455
+Read port: 61455
+WebDriver BiDi listening on ws://127.0.0.1:61448
+1710783095843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61448/devtools/browser/9f735857-e8fc-47d9-8f37-c50d1ce57410
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=K0QQ3ea9Eoa5Onw28DQAdA&is_itp=true&channel_id=c8419c3d1fcb5e98a025476ad652235d1fe5f053ea4e809327b196075df40c8c&origin=https%3A%2F%2Fwww.reddit.com, line 56: Script terminated by timeout at:
+Sb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:56:2119
+Vb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:56:2521
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:64:38
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=fySKrKQi92QJn6igbQEC5Q&is_itp=true&channel_id=4d06c73ce0cf06405e770cb355ae5838a93ecfddf8ac3f2ca9fd6bd7619beed4&origin=https%3A%2F%2Fwww.reddit.com, line 191: Script terminated by timeout at:
+Mi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:191:224
+Ri@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:197:235
+Qi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:197:22
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:196:64
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:190:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783125750	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783133813	Marionette	INFO	Stopped listening on port 61455
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 84: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:84:232
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:101:364
+e<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:418:304
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:200:372
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 317: Script terminated by timeout at:
+O<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:317:233
+R<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:298:37
+R<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:300:471
+z0@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:608:341
+g</q</<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:519:18
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+g</q<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:518:458
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783137690	geckodriver	INFO	Listening on 127.0.0.1:61567
+1710783140689	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofiledJKp40"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783141089	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783141163	Marionette	INFO	Listening on port 61575
+WebDriver BiDi listening on ws://127.0.0.1:61568
+Read port: 61575
+1710783141383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61568/devtools/browser/a0087bf1-c8be-4ea8-bc4e-8426ac5c0374
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 350: TypeError: can't access dead object
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=6lwoStwq47xqD7JrAB1y4g&is_itp=true&channel_id=e1b55dd2db98199ee71ec03b87134f204253d16397e19cd6ff0f1ebddc9db6f3&origin=https%3A%2F%2Fwww.reddit.com, line 94: Script terminated by timeout at:
+wd@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:94:416
+_.be@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:136:426
+ce@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:102:423
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:137:320
+Si@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:201:3
+Ui@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:201:68
+Pi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:200:241
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:197:29
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:191:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783171208	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783179668	Marionette	INFO	Stopped listening on port 61575
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 564: Script terminated by timeout at:
+P@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:564:237
+Vm@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:564:459
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:211:326
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:25:158
+g</W<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:512:435
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:512:399
+O</T<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:358:61
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+O<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:357:436
+t</P<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:69:112
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+t</b<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:226
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:119
+U<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:457:48
+t<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:69:9
+e</e<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:387:430
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:185
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=4iaLFBZKlziQFne%2BsZisxw&is_itp=true&channel_id=0cd1a7c82dc0ba9e87ee8458d920622b3a5d51fbae29c0fd8c0a8cedfe744a8a&origin=https%3A%2F%2Fwww.reddit.com, line 4: Script terminated by timeout at:
+_._F_toggles_initialize@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:4:134
+@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:4:163
+@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:377:4
+
+JavaScript error: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=4iaLFBZKlziQFne%2BsZisxw&is_itp=true&channel_id=0cd1a7c82dc0ba9e87ee8458d920622b3a5d51fbae29c0fd8c0a8cedfe744a8a&origin=https%3A%2F%2Fwww.reddit.com, line 380: ReferenceError: gis is not defined
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783183618	geckodriver	INFO	Listening on 127.0.0.1:61695
+1710783186624	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilekyOCrb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783187078	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783187158	Marionette	INFO	Listening on port 61704
+WebDriver BiDi listening on ws://127.0.0.1:61696
+Read port: 61704
+1710783187387	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61696/devtools/browser/d9d9bfd0-7bc5-4673-8cbf-0db035d36d9b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=W7EAivnyONdSYQFO4tG90A&is_itp=true&channel_id=b75ca4c1e8f0842cb95e200117cce917e9b94892bb7c3b40daae4666c907129c&origin=https%3A%2F%2Fwww.reddit.com, line 102: Script terminated by timeout at:
+ce@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:102:415
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:137:320
+Ti@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:199:285
+Pi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:199:224
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:196:29
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:190:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783217178	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=nCYzlj9k42lmKpaqgRJP5Q&is_itp=true&channel_id=d1f82f885a1a4879d37fa8a05101e1ee34f8d3ad1946da20e10b55ab00cb028a&origin=https%3A%2F%2Fwww.reddit.com, line 135: Script terminated by timeout at:
+_.I<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:135:861
+ce@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:102:415
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:137:320
+Ui@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:200:82
+Pi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:199:241
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:196:29
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:190:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783230537	Marionette	INFO	Stopped listening on port 61704
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/index-e9811eaa.js, line 3: Script terminated by timeout at:
+@https://www.redditstatic.com/shreddit/en-US/index-e9811eaa.js:3:1
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 478: Script terminated by timeout at:
+U</b</w.S.onmessage@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:478:483
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
+1710783234932	geckodriver	INFO	Listening on 127.0.0.1:61825
+1710783237959	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 6" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofile9vrwcp"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783238649	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783238727	Marionette	INFO	Listening on port 61833
+WebDriver BiDi listening on ws://127.0.0.1:61826
+Read port: 61833
+1710783238936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61826/devtools/browser/a005c942-386a-48bd-b58a-67192e32feec
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=n%2FDxmj5vfrBgSFfNOaz%2BYw&is_itp=true&channel_id=22ab070a031fcbcdabad9435b51616bcece14bdd19150f1b340d70b01c55a1a5&origin=https%3A%2F%2Fwww.reddit.com, line 56: Script terminated by timeout at:
+Sb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:56:2119
+Vb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:56:2521
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:64:38
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783268868	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.google.com/js/bg/Jeg7kAr-4pwBaYwYYQcOgo_iB5tAOGlBo34CkooCo7A.js line 1 > eval, line 5415: Script terminated by timeout at:
+ox@https://www.google.com/js/bg/Jeg7kAr-4pwBaYwYYQcOgo_iB5tAOGlBo34CkooCo7A.js line 1 > eval:5415:5991
+b.O@https://www.google.com/js/bg/Jeg7kAr-4pwBaYwYYQcOgo_iB5tAOGlBo34CkooCo7A.js line 1 > eval:5415:14003
+gG@https://www.google.com/js/bg/Jeg7kAr-4pwBaYwYYQcOgo_iB5tAOGlBo34CkooCo7A.js line 1 > eval:5415:6021
+r.RCt_/<@https://www.google.com/js/bg/Jeg7kAr-4pwBaYwYYQcOgo_iB5tAOGlBo34CkooCo7A.js line 1 > eval:5415:17170
+invoke@https://www.google.com/js/bg/Jeg7kAr-4pwBaYwYYQcOgo_iB5tAOGlBo34CkooCo7A.js line 1 > eval:5415:13033
+CB.prototype.execute/</<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:759:260
+CB.prototype.execute/<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:759:225
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783275580	Marionette	INFO	Stopped listening on port 61833
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783279462	geckodriver	INFO	Listening on 127.0.0.1:61942
+1710783282466	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 3" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileJmZAPn"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783282867	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783282939	Marionette	INFO	Listening on port 61950
+WebDriver BiDi listening on ws://127.0.0.1:61943
+Read port: 61950
+1710783283149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:61943/devtools/browser/0693a85f-07e2-4e3c-b9ee-e20661b80cef
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: resource://gre/actors/PictureInPictureChild.sys.mjs, line 350: TypeError: can't access dead object
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783312949	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783318455	Marionette	INFO	Stopped listening on port 61950
+JavaScript warning: https://accounts.google.com/gsi/client, line 5: Script terminated by timeout at:
+t@https://accounts.google.com/gsi/client:5:312
+@https://accounts.google.com/gsi/client:17:2
+@https://accounts.google.com/gsi/client:311:4
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 350: Script terminated by timeout at:
+O</W</<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:350:129
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:551:412
+O</W<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:350:104
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:547:3
+O</this.next@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:363:198
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:75:72
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:107:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 107))
+1710783322278	geckodriver	INFO	Listening on 127.0.0.1:62059
+1710783325319	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 0" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilerbe7Uy"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783325702	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783325775	Marionette	INFO	Listening on port 62068
+WebDriver BiDi listening on ws://127.0.0.1:62060
+Read port: 62068
+1710783325975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62060/devtools/browser/b48ea6c6-9da4-49f3-8fa6-757aca38bac3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783355801	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783363588	Marionette	INFO	Stopped listening on port 62068
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 518: Script terminated by timeout at:
+g</b</<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:518:369
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783367592	geckodriver	INFO	Listening on 127.0.0.1:62173
+1710783370588	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileRITsgD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783371002	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783371070	Marionette	INFO	Listening on port 62181
+WebDriver BiDi listening on ws://127.0.0.1:62174
+Read port: 62181
+1710783371265	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62174/devtools/browser/7d3f580f-5625-4892-96d2-e2a1113081e8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783401099	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783409283	Marionette	INFO	Stopped listening on port 62181
+JavaScript warning: https://accounts.google.com/gsi/client, line 3: Script terminated by timeout at:
+_._F_toggles_initialize@https://accounts.google.com/gsi/client:3:134
+@https://accounts.google.com/gsi/client:3:163
+@https://accounts.google.com/gsi/client:311:4
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
+1710783413313	geckodriver	INFO	Listening on 127.0.0.1:62290
+1710783416331	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 1" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilebIRvjr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783416735	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783416807	Marionette	INFO	Listening on port 62298
+WebDriver BiDi listening on ws://127.0.0.1:62291
+Read port: 62298
+1710783417003	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62291/devtools/browser/177a9d63-88df-49d3-9e3b-33aaf164189b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=BamQyZciqgEcawhPU9LBpQ&is_itp=true&channel_id=54865f3c2ccc6eb7aa74d8c9972473e910446eeb491284cd0f12cc44356fbb64&origin=https%3A%2F%2Fwww.reddit.com, line 98: Script terminated by timeout at:
+_.H@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:98:21
+wi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:190:481
+Ui@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:201:99
+Pi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:200:241
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:197:29
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:191:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEKA/d=1/rs=AF0KOtXcFXj379PV_euoi_kKZGxt58zGCw/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=eDsudXNYVB6BkQT1XNWFzw&is_itp=true&channel_id=ba1489e81a66cdeb3a076fd6ff51752c71e5c08e5f977ae493c4740ae8926d07&origin=https%3A%2F%2Fwww.reddit.com, line 58: Script terminated by timeout at:
+Vb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:58:448
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:64:38
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783446763	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783449144	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783455686	Marionette	INFO	Stopped listening on port 62298
+JavaScript warning: https://accounts.google.com/gsi/client, line 3: Script terminated by timeout at:
+_._F_toggles_initialize@https://accounts.google.com/gsi/client:3:134
+@https://accounts.google.com/gsi/client:3:163
+@https://accounts.google.com/gsi/client:311:4
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
+1710783459598	geckodriver	INFO	Listening on 127.0.0.1:62403
+1710783462612	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileu4zJfN"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783463025	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783463095	Marionette	INFO	Listening on port 62411
+WebDriver BiDi listening on ws://127.0.0.1:62404
+Read port: 62411
+1710783463295	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62404/devtools/browser/10ae3919-60d3-4c2c-9a48-57643f5f62ab
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=ToIJe48JgYVE4Au3ts9AqQ&is_itp=true&channel_id=fd1f4d12edea3b01236473d8fbb747f948d9da74af33d112b71fd75cd9862af3&origin=https%3A%2F%2Fwww.reddit.com, line 56: Script terminated by timeout at:
+Sb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:56:2119
+Vb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:56:2521
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:64:38
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQUCA/d=1/rs=AF0KOtVWnaXP8_R6zuxD6MJc1g9-gtXS-A/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783493059	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=HCkOKJVmQiWHUrti78RV%2FA&is_itp=true&channel_id=ad04148ca7f1de6f3a1b220e2892454c673111cc7f9cada180aa5910e1d7bd7d&origin=https%3A%2F%2Fwww.reddit.com, line 137: Script terminated by timeout at:
+_.M@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:137:302
+Ti@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:199:285
+Oi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:200:246
+Ri@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:197:416
+Qi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:197:22
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:196:64
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:190:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783502497	Marionette	INFO	Stopped listening on port 62411
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 564: Script terminated by timeout at:
+P@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:564:237
+Vm@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:564:430
+g<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:540:286
+e<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:418:339
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:200:372
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783506563	geckodriver	INFO	Listening on 127.0.0.1:62524
+1710783509590	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileA82UVF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783509981	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783510059	Marionette	INFO	Listening on port 62532
+WebDriver BiDi listening on ws://127.0.0.1:62525
+Read port: 62532
+1710783510276	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62525/devtools/browser/64407ebf-7388-405f-bb0e-7c5234d7b6e7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783540069	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783547986	Marionette	INFO	Stopped listening on port 62532
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 198: Script terminated by timeout at:
+z<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:198:349
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:253
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 518: Script terminated by timeout at:
+g</b</<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:518:369
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783551744	geckodriver	INFO	Listening on 127.0.0.1:62647
+1710783554762	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileVmyrJt"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783555178	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783555262	Marionette	INFO	Listening on port 62655
+Read port: 62655
+WebDriver BiDi listening on ws://127.0.0.1:62648
+1710783555341	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62648/devtools/browser/8edddd1f-34c8-4e5c-aa7f-1f165e053af5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783585285	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=SsmBzbtQQYiHeazusGYTnQ&is_itp=true&channel_id=3bcd342b66c07d969ead6010fd333e216f5b26c52d9cfc23d0881d1611fea7e6&origin=https%3A%2F%2Fwww.reddit.com, line 58: Script terminated by timeout at:
+Vb@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:58:448
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:64:38
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEDA/d=1/rs=AF0KOtXiJcyzPgbPwhVmxnNNLL3yRLhO9Q/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783599158	Marionette	INFO	Stopped listening on port 62655
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/sentry-94f7e90f.js
+1710783603192	geckodriver	INFO	Listening on 127.0.0.1:62763
+1710783606223	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 4" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilejS2swD"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783606630	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783606703	Marionette	INFO	Listening on port 62771
+WebDriver BiDi listening on ws://127.0.0.1:62764
+Read port: 62771
+1710783606892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62764/devtools/browser/969aae55-245f-4c0c-8a02-b47ad625c839
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=d48R3R9LD6sHfm56ItfQVw&is_itp=true&channel_id=6d66a5b0bff894d3fdd7c9ca883413269e90f826c508f765b90193aa8b1d11e5&origin=https%3A%2F%2Fwww.reddit.com, line 95: Script terminated by timeout at:
+zd@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:95:154
+_.H@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:98:304
+zi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:189:849
+_.Md@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:97:206
+Xd@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:101:308
+_.Yd/a<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:101:430
+Td@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:99:420
+_.Yd@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:101:404
+xg@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:150:311
+Oi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:200:368
+Ri@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:197:416
+Qi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:197:22
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:196:64
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:190:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQECA/d=1/rs=AF0KOtXliixKcoAjDpXS_QQtoa0WHYSitQ/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://www.redditstatic.com/shreddit/en-US/media-telemetry-observer-abeba517.js, line 1: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: 
+1710783636684	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783645966	Marionette	INFO	Stopped listening on port 62771
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 1001: Script terminated by timeout at:
+@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:1001:208
+
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 164: Script terminated by timeout at:
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:383
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783649704	geckodriver	INFO	Listening on 127.0.0.1:62896
+1710783652736	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 7" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofileoDxCtG"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783653159	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783653232	Marionette	INFO	Listening on port 62904
+WebDriver BiDi listening on ws://127.0.0.1:62897
+Read port: 62904
+1710783653407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:62897/devtools/browser/26ffbe21-413f-44aa-90fe-1f70eba88d57
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://accounts.google.com/gsi/iframe/select?client_id=705819728788-b2c1kcs7tst3b7ghv7at0hkqmtc68ckl.apps.googleusercontent.com&auto_select=true&ux_mode=popup&ui_mode=card&as=Gq773Q%2F3%2Fo3bzVAcMTMq5A&is_itp=true&channel_id=d3dfbf90660cb6f7882e1f80fc1983700e4378f0676ea5037bc91f025c593595&origin=https%3A%2F%2Fwww.reddit.com, line 183: Script terminated by timeout at:
+Rh@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:183:232
+Oi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:202:416
+Ri@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:199:416
+Qi@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:199:22
+Li.prototype.I@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:198:64
+Li/<@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:192:323
+nc@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:64:102
+b@/_/gsi/_/js/k=gsi.gsi.en_US.UmIz_VjAjac.O/am=ACQEHA/d=1/rs=AF0KOtXLJYbk898dAAonp5gMKXePvpf1zw/m=credential_server_library:61:473
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+JavaScript error: , line 0: TypeError: error loading dynamically imported module: https://www.redditstatic.com/shreddit/en-US/prod-e850971c.js
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+JavaScript warning: https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js, line 2: Script terminated by timeout at:
+L@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:376993
+72408/t.useEffect@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:378805
+V@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:371365
+67177/b<@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:346857
+aa@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:256774
+Ma@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:264918
+Vu@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:310865
+Os@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:296099
+Cs@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:296027
+Es@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:295888
+vs@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:292875
+ds@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:290231
+Qs@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:306315
+64448/rl/<@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:307703
+bs@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:293253
+rl@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:307688
+64448/t.render@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:315134
+run@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:317660
+83720/e.runApplication@https://platform.twitter.com/embed/embed.9449.78398904051446294e3d.js:2:318217
+23067/</<@https://platform.twitter.com/embed/embed.Tweet.02ab0848482b3e69ec95.js:1:23076
+23067/</<@https://platform.twitter.com/embed/embed.Tweet.02ab0848482b3e69ec95.js:1:23045
+23067/<@https://platform.twitter.com/embed/embed.Tweet.02ab0848482b3e69ec95.js:1:23139
+
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783683210	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783693589	Marionette	INFO	Stopped listening on port 62904
+JavaScript warning: https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js, line 117: Script terminated by timeout at:
+M<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:117:420
+aW<@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:583:339
+iv@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:661:115
+W@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:164:495
+d@https://www.gstatic.com/recaptcha/releases/YurWEBlMIwR4EqFPncmQTkxQ/recaptcha__en.js:36:36
+
+Dynamically enable window occlusion 1
+JavaScript error: https://www.redditstatic.com/shreddit/en-US/shell-26518868.js, line 10: TypeError: can't access dead object
+1710783697456	geckodriver	INFO	Listening on 127.0.0.1:63018
+1710783700459	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" ... 9" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\omara\\AppData\\Local\\Temp\\rust_mozprofilebjiLce"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1710783700869	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1710783700942	Marionette	INFO	Listening on port 63026
+WebDriver BiDi listening on ws://127.0.0.1:63019
+Read port: 63026
+1710783701119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+DevTools listening on ws://127.0.0.1:63019/devtools/browser/6994028f-4ba0-4703-9e74-3ef4292da989
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.reddit.com."
+1710783731710	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
 Exiting due to channel error.
 Exiting due to channel error.
